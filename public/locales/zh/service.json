@@ -1,0 +1,34 @@
+{
+  "advantagesTitle": "我们的优势",
+  "advantagesDescription": "蒙特利尔国际教育中心同时在加拥有多所学院,金牌律师团队和DELF/TEFAQ考试中心",
+  "collegesTitle": "MIEC旗下拥有多家职业学院",
+  "collegesList": [
+    {
+      "title": "独家学院资源",
+      "subtitle": "魁北克政府认证的专科学院，多样化专业课程"
+    },
+    {
+      "title": "学费价格低",
+      "subtitle": "提供多样化专业，学费显著低于加拿大其他城市"
+    },
+    {
+      "title": "加速移民魁北克",
+      "subtitle": "MIEC旗下拥有的众多院校，提供专为PEQ项目量身定制的1800课时职业培训课程"
+    }
+  ],
+  "examinationCentersTitle": "MIEC拥有DELF/TEFAQ/TEF\n官方考试中心",
+  "examinationCentersList": [
+    {
+      "title": "确保高通过率",
+      "subtitle": "优质的教学资源让您轻松应对法语B2"
+    },
+    {
+      "title": "考前模拟",
+      "subtitle": "提供在职法语口语面试官考前突击模拟考试"
+    },
+    {
+      "title": "法语培训",
+      "subtitle": "精选教师团队,覆盖各阶段学员冲刺考试"
+    }
+  ]
+}

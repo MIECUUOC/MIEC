@@ -1,0 +1,24 @@
+{
+  "projectPlannersTitle": "Our Project Planners",
+  "projectPlannersSubtitle": "With top-tier resources and a professional team",
+  "projectPlannersDescription": "We bring together top industry experts and professionals, including a gold-medal legal team, as well as experienced educational experts and language trainers. Our team is committed to providing you with customized education and immigration solutions, ensuring that every student and client can have the best experience in studying and living in Canada.",
+  "moreDetails": "More Details",
+  "teamMembers": [
+    {
+      "name": "Jay Liu",
+      "description": "Chairman of Montreal International Education Center\nChairman of the Board, Union University of Canada\nVice President of Canada International Education Bureau\nChairman of the Francophone International Education Alliance (Canada)"
+    },
+    {
+      "name": "Josee Bouchard",
+      "description": "Chair of the Canadian Council for Educational Excellence\nChair of the Teachers' Council\nFormer Chair of the Quebec French Education Bureau Federation"
+    },
+    {
+      "name": "Marcus Tabachnick",
+      "description": "Director of the Board, Montreal International Education Center\nChair of the Quebec English School Boards Association\nFormer Chair of the Canadian School Boards Association\nDirector of the Montreal School Board\nRecipient of the Queen Elizabeth II Silver Jubilee Medal"
+    },
+    {
+      "name": "Brock Zhao",
+      "description": "CEO of Montreal International Education Center"
+    }
+  ]
+}

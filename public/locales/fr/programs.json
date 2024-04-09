@@ -1,0 +1,20 @@
+{
+  "projectList": [
+    {
+      "projectName": "Programme PEQ",
+      "projectType": "Soutien à l'immigration"
+    },
+    {
+      "projectName": "Examen de français express",
+      "projectType": "Cours de langue française"
+    },
+    {
+      "projectName": "Camp d'été des meilleures universités",
+      "projectType": "Camp d'été"
+    },
+    {
+      "projectName": "Voie d'accès aux universités d'élite canadiennes",
+      "projectType": "Admission à l'université d'élite"
+    }
+  ]
+}

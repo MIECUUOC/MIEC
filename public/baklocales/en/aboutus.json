@@ -1,0 +1,34 @@
+{
+  "aboutUsHeading": "About Us",
+  "aboutUsDescription": "We are the Montreal International Education Center (MIEC), headquartered in the world's number one study-abroad city, Montreal, with 9 various international educational institutions in Quebec, Toronto, and Vancouver.",
+  "historyHeading": "Historical Review",
+  "accordion": [
+    {
+      "title": "Officially Recognized by Prime Minister Trudeau and the Federal Government",
+      "content": "Since its establishment, the center has been committed to promoting comprehensive, multi-channel cooperation and exchanges in Canadian international education. Amongmany Canadian international educational institutions, it is the only one to have been officially recognized by Prime Minister Trudeau and the federal government, and was specially authorized to establish: Union University of Canada, Canadian University Preparatory Center, and Union College of Canada. Government authorization number: 1171853188."
+    },
+    {
+      "title": "Contracted Institution of the Chinese Ministry of Education",
+      "content": "In addition to establishing extensive cooperation with universities in other countries, MIEC is also the only international institution contracted with the Lingshui Educational Park of the Chinese Ministry of Education."
+    },
+    {
+      "title": "Owns a Test Center in Canada",
+      "content": "Montreal, as the world's largest English-French bilingual city and the second-largest French-speaking city, has seen MIEC take the lead in establishing a group of Canadian universities participating in the International Francophone Education Alliance (Canada), with Edu-inter being Canada's largest French teaching and testing center."
+    }
+  ],
+  "carouselTitles": [
+    "Federico.Pasin, Principal of HEC Montreal.\nThe cooperation with HEC is the cornerstone of MIEC's collaboration with universities in the Quebec region.",
+    "Quebec's Ministry of Education, HEC, and MIEC jointly participate in an international education expo",
+    "Liu Yujia, guest lecturer at HEC",
+    "Chinese students participating in an HEC event",
+    "Pierre, Canada's Special Envoy to the European Union, former Minister of Foreign Affairs of Canada",
+    "Freeland, Deputy Prime Minister of Canada and Minister of Finance",
+    "Ms. Eleni, Federal Member of Parliament, former Federal Minister of Justice and Attorney General; Mr. Geoffrey, Provincial Member of Parliament, former Provincial Minister of Education and Minister of Public Safety",
+    "Kevin from McGill International Education Academy and Director Dong from Shanghai Jiaotong University Education Group",
+    "Accompanying the Minister of Economy and Trade of Quebec to meet the Chinese mayors' group",
+    "Former Canadian Ambassador to China, Zhao Pu",
+    "Participating in an international peace military organization conference",
+    "Participating in an international education activity to promote McGill University",
+    "MIEC signs agreement with Maple Group of Canada"
+  ]
+}

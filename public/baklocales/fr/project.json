@@ -1,0 +1,23 @@
+{
+  "aceProjectsTitle": "Projets phares",
+  "aceProjectsSubtitle": "S'appuyant sur des ressources exclusives de haute qualité, le MIEC propose des programmes de français et d'immigration",
+  "projects": [
+    {
+      "category": "Soutien à l'immigration",
+      "title": "Immigration PEQ Québec"
+    },
+    {
+      "category": "Cours de français",
+      "title": "Cours préparatoire rapide pour les examens de français"
+    },
+    {
+      "category": "Camp d'été",
+      "title": "Camp d'été des meilleures institutions mondiales"
+    },
+    {
+      "category": "Admissions d'élite",
+      "title": "Voie d'excellence académique du Canada"
+    }
+  ],
+  "majorListTitle": "Cours et Spécialisations"
+}

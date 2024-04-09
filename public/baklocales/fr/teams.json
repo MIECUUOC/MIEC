@@ -1,0 +1,24 @@
+{
+  "projectPlannersTitle": "Nos chefs de projet",
+  "projectPlannersSubtitle": "Avec des ressources de premier ordre et une équipe professionnelle",
+  "projectPlannersDescription": "Nous réunissons des experts et des professionnels de premier plan dans l'industrie, y compris une équipe juridique médaillée d'or, ainsi que des experts en éducation expérimentés et des formateurs linguistiques. Notre équipe s'engage à vous fournir des solutions éducatives et d'immigration personnalisées, garantissant que chaque étudiant et client puisse avoir la meilleure expérience d'étude et de vie au Canada.",
+  "moreDetails": "Plus de détails",
+  "teamMembers": [
+    {
+      "name": "Jay Liu",
+      "description": "Président du Centre d'Éducation Internationale de Montréal\nPrésident du conseil, Université Union du Canada\nVice-président du Bureau de l'éducation internationale du Canada\nPrésident de l'Alliance de l'éducation francophone internationale (Canada)"
+    },
+    {
+      "name": "Josee Bouchard",
+      "description": "Présidente du Conseil canadien pour l'excellence en éducation\nPrésidente du Conseil des enseignants\nAncienne présidente de la Fédération du bureau de l'éducation française du Québec"
+    },
+    {
+      "name": "Marcus Tabachnick",
+      "description": "Directeur du conseil, Centre d'Éducation Internationale de Montréal\nPrésident de l'Association des commissions scolaires anglophones du Québec\nAncien président de l'Association des commissions scolaires du Canada\nDirecteur du conseil scolaire de Montréal\nRécipiendaire de la Médaille du jubilé d'argent de la reine Elizabeth II"
+    },
+    {
+      "name": "Brock Zhao",
+      "description": "PDG du Centre d'Éducation Internationale de Montréal"
+    }
+  ]
+}

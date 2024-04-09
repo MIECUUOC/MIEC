@@ -1,0 +1,23 @@
+{
+  "aceProjectsTitle": "王牌项目",
+  "aceProjectsSubtitle": "MIEC依靠优质独家资源, 提供法语及移民项目",
+  "projects": [
+    {
+      "category": "移民支持",
+      "title": "魁北克PEQ移民"
+    },
+    {
+      "category": "法语课程",
+      "title": "法语考点速通班"
+    },
+    {
+      "category": "夏令营",
+      "title": "世界顶级学府游学夏令营"
+    },
+    {
+      "category": "名校录取",
+      "title": "加国学术卓越通道"
+    }
+  ],
+  "majorListTitle": "课程与专业"
+}

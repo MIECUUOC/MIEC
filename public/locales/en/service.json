@@ -1,0 +1,34 @@
+{
+  "advantagesTitle": "Our Advantages",
+  "advantagesDescription": "The Montreal International Education Center owns multiple colleges in Canada, a gold-standard team of lawyers, and DELF/TEFAQ examination centers",
+  "collegesTitle": "MIEC Owns Several Vocational Colleges",
+  "collegesList": [
+    {
+      "title": "Exclusive College Resources",
+      "subtitle": "Quebec government-certified specialized colleges with a variety of professional courses"
+    },
+    {
+      "title": "Low Tuition Fees",
+      "subtitle": "Offering a variety of specializations, with tuition fees significantly lower than other cities in Canada"
+    },
+    {
+      "title": "Accelerate Immigration to Quebec",
+      "subtitle": "Many colleges under MIEC offer 1800-hour vocational training courses specifically designed for the PEQ program"
+    }
+  ],
+  "examinationCentersTitle": "MIEC Has DELF/TEFAQ/TEF Official Examination Centers",
+  "examinationCentersList": [
+    {
+      "title": "Ensure High Pass Rates",
+      "subtitle": "High-quality teaching resources to help you easily tackle French B2 level"
+    },
+    {
+      "title": "Pre-Exam Simulation",
+      "subtitle": "Provides pre-exam crash simulations by in-service French oral examiners"
+    },
+    {
+      "title": "French Training",
+      "subtitle": "A selected team of teachers to cover students at all stages sprinting for the exam"
+    }
+  ]
+}

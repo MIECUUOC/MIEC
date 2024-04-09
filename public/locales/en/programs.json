@@ -1,0 +1,20 @@
+{
+  "projectList": [
+    {
+      "projectName": "PEQ Program",
+      "projectType": "Immigration Support"
+    },
+    {
+      "projectName": "French Exam Express",
+      "projectType": "French Language Course"
+    },
+    {
+      "projectName": "Top University Summer Camp",
+      "projectType": "Summer Camp"
+    },
+    {
+      "projectName": "Canadian Elite University Pathway",
+      "projectType": "Elite University Admission"
+    }
+  ]
+}

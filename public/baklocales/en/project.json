@@ -1,0 +1,23 @@
+{
+  "aceProjectsTitle": "Ace Projects",
+  "aceProjectsSubtitle": "Leveraging high-quality exclusive resources, MIEC offers French and immigration programs",
+  "projects": [
+    {
+      "category": "Immigration Support",
+      "title": "Quebec PEQ Immigration"
+    },
+    {
+      "category": "French Courses",
+      "title": "Fast-Track French Exam Preparation"
+    },
+    {
+      "category": "Summer Camp",
+      "title": "World Top Institutions Summer Camp"
+    },
+    {
+      "category": "Elite Admissions",
+      "title": "Canada's Academic Excellence Pathway"
+    }
+  ],
+  "majorListTitle": "Courses and Majors"
+}

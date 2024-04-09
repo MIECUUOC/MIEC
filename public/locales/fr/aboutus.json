@@ -1,0 +1,34 @@
+{
+  "aboutUsHeading": "À propos de nous",
+  "aboutUsDescription": "Nous sommes le Centre d'Éducation Internationale de Montréal (MIEC), basé dans la première ville mondiale d'études à l'étranger, Montréal, et possédant 9 institutions d'éducation internationale à Québec, Toronto et Vancouver.",
+  "historyHeading": "Revue historique",
+  "accordion": [
+    {
+      "title": "Reconnu officiellement par le Premier Ministre Trudeau et le gouvernement fédéral",
+      "content": "Depuis sa création, le centre s'est engagé à promouvoir une coopération et des échanges éducatifs internationaux canadiens multi-canaux et complets. Parmi de nombreuses institutions d'éducation internationale canadiennes, il est le seul à avoir été officiellement reconnu par le Premier Ministre Trudeau et le gouvernement fédéral et à avoir été spécialement autorisé à établir : l'Université Union du Canada, le Centre Préparatoire Universitaire Canadien, et le Collège Union du Canada. Numéro d'autorisation gouvernementale : 1171853188."
+    },
+    {
+      "title": "Institution signataire du ministère de l'Éducation chinois",
+      "content": "En plus d'avoir établi une large coopération avec des universités d'autres pays, MIEC est également la seule institution internationale sous contrat avec la zone éducative de Lingshui du ministère de l'Éducation chinois."
+    },
+    {
+      "title": "Possède un centre d'examen au Canada",
+      "content": "Montréal, en tant que plus grande ville bilingue anglais-français du monde et deuxième plus grande ville francophone, a vu MIEC prendre l'initiative de créer un groupe d'universités canadiennes participant à l'Alliance Éducative Internationale Francophone (Canada), dont Edu-inter est le plus grand centre d'enseignement et d'examen de français au Canada."
+    }
+  ],
+  "carouselTitles": [
+    "Federico.Pasin, directeur de HEC Montréal.\n La coopération avec HEC est la pierre angulaire de la collaboration de MIEC avec les universités de la région du Québec",
+    "Le ministère de l'Éducation du Québec, HEC et MIEC participent ensemble à une exposition éducative internationale",
+    "Liu Yujia, conférencier invité à HEC",
+    "Étudiants chinois participant à un événement HEC",
+    "Pierre, envoyé spécial du Canada auprès de l'Union européenne, ancien ministre des Affaires étrangères du Canada",
+    "Freeland, vice-première ministre du Canada et ministre des Finances",
+    "Madame Eleni, députée fédérale, ancienne ministre de la Justice du gouvernement fédéral et procureure générale; Monsieur Geoffrey, député provincial, ancien ministre de l'Éducation provinciale et ministre de la Sécurité publique",
+    "Kevin de l'Académie Internationale d'Éducation de McGill et Directeur Dong du Groupe Éducatif de l'Université Jiaotong de Shanghai",
+    "Accompagnant le ministre de l'Économie et du Commerce du Québec pour rencontrer le groupe de maires chinois",
+    "Ancien ambassadeur du Canada en Chine, Zhao Pu",
+    "Participation à une conférence de l'organisation militaire internationale pour la paix",
+    "Participation à une activité éducative internationale pour promouvoir l'Université McGill",
+    "MIEC signe un accord avec le Groupe Maple du Canada"
+  ]
+}

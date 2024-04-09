@@ -1,0 +1,21 @@
+{
+  "copyright1": "© 2024 Centre d'Éducation Internationale de Montréal.",
+  "copyright2": "Tous droits réservés.",
+  "needHelp": "Besoin d'aide ?",
+  "moreInfo": "Plus d'Informations",
+  "contact": "Contact",
+  "address": "266 Rue Notre-Dame O, Niveau 5, Montréal, Québec, Canada",
+  "email": "Zhou@miec-uuoc.ca",
+  "nav": [
+    { "title": "À Propos", "url": "#about-us" },
+    { "title": "Pourquoi Nous Choisir", "url": "#why-us" },
+    { "title": "Notre Équipe", "url": "#teams" },
+    { "title": "Projets Phares", "url": "#project" },
+    { "title": "Nous Contacter", "url": "#contact-us" }
+  ],
+  "helps": [
+    { "title": "Support", "url": "#contact-us" },
+    { "title": "Conditions d'Utilisation", "url": "#" },
+    { "title": "Politique de Confidentialité", "url": "#" }
+  ]
+}

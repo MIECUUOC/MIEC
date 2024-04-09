@@ -1,0 +1,87 @@
+{
+  "projectPlannersTitle": "Our Project Planners",
+  "projectPlannersSubtitle": "With top-tier resources and a professional team",
+  "projectPlannersDescription": "We bring together top industry experts and professionals, including a gold-medal legal team, as well as experienced educational experts and language trainers. Our team is committed to providing you with customized education and immigration solutions, ensuring that every student and client can have the best experience in studying and living in Canada.",
+  "moreDetails": "More Details",
+  "teamMembers": [
+    {
+      "name": "Jay Liu",
+      "description": "Chairman of Montreal International Education Center\nChairman of the Board, Union University of Canada\nVice President of Canada International Education Bureau\nChairman of the Francophone International Education Alliance (Canada)"
+    },
+    {
+      "name": "Josee Bouchard",
+      "description": "Chair of the Canadian Council for Educational Excellence\nChair of the Teachers' Council\nFormer Chair of the Quebec French Education Bureau Federation"
+    },
+    {
+      "name": "Marcus Tabachnick",
+      "description": "Director of the Board, Montreal International Education Center\nChair of the Quebec English School Boards Association\nFormer Chair of the Canadian School Boards Association\nDirector of the Montreal School Board\nRecipient of the Queen Elizabeth II Silver Jubilee Medal"
+    },
+    {
+      "name": "Brock Zhao",
+      "description": "CEO of Montreal International Education Center"
+    }
+  ],
+  "teamTitle": "Our Team",
+  "teamSubtitle": "We bring together top industry experts including a team of lawyers, education experts, certified immigration consultants, and French instructors",
+  "sections": [
+    {
+      "title": "Expert Consultants",
+      "description": "Our team of expert consultants consists of renowned scholars and industry elites from both domestic and international circles. They have profound backgrounds and extensive practical experience in fields such as educational management, economic research, and industry-education collaboration. With guidance and consultation from these experts, the Montreal International Education Center is committed to providing you with the most cutting-edge educational concepts and the most effective immigration solutions, helping your study abroad and immigration dreams come true."
+    },
+    {
+      "title": "Admissions Team",
+      "description": "Our admissions team is led by Mr. Tony Liu, an experienced admissions director, dedicated to providing each student with personalized educational consulting and admission support."
+    },
+    {
+      "title": "Instructors Team",
+      "description": "We have gathered a team of instructors made up of experienced and accomplished education experts. Our team members not only have profound academic backgrounds but also rich practical experience, capable of providing unique insights and high-quality teaching to students."
+    },
+    {
+      "title": "Legal Team",
+      "description": "Our legal team consists of experts with rich experience and deep backgrounds in international relations and immigration law. Our legal team is committed to providing clients with professional legal guidance and support, including but not limited to representing clients in deportation orders, extradition requests, and spousal sponsorship appeals."
+    }
+  ],
+  "consultantTeams": [
+    {
+      "name": "Lai Xiang Sun",
+      "designation": "Senior Consultant",
+      "description": "Former Vice President of Fudan University, Deputy Head of the National Undergraduate Teaching Assessment Expert Group of the Ministry of Education of China, and Chief Assessment Expert of the Shanghai Educational Assessment Institute"
+    },
+    {
+      "name": "Wei Ping Li",
+      "designation": "Consultant",
+      "description": "Secretary-General of the Shanghai International Education Exchange Association"
+    }
+  ],
+  "admissionsTeams": [
+    {
+      "name": "Tony Liu",
+      "designation": "Admissions Director",
+      "description": "Admissions head for Matrix College & Veritas College"
+    },
+    {
+      "name": "Sylvain Langlois",
+      "designation": "Executive Director",
+      "description": "Director of the French Language Examination Center in Quebec, Canada, and Director of the Inter-Edu Education Center in Canada"
+    }
+  ],
+  "teachersTeams": [
+    {
+      "name": "Eleni",
+      "designation": "Instructor",
+      "description": "Member of Parliament, former Minister of Justice and Attorney General of the Federal Government"
+    },
+    {
+      "name": "Geoffrey",
+      "designation": "Instructor",
+      "description": "Member of Parliament, former Minister of Justice and Attorney General of the Federal Government"
+    }
+  ],
+  "LawersTeams": [
+    {
+      "name": "Stanislav Belevici",
+      "designation": "Legal Director",
+      "description": "Chairman of the Canadian Immigration Regulatory Council, Immigration Officer at Vertias-Miec"
+    }
+  ]
+}

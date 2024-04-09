@@ -1,0 +1,20 @@
+{
+  "projectList": [
+    {
+      "projectName": "PEQ项目",
+      "projectType": "移民支持"
+    },
+    {
+      "projectName": "法语考试速通",
+      "projectType": "法语课程"
+    },
+    {
+      "projectName": "顶级学府夏令营",
+      "projectType": "夏令营"
+    },
+    {
+      "projectName": "加拿大名校通道",
+      "projectType": "名校录取"
+    }
+  ]
+}

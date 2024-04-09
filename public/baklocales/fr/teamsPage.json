@@ -1,0 +1,65 @@
+{
+  "teamTitle": "Notre Équipe",
+  "teamSubtitle": "Nous rassemblons des experts de premier plan dans l'industrie, y compris une équipe d'avocats, des experts en éducation, des consultants en immigration certifiés et des instructeurs de français",
+  "sections": [
+    {
+      "title": "Conseillers Experts",
+      "description": "Notre équipe de conseillers experts est composée d'érudits reconnus et d'élites industrielles, tant nationales qu'internationales. Ils possèdent une solide expérience et une pratique approfondie dans des domaines tels que la gestion éducative, la recherche économique et la collaboration industrie-éducation. Avec le guidage et la consultation de ces experts, le Centre d'Éducation Internationale de Montréal s'engage à vous fournir les concepts éducatifs les plus avancés et les solutions d'immigration les plus efficaces, aidant ainsi vos rêves d'études à l'étranger et d'immigration à devenir réalité."
+    },
+    {
+      "title": "Équipe d'Admissions",
+      "description": "Notre équipe d'admissions est dirigée par M. Tony Liu, un directeur d'admissions expérimenté, dédié à fournir à chaque étudiant un conseil éducatif personnalisé et un soutien à l'admission."
+    },
+    {
+      "title": "Équipe d'Instructeurs",
+      "description": "Nous avons rassemblé une équipe d'instructeurs composée d'experts en éducation expérimentés et accomplis. Nos membres d'équipe possèdent non seulement des antécédents académiques profonds, mais aussi une riche expérience pratique, capables de fournir des perspectives uniques et un enseignement de haute qualité aux étudiants."
+    },
+    {
+      "title": "Équipe Juridique",
+      "description": "Notre équipe juridique est composée d'experts possédant une riche expérience et des antécédents approfondis dans les relations internationales et le droit de l'immigration. Notre équipe juridique s'engage à fournir aux clients une orientation et un soutien juridiques professionnels, y compris, mais sans s'y limiter, la représentation des clients dans les ordres d'expulsion, les demandes d'extradition et les appels de parrainage conjugal."
+    }
+  ],
+  "consultantTeams": [
+    {
+      "name": "Lai Xiang Sun",
+      "designation": "Consultant Principal",
+      "description": "Ancien Vice-Président de l'Université Fudan, Vice-Président du Groupe d'Experts d'Évaluation de l'Enseignement de Premier Cycle du Ministère de l'Éducation de Chine, et Expert d'Évaluation en Chef de l'Institut d'Évaluation de l'Éducation de Shanghai"
+    },
+    {
+      "name": "Wei Ping Li",
+      "designation": "Consultant",
+      "description": "Secrétaire Général de l'Association d'Échange Éducatif International de Shanghai"
+    }
+  ],
+  "admissionsTeams": [
+    {
+      "name": "Tony Liu",
+      "designation": "Directeur d'Admissions",
+      "description": "Responsable des admissions pour Matrix College & Veritas College"
+    },
+    {
+      "name": "Sylvain Langlois",
+      "designation": "Directeur Exécutif",
+      "description": "Directeur du Centre d'Examen de Français du Québec, Canada, et Directeur du Centre d'Éducation Inter-Edu au Canada"
+    }
+  ],
+  "teachersTeams": [
+    {
+      "name": "Eleni",
+      "designation": "Instructeur",
+      "description": "Membre du Parlement, ancien Ministre de la Justice et Procureur Général du Gouvernement Fédéral"
+    },
+    {
+      "name": "Geoffrey",
+      "designation": "Instructeur",
+      "description": "Membre du Parlement, ancien Ministre de la Justice et Procureur Général du Gouvernement Fédéral"
+    }
+  ],
+  "LawersTeams": [
+    {
+      "name": "Stanislav Belevici",
+      "designation": "Directeur Juridique",
+      "description": "Président du Conseil de Réglementation de l'Immigration du Canada, Officier des Affaires d'Immigration chez Vertias-Miec"
+    }
+  ]
+}

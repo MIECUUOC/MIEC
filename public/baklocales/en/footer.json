@@ -1,0 +1,21 @@
+{
+  "copyright1": "© 2024 Montreal International Education Center.",
+  "copyright2": "All rights reserved.",
+  "needHelp": "Need Help?",
+  "moreInfo": "More Information",
+  "contact": "Contact",
+  "address": "266 Notre-Dame St W, Level 5, Montreal, Quebec, Canada",
+  "email": "Zhou@miec-uuoc.ca",
+  "nav": [
+    { "title": "About Us", "url": "#about-us" },
+    { "title": "Why Choose Us", "url": "#why-us" },
+    { "title": "Our Team", "url": "#teams" },
+    { "title": "Ace Projects", "url": "#project" },
+    { "title": "Contact Us", "url": "#contact-us" }
+  ],
+  "helps": [
+    { "title": "Support", "url": "#contact-us" },
+    { "title": "Terms of Use", "url": "#" },
+    { "title": "Privacy Policy", "url": "#" }
+  ]
+}

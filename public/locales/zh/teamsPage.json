@@ -1,0 +1,65 @@
+{
+  "teamTitle": "我们的团队",
+  "teamSubtitle": "我们汇聚了行业顶尖专家，包括律师团队、教育专家、持证移民顾问和法语讲师",
+  "sections": [
+    {
+      "title": "专家顾问",
+      "description": "我们的专家顾问团队由国内外知名学者与行业精英组成，他们在教育管理、经济学研究以及产教合作等领域拥有深厚的背景和丰富的实践经验。通过这些专家的引领和咨询，蒙特利尔国际教育中心致力于为您提供最前沿的教育理念和最有效的移民方案，助力您的留学和移民梦想成真。"
+    },
+    {
+      "title": "招生团队",
+      "description": "我们的招生团队，由经验丰富的招生主管刘丁元先生领衔，致力于为每位学生提供量身定制的教育咨询和入学支持。"
+    },
+    {
+      "title": "讲师团队",
+      "description": "我们汇聚了一支由经验丰富、成就卓越的教育专家组成的讲师团队。我们的团队成员不仅拥有深厚的学术背景，还有着实践中的丰富经验，能够为学员提供独到的见解和高质量的教学。"
+    },
+    {
+      "title": "法务团队",
+      "description": "我们的法务团队由一群在国际关系和移民法方面具有丰富经验和深厚背景的专家组成。我们的法务团队致力于为客户提供专业的法律指导和支持，包括但不限于代表客户处理驱逐令、引渡请求和配偶赞助上诉等案件。"
+    }
+  ],
+  "consultantTeams": [
+    {
+      "name": "孙莱祥",
+      "designation": "高级顾问",
+      "description": "原任复旦大学副校长、中国教育部全国本科教学评估专家组副组长、上海市教育评估院首席评估专家"
+    },
+    {
+      "name": "李维平",
+      "designation": "顾问",
+      "description": "上海国际教育交流协会秘书长"
+    }
+  ],
+  "admissionsTeams": [
+    {
+      "name": "刘丁元 Tony Liu",
+      "designation": "招生主管",
+      "description": "Matrix College & Veritas College 招生负责人"
+    },
+    {
+      "name": "Sylvain Langlois",
+      "designation": "执行理事",
+      "description": "加拿大魁北克法语考试中心主任，加拿大Inter-Edu教育中心主任"
+    }
+  ],
+  "teachersTeams": [
+    {
+      "name": "Eleni",
+      "designation": "讲师",
+      "description": "联邦议员，前联邦政府司法部长，总检察长"
+    },
+    {
+      "name": "Geoffrey",
+      "designation": "讲师",
+      "description": "联邦议员，前联邦政府司法部长，总检察长"
+    }
+  ],
+  "LawersTeams": [
+    {
+      "name": "Stanislav Belevici",
+      "designation": "法律主管",
+      "description": "加拿大移民监管委员会主席, Vertias-Miec 移民事务官"
+    }
+  ]
+}

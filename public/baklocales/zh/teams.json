@@ -1,0 +1,24 @@
+{
+  "projectPlannersTitle": "我们的项目策划人",
+  "projectPlannersSubtitle": "拥有顶尖资源和专业团队",
+  "projectPlannersDescription": "我们汇聚了行业顶尖的专家和专业人士，包括金牌律师团队，以及经验丰富的教育专家和语言训练师。我们的团队致力于为您提供定制化的教育和移民解决方案，确保每一位学员和客户能够在加拿大的学习和生活中获得最佳体验。",
+  "moreDetails": "更多细节",
+  "teamMembers": [
+    {
+      "name": "刘裕佳 Jay Liu",
+      "description": "蒙特利尔国际教育中心董事长\n加拿大联合大学董事会主席\n加拿大国际教育局副局长\n法语国际教育联盟（加拿大）理事长"
+    },
+    {
+      "name": "Josee Bouchard",
+      "description": "加拿大教育卓越委员会主席\n教师委员会主席\n前任魁北克法语教育局联合会主席"
+    },
+    {
+      "name": "Marcus Tabachnick",
+      "description": "蒙特利尔国际教育中心董事会董事\n加拿大魁北克英语学校联合会主席\n前加拿大学校联合会主席\n蒙特利尔教育局局长\n伊丽莎白女王银禧奖章获得者"
+    },
+    {
+      "name": "赵博乾 Brock Zhao",
+      "description": "蒙特利尔国际教育中心 CEO"
+    }
+  ]
+}
