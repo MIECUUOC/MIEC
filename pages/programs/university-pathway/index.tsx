@@ -195,11 +195,7 @@ const Teams: NextPage = () => {
 
                     <div className="row gx-0 align-items-center">
 
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5766.88446945405!2d-79.41293298758713!3d43.72213917097842!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b32e3916a70a7%3A0x123dd9e4f110b02d!2z5Yue5YCr5pav5ZyS5aSn5a245a246Zmi!5e0!3m2!1szh-CN!2sca!4v1712603334957!5m2!1szh-CN!2sca"
-                            width="600" height="450" className="col-lg-6 image-wrapper bg-image bg-cover rounded-4"
-                            style={{border: "0"}} allowFullScreen={false} loading="lazy"
-                            referrerPolicy="no-referrer-when-downgrade"></iframe>
+                        <img className="col-lg-6 image-wrapper bg-image object-fit-cover rounded-4 d-none d-md-block" src="/img/MIEC/programs/school4.jpg" alt=""/>
 
                         <div className="col-lg-6">
                             <div className="p-10 p-md-11 p-lg-13">
@@ -213,10 +209,6 @@ const Teams: NextPage = () => {
                                     {upTitle.mapBody}
                                 </p>
 
-                                <a href="https://maps.app.goo.gl/yvk7QpFZ8TPT2AtbA" target={"_blank"}
-                                   className="btn btn-primary rounded-pill mt-2">
-                                    {upTitle.mapButton}
-                                </a>
                             </div>
                         </div>
                     </div>
