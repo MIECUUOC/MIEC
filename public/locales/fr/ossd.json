@@ -1,0 +1,79 @@
+{
+  "upTitle": {
+    "mainTitle": "MIEC - Voie express vers les meilleures universités",
+    "subTitle": "Nous sommes ravis de vous présenter notre programme \"Voie express vers les meilleures universités\", conçu pour aider les étudiants à réaliser leur rêve d'intégrer des universités prestigieuses en obtenant le diplôme d'études secondaires de l'Ontario et en suivant des cours AP ou A-Level !",
+    "otherTitle": "Les avantages de notre programme",
+    "mapInfo": "Adresses de certains de nos collèges",
+    "mapTitle": "Le Toronto Union High School s'associe à 8 collèges de premier plan et collabore avec plusieurs établissements canadiens comme le Lawrence Park Collegiate Institute",
+    "mapBody": "Le Lawrence Park Collegiate Institute, fondé en 1936, est un lycée public renommé de Toronto, reconnu pour la qualité de son enseignement et les réalisations de ses étudiants. Grâce au programme du Toronto Union High School, les étudiants de notre pays peuvent recevoir une éducation secondaire canadienne de qualité au LPCI, les préparant ainsi aux candidatures dans des universités prestigieuses",
+    "mapButton": "Voir sur la carte",
+    "schoolName": "Lawrence Park Collegiate Institute"
+  },
+  "accordions": [
+    {
+      "heading": "Qu'est-ce que la Voie express vers les meilleures universités ?",
+      "body": "La Voie express vers les meilleures universités est un programme académique soigneusement conçu par MIEC. Nous avons établi des partenariats à long terme avec plusieurs lycées de qualité dans la région de Toronto, où nos étudiants peuvent suivre des cours et bénéficier d'excellentes ressources pédagogiques et d'environnements d'apprentissage. Notre programme combine les forces de trois systèmes éducatifs nord-américains : le diplôme d'études secondaires, les cours AP et A-Level, afin de maximiser les chances des étudiants d'atteindre leurs objectifs académiques."
+    },
+    {
+      "heading": "Les avantages de notre programme",
+      "body": "Grâce à nos cours, les étudiants peuvent obtenir un diplôme d'études secondaires canadien et des crédits universitaires américains, offrant une double garantie pour les candidatures aux universités au Canada et aux États-Unis. Les cours AP ou A-Level inclus sont des standards d'excellence mondialement reconnus, démontrant les capacités d'apprentissage et les compétences académiques des étudiants, renforçant leur compétitivité dans les candidatures universitaires."
+    },
+    {
+      "heading": "Pourquoi nous choisir ?",
+      "body": "La difficulté et la profondeur de nos cours sont équivalentes à celles des cours universitaires. Suivre nos cours peut aider les étudiants à s'adapter à l'avance au rythme et au style d'apprentissage universitaire, jetant des bases solides pour leurs futures études. MIEC a également établi de solides partenariats avec de nombreuses universités renommées au Canada et aux États-Unis, nous permettant de fournir des services professionnels d'orientation et de candidature pour aider les étudiants à intégrer avec succès l'université de leur choix."
+    }
+  ],
+  "forStudents": [
+    {
+      "title": "Évaluation axée sur le processus, développement complet du potentiel",
+      "body": "Nos cours utilisent une approche d'évaluation basée sur le processus, les notes finales des étudiants étant composées à 70% des performances régulières et à 30% des scores des examens finaux. Ce système d'évaluation met davantage l'accent sur les performances quotidiennes des étudiants, leur offrant plus d'opportunités de démontrer leurs résultats d'apprentissage. La difficulté académique des cours est relativement faible, les rendant plus accessibles aux étudiants ayant des capacités d'apprentissage moyennes. Après l'obtention du diplôme d'études secondaires, les étudiants peuvent postuler aux universités canadiennes via un canal de candidature moins compétitif, obtenant ainsi des avantages uniques."
+    },
+    {
+      "title": "Notes reconnues internationalement, pas de tests standardisés requis",
+      "body": "Les notes des lycées canadiens sont largement reconnues à l'international pour les candidatures aux universités étrangères sans nécessiter de tests standardisés comme le SAT. Pour les étudiants ayant des scores insatisfaisants au Gaokao ou préférant ne pas passer le Gaokao, les notes des lycées canadiens peuvent servir de seconde garantie, permettant des candidatures directes aux universités de renommée mondiale. Les étudiants actuellement inscrits au lycée en Chine peuvent transférer des crédits pour compenser les crédits correspondants des lycées canadiens. Les étudiants de terminale ou les diplômés du secondaire peuvent obtenir un diplôme d'études secondaires canadien en aussi peu qu'un an en obtenant 8 crédits."
+    },
+    {
+      "title": "Cours optionnels riches, mise en valeur des forces académiques",
+      "body": "Notre programme offre un large éventail de cours parmi lesquels les étudiants peuvent choisir en fonction de leurs forces et de leurs objectifs académiques futurs, jouant sur leurs points forts et évitant leurs faiblesses. Pour les étudiants ayant des déséquilibres importants entre les matières, l'amélioration des scores via notre programme Voie express vers les meilleures universités est relativement plus facile à réaliser, augmentant ainsi leurs chances d'intégrer des écoles prestigieuses."
+    },
+    {
+      "title": "Certaines universités renoncent à l'IELTS/TOEFL, abaissant les barrières linguistiques",
+      "body": "Les candidatures aux universités étrangères nécessitent généralement des scores IELTS ou TOEFL. Cependant, pour les étudiants de notre programme, de nombreuses universités au Royaume-Uni, au Canada, en Australie, à Hong Kong et à Singapour proposent des politiques d'admission qui renoncent aux exigences IELTS ou TOEFL. Les étudiants doivent seulement atteindre les scores requis dans leurs cours d'anglais de 12e année. Cette politique abaisse efficacement les exigences en matière de scores linguistiques, offrant plus d'opportunités aux étudiants ayant des compétences moyennes en anglais."
+    }
+  ],
+  "questions": {
+    "contentTitle": "Section des questions",
+    "mainTitle": "Vous trouverez ci-dessous les questions fréquemment posées. Si vous avez d'autres questions, veuillez nous contacter.",
+
+    "questionList": [
+      [
+        {
+          "heading": "Combien de temps faut-il pour suivre le programme Voie express vers les meilleures universités ?",
+          "body": "La durée des études varie en fonction du parcours et des progrès d'apprentissage de l'étudiant. Les étudiants ayant déjà fréquenté un lycée en Chine peuvent transférer des crédits pour compenser les crédits correspondants des lycées canadiens, obtenant un diplôme d'études secondaires canadien en aussi peu qu'un an en obtenant 8 crédits. Pour les étudiants dans d'autres situations, nous fournissons des plans d'apprentissage personnalisés pour assurer qu'ils terminent rapidement leurs études dans les délais prévus."
+        },
+        {
+          "heading": "En quoi les cours AP et A-Level aident-ils pour les candidatures universitaires ?",
+          "body": "Les cours AP sont des cours de niveau universitaire proposés par le College Board, tandis que les A-Level sont le programme des lycées britanniques. Tous deux ont une difficulté et une profondeur équivalentes aux cours universitaires. Les étudiants qui obtiennent de bons résultats aux examens AP ou A-Level démontrent d'excellentes capacités d'apprentissage et une maîtrise des matières, les rendant plus compétitifs lors des candidatures universitaires. Certaines universités américaines offrent des exemptions de crédits ou des avantages d'admission aux étudiants ayant des scores AP exceptionnels, et de nombreuses universités britanniques reconnaissent les résultats A-Level. Qu'il s'agisse d'AP ou d'A-Level, les deux peuvent donner à nos enfants une longueur d'avance lors des candidatures universitaires."
+        },
+        {
+          "heading": "Quelle est la qualité des enseignants dans le programme Voie express vers les meilleures universités ?",
+          "body": "Les équipes pédagogiques de toutes les écoles de notre programme sont composées d'enseignants locaux canadiens expérimentés qui maîtrisent parfaitement les programmes canadiens et américains et comprennent profondément les concepts d'éducation internationale. Les enseignants adaptent également leur enseignement aux caractéristiques des étudiants et fournissent une orientation complète dans l'apprentissage et la vie pour aider les étudiants à se développer de manière holistique."
+        }
+      ],
+      [
+        {
+          "heading": "À quelles universités les étudiants peuvent-ils postuler après avoir obtenu leur diplôme du programme Voie express vers les meilleures universités ?",
+          "body": "Grâce à notre programme, les étudiants peuvent postuler dans des universités renommées au Canada, aux États-Unis, au Royaume-Uni, en Australie et dans d'autres pays en utilisant leur diplôme d'études secondaires canadien et leurs scores aux cours AP ou A-Level. Notre équipe d'orientation académique peut créer des plans de candidature personnalisés en fonction des notes, des intérêts et des projets de carrière de chaque étudiant, en s'efforçant d'aider chaque étudiant à intégrer l'université de son choix."
+        },
+        {
+          "heading": "Comment les problèmes d'hébergement sont-ils résolus pendant le programme ?",
+          "body": "Nous offrons aux étudiants diverses options d'hébergement, notamment des familles d'accueil et des appartements pour étudiants. Les familles d'accueil sont soigneusement sélectionnées pour offrir aux étudiants un environnement de vie sûr et confortable tout en les aidant à mieux s'intégrer dans la vie canadienne. Les appartements pour étudiants sont équipés d'installations de vie complètes, permettant aux étudiants de vivre une expérience de vie indépendante. Nous recommandons des options d'hébergement adaptées en fonction des besoins des étudiants."
+        },
+        {
+          "heading": "Quels sont les frais pour le programme Voie express vers les meilleures universités ?",
+          "body": "Nos frais varient en fonction de facteurs tels que les cours choisis par l'étudiant, la durée des études et le choix de l'hébergement. Pour aider les étudiants et les parents à mieux comprendre nos frais, nous proposons des services de consultation par e-mail et de prise de rendez-vous. Vous pouvez obtenir des plans de frais détaillés par ces canaux. Notre objectif principal est de rendre une éducation internationale de qualité abordable pour un plus grand nombre d'étudiants."
+        }
+      ]
+    ]
+  }
+}

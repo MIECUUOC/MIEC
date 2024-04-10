@@ -1,7 +1,6 @@
 import { NextPage } from 'next';
-import {Fragment, useEffect} from 'react';
+import {useEffect} from 'react';
 // -------- custom component -------- //
-import { useTranslation } from 'next-i18next';
 import {useRouter} from "next/router";
 
 const NotFound: NextPage = () => {

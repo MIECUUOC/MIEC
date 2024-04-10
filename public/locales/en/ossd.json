@@ -1,0 +1,79 @@
+{
+  "upTitle": {
+    "mainTitle": "MIEC - Fast Track to Top Universities",
+    "subTitle": "We are pleased to introduce our \"Fast Track to Top Universities\" program, designed to help students achieve their dreams of entering prestigious universities by completing the Ontario Secondary School Diploma and AP or A-Level courses!",
+    "otherTitle": "Advantages of Our Program",
+    "mapInfo": "Addresses of Some of Our Colleges",
+    "mapTitle": "Toronto Union High School partners with 8 top colleges and collaborates with several Canadian institutions like Lawrence Park Collegiate Institute",
+    "mapBody": "Lawrence Park Collegiate Institute, founded in 1936, is a renowned public high school in Toronto known for its excellent teaching quality and student achievements. Through the Toronto Union High School program, students from our country can receive quality Canadian secondary education at LPCI, preparing them for applications to prestigious universities",
+    "mapButton": "View on Map",
+    "schoolName": "Lawrence Park Collegiate Institute"
+  },
+  "accordions": [
+    {
+      "heading": "What is the Fast Track to Top Universities?",
+      "body": "The Fast Track to Top Universities program is a carefully designed academic plan by MIEC. We have established long-term partnerships with several high-quality high schools in the Toronto area, where our students can take courses and enjoy excellent teaching resources and learning environments. Our program combines the strengths of three mainstream North American educational systems - high school diploma, AP, and A-Level - to maximize students' chances of achieving their academic goals."
+    },
+    {
+      "heading": "Advantages of Our Program",
+      "body": "Through our courses, students can earn a Canadian high school diploma and US university credits, providing a dual guarantee for applying to universities in Canada and the US. The included AP or A-Level courses are globally recognized gold standards, showcasing students' learning abilities and academic skills, enhancing their competitiveness in university applications."
+    },
+    {
+      "heading": "Why Choose Us?",
+      "body": "The difficulty and depth of our courses are equivalent to university courses. Taking our courses can help students adapt to the pace and style of university learning in advance, laying a solid foundation for future university studies. MIEC has also established strong partnerships with many renowned universities in Canada and the US, enabling us to provide professional guidance and application services to help students successfully enter their desired universities."
+    }
+  ],
+  "forStudents": [
+    {
+      "title": "Process-Focused Assessment, Comprehensive Potential Development",
+      "body": "Our courses employ a process-based assessment approach, with students' final grades consisting of 70% regular performance and 30% final exam scores. This assessment system places more emphasis on students' daily performance, providing them with more opportunities to showcase their learning outcomes. The academic difficulty of the courses is relatively lower, making them more friendly to students with average learning abilities. After obtaining a high school diploma, students can apply to Canadian universities through a less competitive application channel, gaining unique advantages."
+    },
+    {
+      "title": "Internationally Recognized Grades, No Standardized Tests Required",
+      "body": "Canadian high school grades are widely recognized internationally for applying to overseas universities without the need for standardized tests like the SAT. For students with unsatisfactory Gaokao scores or those who prefer not to take the Gaokao, Canadian high school grades can serve as a second guarantee, allowing direct applications to world-renowned universities. Students currently enrolled in high school in China can transfer credits to offset corresponding Canadian high school credits. Senior high school students or graduates can obtain a Canadian high school diploma in as little as one year by earning 8 credits."
+    },
+    {
+      "title": "Rich Elective Courses, Showcasing Academic Strengths",
+      "body": "Our curriculum offers a wide range of courses for students to choose from, allowing them to select based on their strengths and future academic goals, playing to their strengths and avoiding weaknesses. For students with severe subject imbalances, improving scores through our Fast Track to Top Universities program is relatively easier to achieve, thus increasing their chances of entering prestigious schools."
+    },
+    {
+      "title": "Some Universities Waive IELTS/TOEFL, Lowering Language Barriers",
+      "body": "Applying to overseas universities usually requires IELTS or TOEFL scores. However, for students in our program, many universities in the UK, Canada, Australia, Hong Kong, and Singapore offer admission policies that waive IELTS or TOEFL requirements. Students only need to achieve the required scores in their 12th-grade English courses. This policy effectively lowers language score requirements, providing more opportunities for students with average English proficiency."
+    }
+  ],
+  "questions": {
+    "contentTitle": "FAQ",
+    "mainTitle": "Frequently asked questions. If you have any other questions, please contact us.",
+
+    "questionList": [
+      [
+        {
+          "heading": "How long does it take to complete the Fast Track to Top Universities program?",
+          "body": "The duration of study varies based on the student's background and learning progress. Students who have already attended high school in China can transfer credits to offset corresponding Canadian high school credits, completing the program in as little as one year by earning 8 credits to obtain a Canadian high school diploma. For students in other situations, we provide personalized learning plans to ensure they complete their studies quickly within the expected timeframe."
+        },
+        {
+          "heading": "How do AP and A-Level courses help with university applications?",
+          "body": "AP courses are university-level courses offered by the College Board, while A-Level is the British high school curriculum. Both have a difficulty and depth equivalent to university courses. Students who score well on AP or A-Level exams demonstrate excellent learning ability and subject proficiency, making them more competitive when applying to universities. Some US universities offer credit exemptions or admission benefits to students with outstanding AP scores, and many UK universities recognize A-Level results. Whether it's AP or A-Level, both can give our children a head start when applying to universities."
+        },
+        {
+          "heading": "How qualified are the teachers in the Fast Track to Top Universities program?",
+          "body": "The teaching teams at all schools in our program consist of experienced local Canadian teachers who are well-versed in Canadian and American curricula and deeply understand international education concepts. Teachers also tailor their instruction to students' characteristics and provide comprehensive guidance in learning and life to help students develop holistically."
+        }
+      ],
+      [
+        {
+          "heading": "Which universities can students apply to after graduating from the Fast Track to Top Universities program?",
+          "body": "Through our program, students can apply to renowned universities in Canada, the United States, the United Kingdom, Australia, and other countries using their Canadian high school diplomas and AP or A-Level course scores. Our academic guidance team can create personalized application plans based on each student's grades, interests, and career plans, striving to help every student enter their desired university."
+        },
+        {
+          "heading": "How are accommodation issues resolved during the program?",
+          "body": "We offer students various accommodation options, including homestays and student apartments. Homestay families are carefully screened to provide students with a safe and comfortable living environment while helping them better integrate into Canadian life. Student apartments are equipped with complete living facilities, allowing students to experience independent living. We recommend suitable accommodation options based on students' needs."
+        },
+        {
+          "heading": "What are the fees for the Fast Track to Top Universities program?",
+          "body": "Our fees vary depending on factors such as the courses chosen by the student, the duration of study, and whether accommodation is selected. To help students and parents better understand our fees, we offer email consultation and appointment services. You can obtain detailed fee plans through these channels. Our main goal is to make quality international education affordable for more students."
+        }
+      ]
+    ]
+  }
+}
