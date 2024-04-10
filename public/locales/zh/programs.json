@@ -1,8 +1,15 @@
 {
+  "programsTitle": "主要项目",
+  "programsDescription": "MIEC是最专业的魁北克教育中心，我们的项目包含加拿大各个领域",
+
   "projectList": [
     {
       "projectName": "PEQ项目",
       "projectType": "移民支持"
+    },
+    {
+      "projectName": "加拿大名校通道",
+      "projectType": "名校录取"
     },
     {
       "projectName": "法语考试速通",
@@ -11,10 +18,6 @@
     {
       "projectName": "顶级学府夏令营",
       "projectType": "夏令营"
-    },
-    {
-      "projectName": "加拿大名校通道",
-      "projectType": "名校录取"
     }
   ]
 }

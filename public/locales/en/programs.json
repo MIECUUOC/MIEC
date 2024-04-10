@@ -1,8 +1,15 @@
 {
+  "programsTitle": "Main Programs",
+  "programsDescription": "MIEC is the most professional Quebec education center. Our programs encompass various fields across Canada.",
+
   "projectList": [
     {
       "projectName": "PEQ Program",
       "projectType": "Immigration Support"
+    },
+    {
+      "projectName": "Canadian Elite University Pathway",
+      "projectType": "Elite University Admission"
     },
     {
       "projectName": "French Exam Express",
@@ -11,10 +18,6 @@
     {
       "projectName": "Top University Summer Camp",
       "projectType": "Summer Camp"
-    },
-    {
-      "projectName": "Canadian Elite University Pathway",
-      "projectType": "Elite University Admission"
     }
   ]
 }

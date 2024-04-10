@@ -1,8 +1,15 @@
 {
+  "programsTitle": "Programmes principaux",
+  "programsDescription": "MIEC est le centre d'éducation du Québec le plus professionnel. Nos programmes couvrent divers domaines à travers le Canada.",
+
   "projectList": [
     {
       "projectName": "Programme PEQ",
       "projectType": "Soutien à l'immigration"
+    },
+    {
+      "projectName": "Voie d'accès aux universités d'élite canadiennes",
+      "projectType": "Admission à l'université d'élite"
     },
     {
       "projectName": "Examen de français express",
@@ -11,10 +18,6 @@
     {
       "projectName": "Camp d'été des meilleures universités",
       "projectType": "Camp d'été"
-    },
-    {
-      "projectName": "Voie d'accès aux universités d'élite canadiennes",
-      "projectType": "Admission à l'université d'élite"
     }
   ]
 }

@@ -31,6 +31,17 @@
   cursor: pointer;
 }
 
+@media screen and (max-width: 1440px) {
+  .programsItems {
+    margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+  }
+
+  .programsItems {
+    width: 380px;
+    height: 360px;
+  }
+}
+
 @media screen and (max-width: 540px) {
   .programsItems {
     margin: 0.5rem 0.5rem 0.5rem 0.5rem;
