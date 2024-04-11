@@ -1,11 +1,18 @@
 {
-  "contactUsTitle": "联系我们",
-  "contactUsSubtitle": "让我们帮助您\n开启在加拿大全新的生活",
-  "contactDetails": {
-    "addressTitle": "地址",
-    "address1": "266 Notre-Dame St W, Level 5,",
-    "address2": "Montreal, Quebec, Canada",
-    "emailTitle": "电子邮件",
-    "email": "Info@miec-uuoc.ca"
-  }
+  "result1": "发送中....",
+  "result2": "提交成功, 我们会尽快联系您",
+  "formText1": "联系我们",
+  "formText2": "开启您在加拿大新的生活",
+  "formText3": "地址",
+  "formText6": "电子邮件",
+  "formText7": "联系我们",
+  "form1": "姓名",
+  "form2": "请输入您的姓名",
+  "form3": "电话",
+  "form4": "请输入您的电话号码",
+  "form5": "邮箱",
+  "form6": "请输入您的电子邮箱",
+  "form7": "详细信息",
+  "form8": "请输入您的需求或想咨询的业务",
+  "form9": "发送信息"
 }

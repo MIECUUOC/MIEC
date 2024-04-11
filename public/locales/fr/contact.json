@@ -1,11 +1,18 @@
 {
-  "contactUsTitle": "Contactez-nous",
-  "contactUsSubtitle": "Laissez-nous vous aider\nà commencer une nouvelle vie au Canada",
-  "contactDetails": {
-    "addressTitle": "Adresse",
-    "address1": "266 Rue Notre-Dame O, Niveau 5,",
-    "address2": "Montréal, Québec, Canada",
-    "emailTitle": "E-mail",
-    "email": "Info@miec-uuoc.ca"
-  }
+  "result1": "Envoi en cours....",
+  "result2": "Soumis avec succès, nous vous contacterons dans les plus brefs délais",
+  "formText1": "Contactez-nous",
+  "formText2": "Commencez votre nouvelle vie au Canada",
+  "formText3": "Adresse",
+  "formText6": "Email",
+  "formText7": "Contactez-nous",
+  "form1": "Nom",
+  "form2": "Veuillez entrer votre nom",
+  "form3": "Téléphone",
+  "form4": "Veuillez entrer votre numéro de téléphone",
+  "form5": "Email",
+  "form6": "Veuillez entrer votre adresse e-mail",
+  "form7": "Détails",
+  "form8": "Veuillez saisir vos besoins ou l'entreprise que vous souhaitez consulter",
+  "form9": "Envoyer le message"
 }

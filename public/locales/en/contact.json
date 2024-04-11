@@ -1,11 +1,18 @@
 {
-  "contactUsTitle": "Contact Us",
-  "contactUsSubtitle": "Let us help you\nstart a new life in Canada",
-  "contactDetails": {
-    "addressTitle": "Address",
-    "address1": "266 Notre-Dame St W, Level 5,",
-    "address2": "Montreal, Quebec, Canada",
-    "emailTitle": "E-mail",
-    "email": "Info@miec-uuoc.ca"
-  }
+  "result1": "Sending....",
+  "result2": "Submitted successfully, we will contact you as soon as possible",
+  "formText1": "Contact Us",
+  "formText2": "Start your new life in Canada",
+  "formText3": "Address",
+  "formText6": "Email",
+  "formText7": "Contact Us",
+  "form1": "Name",
+  "form2": "Please enter your name",
+  "form3": "Phone",
+  "form4": "Please enter your phone number",
+  "form5": "Email",
+  "form6": "Please enter your email address",
+  "form7": "Details",
+  "form8": "Please enter your requirements or the business you want to consult",
+  "form9": "Send Message"
 }
