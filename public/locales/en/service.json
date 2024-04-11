@@ -1,34 +1,37 @@
 {
-  "advantagesTitle": "Our Advantages",
-  "advantagesDescription": "The Montreal International Education Center owns multiple colleges in Canada, a gold-standard team of lawyers, and DELF/TEFAQ examination centers",
-  "collegesTitle": "MIEC Owns Several Vocational Colleges",
-  "collegesList": [
+  "ServicesContent": {
+    "mainTitle": "Your preferred choice for immigration, education, and French in Canada",
+    "subTitle": "We have several well-known vocational colleges",
+    "projectTitle": "Project List",
+    "projectDetails": "Click on the projects below for more information"
+  },
+  "ServicesList": [
     {
-      "title": "Exclusive College Resources",
-      "subtitle": "Quebec government-certified specialized colleges with a variety of professional courses"
+      "title": "Quality education for a brighter future",
+      "subtitle": "Our partner colleges and universities offer diverse programs at lower prices, making quality education accessible"
     },
     {
-      "title": "Low Tuition Fees",
-      "subtitle": "Offering a variety of specializations, with tuition fees significantly lower than other cities in Canada"
+      "title": "Tailored immigration solutions",
+      "subtitle": "1800-hour PEQ vocational courses to accelerate your immigration journey. Our team supports you every step of the way"
     },
     {
-      "title": "Accelerate Immigration to Quebec",
-      "subtitle": "Many colleges under MIEC offer 1800-hour vocational training courses specifically designed for the PEQ program"
+      "title": "Official French exam center and training",
+      "subtitle": "Experienced French oral examiners prepare students at all levels for success in French exams"
+    },
+    {
+      "title": "Enriching summer camps, global perspectives",
+      "subtitle": "Students safely discover foreign cultures and gain unique experiences with our professional team"
     }
   ],
-  "examinationCentersTitle": "MIEC Has DELF/TEFAQ/TEF Official Examination Centers",
-  "examinationCentersList": [
+  "buttonsList": [
     {
-      "title": "Ensure High Pass Rates",
-      "subtitle": "High-quality teaching resources to help you easily tackle French B2 level"
+      "button": "PEQ Program"
     },
     {
-      "title": "Pre-Exam Simulation",
-      "subtitle": "Provides pre-exam crash simulations by in-service French oral examiners"
+      "button": "Elite School Express"
     },
     {
-      "title": "French Training",
-      "subtitle": "A selected team of teachers to cover students at all stages sprinting for the exam"
+      "button": "View All Programs"
     }
   ]
 }

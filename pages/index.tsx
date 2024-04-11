@@ -12,6 +12,7 @@ import { Services23 } from 'components/blocks/services';
 import PageProgress from 'components/common/PageProgress';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { useTranslation } from 'next-i18next';
+import IndexServices from "../src/components/otherBlocks/IndexServices";
 
 const HomePage: NextPage = () => {
   // lighbox hook called
@@ -50,7 +51,8 @@ const HomePage: NextPage = () => {
           <About7 t={aboutt} />
         </RoundContainer>
         {/* ========== what we do section ==========*/}
-        <Services23 t={servicet} />
+        {/*<Services23 t={servicet} />*/}
+        <IndexServices t={servicet} />
 
         {/*<RoundContainer>*/}
         {/*  <Clients3 />*/}

@@ -1,34 +1,37 @@
 {
-  "advantagesTitle": "我们的优势",
-  "advantagesDescription": "蒙特利尔国际教育中心同时在加拥有多所学院,金牌律师团队和DELF/TEFAQ考试中心",
-  "collegesTitle": "MIEC旗下拥有多家职业学院",
-  "collegesList": [
+  "ServicesContent": {
+    "mainTitle": "您在加拿大的移民和教育及法语首选",
+    "subTitle": "我们拥有多家知名职业学院",
+    "projectTitle": "项目列表",
+    "projectDetails": "点击以下项目查看更多信息"
+  },
+  "ServicesList": [
     {
-      "title": "独家学院资源",
-      "subtitle": "魁北克政府认证的专科学院，多样化专业课程"
+      "title": "优质教育资源, 引领卓越未来",
+      "subtitle": "我们拥有多所学院和合作大学,提供多样化的专业课程。课程价格显著低于其他机构,让优质教育更加可及"
     },
     {
-      "title": "学费价格低",
-      "subtitle": "提供多样化专业，学费显著低于加拿大其他城市"
+      "title": "移民专家, 为您量身定制",
+      "subtitle": "专为PEQ设计1800课时职业培训课程,让您更快完成移民项目,实现在加拿大的留学和生活梦想。我们的团队将全程支持,确保您的移民之路更加顺畅"
     },
     {
-      "title": "加速移民魁北克",
-      "subtitle": "MIEC旗下拥有的众多院校，提供专为PEQ项目量身定制的1800课时职业培训课程"
+      "title": "官方法语考试中心, 提供法语培训",
+      "subtitle": "官方法语考试中心,提供法语培训。在职法语口语面试官,为各阶段学员模拟考试,确保您轻松应对法语考试"
+    },
+    {
+      "title": "丰富夏令营活动, 开拓全球视野",
+      "subtitle": "内容丰富的夏令营活动,让学生体验异国文化,开拓全球视野,收获独特体验。专业团队全程陪同,确保学生的安全"
     }
   ],
-  "examinationCentersTitle": "MIEC拥有DELF/TEFAQ/TEF\n官方考试中心",
-  "examinationCentersList": [
+  "buttonsList": [
     {
-      "title": "确保高通过率",
-      "subtitle": "优质的教学资源让您轻松应对法语B2"
+      "button": "PEQ项目"
     },
     {
-      "title": "考前模拟",
-      "subtitle": "提供在职法语口语面试官考前突击模拟考试"
+      "button": "名校直通车"
     },
     {
-      "title": "法语培训",
-      "subtitle": "精选教师团队,覆盖各阶段学员冲刺考试"
+      "button": "查看所有项目"
     }
   ]
 }

@@ -1,34 +1,37 @@
 {
-  "advantagesTitle": "Nos Avantages",
-  "advantagesDescription": "Le Centre d'Éducation Internationale de Montréal possède plusieurs collèges au Canada, une équipe d'avocats de premier ordre, et des centres d'examen DELF/TEFAQ",
-  "collegesTitle": "MIEC Possède Plusieurs Collèges Professionnels",
-  "collegesList": [
+  "ServicesContent": {
+    "mainTitle": "Votre choix préféré pour l'immigration, l'éducation et le français au Canada",
+    "subTitle": "Nous avons plusieurs collèges professionnels renommés",
+    "projectTitle": "Liste des projets",
+    "projectDetails": "Cliquez sur les projets ci-dessous pour plus d'informations"
+  },
+  "ServicesList": [
     {
-      "title": "Ressources Collégiales Exclusives",
-      "subtitle": "Collèges spécialisés certifiés par le gouvernement du Québec, offrant une variété de cours professionnels"
+      "title": "Éducation de qualité pour un avenir prometteur",
+      "subtitle": "Nos collèges et universités partenaires offrent des programmes variés à prix réduits, rendant l'éducation plus accessible"
     },
     {
-      "title": "Frais de Scolarité Bas",
-      "subtitle": "Offrant une variété de spécialisations, avec des frais de scolarité significativement inférieurs à ceux des autres villes du Canada"
+      "title": "Experts en immigration, solutions sur mesure",
+      "subtitle": "Formations professionnelles de 1800h pour le PEQ, accélérant votre parcours d'immigration. Notre équipe vous accompagne à chaque étape"
     },
     {
-      "title": "Accélérer l'Immigration au Québec",
-      "subtitle": "De nombreux collèges sous MIEC proposent des cours de formation professionnelle de 1800 heures spécialement conçus pour le programme PEQ"
+      "title": "Centre officiel d'examen et de formation en français",
+      "subtitle": "Préparation aux examens de français avec des examinateurs expérimentés pour tous les niveaux"
+    },
+    {
+      "title": "Camps d'été enrichissants, ouverture sur le monde",
+      "subtitle": "Découverte de cultures étrangères et expériences uniques en toute sécurité grâce à notre équipe professionnelle"
     }
   ],
-  "examinationCentersTitle": "MIEC Dispose de Centres d'Examen Officiels DELF/TEFAQ/TEF",
-  "examinationCentersList": [
+  "buttonsList": [
     {
-      "title": "Assurer des Taux de Réussite Élevés",
-      "subtitle": "Des ressources pédagogiques de qualité pour vous aider à facilement affronter le niveau B2 en français"
+      "button": "Programme PEQ"
     },
     {
-      "title": "Simulation Pré-Examen",
-      "subtitle": "Propose des simulations intensives pré-examen par des examinateurs oraux de français en service"
+      "button": "Express Écoles d'Élite"
     },
     {
-      "title": "Formation en Français",
-      "subtitle": "Une équipe d'enseignants sélectionnée pour couvrir les étudiants à toutes les étapes de la préparation aux examens"
+      "button": "Voir Tous les Projets"
     }
   ]
 }
