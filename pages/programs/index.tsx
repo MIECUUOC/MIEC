@@ -27,7 +27,7 @@ const Teams: NextPage = () => {
             id: 0,
             projectName: programst('programs.0.name'),
             projectType: programst('programs.0.type'),
-            url: '/posts/pdf/1',
+            url: '/programs/peq',
             image: {'1x': '/img/MIEC/project/PEQ.png', '2x': '/img/MIEC/project/PEQ@2x.png'}
         },
         // {

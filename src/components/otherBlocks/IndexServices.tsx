@@ -50,7 +50,7 @@ const IndexServices: FC<ServiceProps> = ({ t }) => {
     const buttonsList = [
         {
             no: "bs1",
-            url: "/posts/pdf/1",
+            url: "/programs/peq",
             button: t("buttonsList.0.button"),
             image: "/img/MIEC/project/PEQ@2x.png"
         },
