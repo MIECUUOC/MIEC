@@ -8,7 +8,6 @@ import { Contact1 } from 'components/blocks/contact';
 import { Footer9 } from 'components/blocks/footer';
 import { Hero20 } from 'components/blocks/hero';
 import { Navbar } from 'components/blocks/navbar';
-import { Services23 } from 'components/blocks/services';
 import PageProgress from 'components/common/PageProgress';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { useTranslation } from 'next-i18next';
