@@ -268,29 +268,29 @@ const Teams: NextPage = () => {
                     </div>
 
 
-                    <div className="mb-18">
-                        <h2 className="display-4 mb-3 text-center">申请流程</h2>
-                        <p className="lead fs-lg mb-8 text-center">
-                            我们的流程 <span className="underline">全程加速</span> 保证您快速移民
-                        </p>
+                    {/*<div className="mb-18">*/}
+                    {/*    <h2 className="display-4 mb-3 text-center">申请流程</h2>*/}
+                    {/*    <p className="lead fs-lg mb-8 text-center">*/}
+                    {/*        我们的流程 <span className="underline">全程加速</span> 保证您快速移民*/}
+                    {/*    </p>*/}
 
-                        <div className="row gx-lg-8 gx-xl-12 gy-6 process-wrapper line">
-                            {processList2.map(({no, title, subtitle}, i) => {
-                                const iconColor = i === 0 ? 'btn-primary' : 'btn-soft-primary';
+                    {/*    <div className="row gx-lg-8 gx-xl-12 gy-6 process-wrapper line">*/}
+                    {/*        {processList2.map(({no, title, subtitle}, i) => {*/}
+                    {/*            const iconColor = i === 0 ? 'btn-primary' : 'btn-soft-primary';*/}
 
-                                return (
-                                    <div className="col-md-6 col-lg-3" key={no}>
-                                          <span className={`icon btn btn-circle btn-lg pe-none mb-4 ${iconColor}`}>
-                                            <span className="number">{no}</span>
-                                          </span>
+                    {/*            return (*/}
+                    {/*                <div className="col-md-6 col-lg-3" key={no}>*/}
+                    {/*                      <span className={`icon btn btn-circle btn-lg pe-none mb-4 ${iconColor}`}>*/}
+                    {/*                        <span className="number">{no}</span>*/}
+                    {/*                      </span>*/}
 
-                                        <h4 className="mb-1">{title}</h4>
-                                        <p>{subtitle}</p>
-                                    </div>
-                                );
-                            })}
-                        </div>
-                    </div>
+                    {/*                    <h4 className="mb-1">{title}</h4>*/}
+                    {/*                    <p>{subtitle}</p>*/}
+                    {/*                </div>*/}
+                    {/*            );*/}
+                    {/*        })}*/}
+                    {/*    </div>*/}
+                    {/*</div>*/}
 
 
                     <Fragment>
