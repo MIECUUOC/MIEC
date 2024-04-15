@@ -10,10 +10,12 @@ import Accordion from "../../../../src/components/reuseable/accordion";
 import {Fragment} from "react";
 import IconBox from "../../../../src/components/reuseable/IconBox";
 import CountUp from "react-countup";
+// import ContactForms from "../../../../src/components/otherBlocks/ContactForms";
 
 const Teams: NextPage = () => {
     const {t: navt} = useTranslation('nav');
     const {t: footert} = useTranslation('footer');
+    // const {t: contactformst} = useTranslation('contactForms')
 
     const contentList = {
         title1: "MIEC - PEQ",
@@ -28,6 +30,8 @@ const Teams: NextPage = () => {
         title10: "我们的课程体系涵盖了汽修行业的方方面面, 从基础的机械原理到先进的电子控制系统, 从常规的故障诊断到复杂的定制改装, 29个技能模块让您成为一名全能型的汽修专家, 在职场中拥有更多的选择和机会",
         title11: "专业汽修技能, 开启璀璨未来",
         title12: "加入我们的课程, 成为全能汽修专家",
+        title13: "问题专区",
+        title14: "如果您有任何其他问题, 请随时联系我们"
     }
 
     const accordions = [
@@ -299,6 +303,37 @@ const Teams: NextPage = () => {
         }
     ];
 
+    const accordionList1 = [
+        [
+            {
+                no: 'One',
+                expand: false,
+                heading: "如何满足课程的法语要求?",
+                body: "我们提供专业的法语前置课程, 帮助您快速提升法语能力, 达到课程要求的入学标准. 我们的法语课程由经验丰富的教师授课, 通过有针对性的训练, 您将在短时间内掌握专业汽修所需的法语技能"
+            },
+            {
+                no: 'Three',
+                expand: false,
+                heading: "为什么要选择法语PEQ?",
+                body: "法语PEQ移民项目是一条快速、高效的移民途径, 申请条件相对宽松. 作为长期紧缺的技术型人才, 汽修专业的毕业生在PEQ移民申请中享有很大优势"
+            }
+        ],
+        [
+            {
+                no: 'Two',
+                expand: false,
+                heading: "课程的就业前景如何?",
+                body: "汽修行业是魁北克省乃至整个加拿大的紧缺行业, 随着汽车保有量的不断增长, 对汽修技师的需求也在不断增加. 通过我们的PEQ课程, 您将掌握全面的汽修技能, 成为备受企业青睐的高端技术人才"
+            },
+            {
+                no: 'Four',
+                expand: false,
+                heading: "为什么选择我们的服务?",
+                body: "我们是加拿大魁北克PEQ项目的领军者, 我们最权威的专业移民顾问和团队将为您提供全程的申请指导, 助您早日获得魁北克省的永久居留权"
+            }
+        ]
+    ];
+
     useLightBox();
     return (
         <div className="page-frame bg-pale-primary">
@@ -420,6 +455,30 @@ const Teams: NextPage = () => {
                         </tbody>
                     </table>
 
+
+                    <div className="mt-18 mb-6">
+                        <h2 className="fs-15 text-uppercase text-muted mb-3 text-center">{contentList.title13}</h2>
+                        <h3 className="display-4 mb-10 px-lg-12 px-xl-15 text-center">
+                            {contentList.title14}
+                        </h3>
+
+                        <div className="accordion-wrapper" id="accordion">
+                            <div className="row">
+                                {accordionList1.map((items, i) => {
+                                    return (
+                                        <div className="col-md-6" key={i}>
+                                            {items.map((item) => (
+                                                <Accordion key={item.no} {...item} />
+                                            ))}
+                                        </div>
+                                    );
+                                })}
+                            </div>
+                        </div>
+                    </div>
+
+                    {/*<ContactForms t={contactformst} />*/}
+
                 </RoundContainer>
             </main>
             <Footer9 t={footert}/>
@@ -431,7 +490,7 @@ export async function getStaticProps({locale}: { locale: string }) {
     console.log(`Current locale: ${locale}`);
     return {
         props: {
-            ...(await serverSideTranslations(locale, ['common', 'nav', 'footer']))
+            ...(await serverSideTranslations(locale, ['common', 'nav', 'contactForms', 'footer']))
             // Will be passed to the page component as props
         }
     };
