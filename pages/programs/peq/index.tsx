@@ -10,7 +10,6 @@ import {Fragment} from "react";
 import Link from "next/link";
 import Image from "next/image";
 import {useRouter} from "next/router";
-import {processList2} from "../../../src/data/process";
 
 const Teams: NextPage = () => {
     // get current locale
@@ -82,84 +81,84 @@ const Teams: NextPage = () => {
             no: "5298",
             img: "/img/programs/pl-qx.jpg",
             name: "汽车机械",
-            url: `${locale}/programs/peq/auto-mechanics`
+            url: `/${locale}/programs/peq/auto-mechanics`
         },
         {
             id: "pl05",
             no: "5750",
             img: "/img/programs/pl-gyzt.jpg",
             name: "住宅与商业制图",
-            url: `${locale}/programs/peq/residential-commercial-drafting`
+            url: `/${locale}/programs/peq/residential-commercial-drafting`
         },
         {
             id: "pl02",
             no: "5858",
             img: "/img/programs/pl-hl.jpg",
             name: "家庭护理",
-            url: `${locale}/programs/peq/home-care`
+            url: `/${locale}/programs/peq/home-care`
         },
         {
             id: "pl03",
             no: "5295",
             img: "/img/programs/pl-dg.jpg",
             name: "电气技术",
-            url: `${locale}/programs/peq/electrical`
+            url: `/${locale}/programs/peq/electrical`
         },
         {
             id: "pl04",
             no: "5229",
             img: "/img/programs/pl-jsjzc.jpg",
             name: "计算机支持",
-            url: `${locale}/programs/peq/computer-support`
+            url: `/${locale}/programs/peq/computer-support`
         },
         {
             id: "pl12",
             no: "",
             img: "/img/programs/pl-cs.jpg",
             name: "西餐厨师和糕点",
-            url: `${locale}/programs/peq/western-cuisine-pastry`
+            url: `/${locale}/programs/peq/western-cuisine-pastry`
         },
         {
             id: "pl09",
             no: "5225",
             img: "/img/programs/pl-gysj.jpg",
             name: "工业设计",
-            url: `${locale}/programs/peq/industrial-design`
+            url: `/${locale}/programs/peq/industrial-design`
         },
         {
             id: "pl10",
             no: "5250",
             img: "/img/programs/pl-jzsj.jpg",
             name: "建筑设计",
-            url: `${locale}/programs/peq/architectural-design`
+            url: `/${locale}/programs/peq/architectural-design`
         },
         {
             id: "pl06",
             no: "5319",
             img: "/img/programs/pl-mg.jpg",
             name: "木工技术",
-            url: `${locale}/programs/peq/carpentry`
+            url: `/${locale}/programs/peq/carpentry`
         },
         {
             id: "pl11",
             no: "5857",
             img: "/img/programs/pl-wm.jpg",
             name: "文秘专业",
-            url: `${locale}/programs/peq/secretarial`
+            url: `/${locale}/programs/peq/secretarial`
         },
         {
             id: "pl07",
             no: "5333",
             img: "/img/programs/pl-gn.jpg",
             name: "管道和供暖",
-            url: `${locale}/programs/peq/plumbing-heating`
+            url: `/${locale}/programs/peq/plumbing-heating`
         },
         {
             id: "pl08",
             no: "5195",
             img: "/img/programs/pl-hj.jpg",
             name: "焊接与装配",
-            url: `${locale}/programs/peq/welding-fitting`
+            url: `/${locale}/programs/peq/welding-fitting`
         }
     ]
 

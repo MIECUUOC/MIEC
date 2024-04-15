@@ -11,7 +11,6 @@ import carouselBreakpoints from "../../src/utils/carouselBreakpoints";
 import {TeamCard2} from "../../src/components/reuseable/team-cards";
 import color from "../../src/utils/color";
 import {renderString} from "../../src/components/reuseable/links/NextLink";
-// import {useRouter} from "next/router";
 
 const Teams: NextPage = () => {
     const { t: navt } = useTranslation('nav');
