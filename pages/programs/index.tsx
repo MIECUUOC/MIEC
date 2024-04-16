@@ -10,7 +10,7 @@ import styles from './styles.module.scss';
 import {useRouter} from "next/router";
 
 
-const Teams: NextPage = () => {
+const ProgramsPage: NextPage = () => {
     const {t: navt} = useTranslation('nav');
     const {t: footert} = useTranslation('footer');
     const {t: programst} = useTranslation('programs')
@@ -102,4 +102,4 @@ export async function getStaticProps({locale}: { locale: string }) {
     };
 }
 
-export default Teams;
+export default ProgramsPage;

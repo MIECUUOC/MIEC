@@ -11,7 +11,7 @@ import Link from "next/link";
 import Image from "next/image";
 import {useRouter} from "next/router";
 
-const Teams: NextPage = () => {
+const PEQPage: NextPage = () => {
     // get current locale
     const router = useRouter();
     const {locale} = router;
@@ -91,18 +91,11 @@ const Teams: NextPage = () => {
             url: `/${locale}/programs/peq/residential-commercial-drafting`
         },
         {
-            id: "pl02",
-            no: "5858",
-            img: "/img/programs/pl-hl.jpg",
-            name: "家庭护理",
-            url: `/${locale}/programs/peq/home-care`
-        },
-        {
             id: "pl03",
             no: "5295",
             img: "/img/programs/pl-dg.jpg",
             name: "电气技术",
-            url: `/${locale}/programs/peq/electrical`
+            url: `/${locale}/programs/peq/electricity`
         },
         {
             id: "pl04",
@@ -124,6 +117,13 @@ const Teams: NextPage = () => {
             img: "/img/programs/pl-gysj.jpg",
             name: "工业设计",
             url: `/${locale}/programs/peq/industrial-design`
+        },
+        {
+            id: "pl02",
+            no: "5858",
+            img: "/img/programs/pl-hl.jpg",
+            name: "家庭护理",
+            url: `/${locale}/programs/peq/home-care`
         },
         {
             id: "pl10",
@@ -362,4 +362,4 @@ export async function getStaticProps({locale}: { locale: string }) {
     };
 }
 
-export default Teams;
+export default PEQPage;

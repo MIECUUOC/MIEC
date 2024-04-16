@@ -9,7 +9,7 @@ import {useTranslation} from 'next-i18next';
 import Accordion from "../../../src/components/reuseable/accordion";
 import {Fragment} from "react";
 
-const Teams: NextPage = () => {
+const UniversityPathway: NextPage = () => {
     const {t: navt} = useTranslation('nav');
     const {t: footert} = useTranslation('footer');
     const {t: ossdt} = useTranslation('ossd')
@@ -273,4 +273,4 @@ export async function getStaticProps({locale}: { locale: string }) {
     };
 }
 
-export default Teams;
+export default UniversityPathway;

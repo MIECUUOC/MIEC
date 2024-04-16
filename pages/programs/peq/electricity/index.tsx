@@ -12,46 +12,46 @@ import IconBox from "../../../../src/components/reuseable/IconBox";
 import CountUp from "react-countup";
 // import ContactForms from "../../../../src/components/otherBlocks/ContactForms";
 
-const AutoMechanics: NextPage = () => {
+const Electricity: NextPage = () => {
     const {t: navt} = useTranslation('nav');
     const {t: footert} = useTranslation('footer');
     // const {t: contactformst} = useTranslation('contactForms')
 
     const contentList = {
         title1: "MIEC - PEQ",
-        title2: "汽车修理专业",
-        title3: "掌握汽车修理技能, 开启精彩人生. 我们的\"汽车修理专业培训\"项目助您实现梦想! 在这里, 通过1800小时的密集学习将让您掌握多项专业技能, 让您成为备受行业认可的优秀机械师. 我们有最先进的教学设施、最专业的师资团队、最真实的实战环境, 带您探索汽车维修的奥秘, 我们的资格证书将为您打开通往成功的大门. 无论您是行业新人还是转换职业, 机会就在眼前, 改变从这里开始",
-        title4: "成就金牌人生, 从这里启程",
-        title5: "定制培训, 实现技能进阶与职业蜕变",
-        title6: "开启成功之门, 铸就非凡人生",
-        title7: "专业培训, 支持您的职业发展",
-        title8: "加入汽修专业大家庭",
-        title9: "精心设计汽修专业, 成为全面汽修专家",
-        title10: "我们的课程体系涵盖了汽修行业的方方面面, 从基础的机械原理到先进的电子控制系统, 从常规的故障诊断到复杂的定制改装, 29个技能模块让您成为一名全能型的汽修专家, 在职场中拥有更多的选择和机会",
-        title11: "专业汽修技能, 开启璀璨未来",
-        title12: "加入我们的课程, 成为全能汽修专家",
-        title13: "问题专区",
-        title14: "如果您有任何其他问题, 请随时联系我们"
+        title2: "住宅与商业制图专业",
+        title3: "建筑制图是一门融合艺术与技术的学科, 它将创意设计与严谨的工程实践相结合. 在我们的专业培训项目中, 您将接受1800小时的系统训练, 掌握手工绘图、计算机辅助设计等多项技能, 成为一名出色的制图师. 无论您是建筑行业的新手, 还是正在寻求职业转型, 我们的课程都将为您提供一个实现梦想的绝佳平台. 让我们一起踏上这个精彩的旅程, 开启人生的新篇章!",
+        title4: "绘制蓝图, 构筑未来",
+        title5: "个性化教学, 全面提升制图技能",
+        title6: "扬帆起航, 驶向成功彼岸",
+        title7: "专注教学, 助力职业腾飞",
+        title8: "融入制图精英团队",
+        title9: "缜密课程设计, 培养制图英才",
+        title10: "我们的课程体系由业内资深专家精心设计, 涵盖了建筑制图的各个领域. 从手工绘图的基本功到计算机辅助设计的进阶技巧, 从常规建筑图纸的绘制到复杂结构的设计表现, 25个模块环环相扣, 循序渐进. 通过系统学习, 您将全面掌握制图技能, 成为一名出类拔萃的建筑制图师",
+        title11: "建筑制图专业技能, 开创美好人生",
+        title12: "立即报名, 成就非凡制图人才",
+        title13: "常见问题解答",
+        title14: "如有任何疑问, 欢迎随时垂询"
     }
 
     const accordions = [
         {
             no: 'One',
             expand: false,
-            heading: '魁北克省教育部认证机构',
-            body: "我们的技术学院是魁北克省教育部认证的职业教育机构, 我们的汽车修理专业培训项目获得了官方认可. 通过学习, 学生将获得魁北克省承认的专业文凭, 为未来的职业生涯奠定坚实基础"
+            heading: "官方认证, 扬帆起航",
+            body: "我们旗下院校是魁北克省教育部认可的职业教育机构, 住宅与商业制图专业培训项目经过严格评估, 获得官方认证. 完成学业后, 您将获得魁北克省颁发的专业文凭, 这将是您职业生涯的一张金名片, 为您在建筑行业的发展奠定坚实的基础"
         },
         {
             no: 'Two',
             expand: false,
-            heading: "业内口碑领先的培训课程",
-            body: "我们的技术学院开设的1800小时\"汽车修理专业培训\"课程在业内享有极高声誉. 我们全面的课程设置, 涵盖了汽车修理的29项核心技能, 让学生成为真正的全能型人才, 在职场中傲视同侪"
+            heading: "优质口碑, 行业翘楚",
+            body: "我们的学院开设的1800小时住宅与商业制图专业培训课程, 在业内享有盛誉. 课程内容丰富全面, 涵盖建筑制图的25项核心技能, 理论与实践并重, 案例与项目结合, 确保学生掌握扎实的专业知识和过硬的操作技能, 成为建筑制图领域的佼佼者"
         },
         {
             no: 'Three',
             expand: false,
-            heading: '毕业即就业, 前景无限广阔',
-            body: '我们的技术学院与魁北克省内众多知名汽车公司和修理厂建立了长期合作关系. 凭借我们的专业培训和官方认证, 毕业生在求职时将具有巨大优势. 无论是新人入行, 还是转换职业, 都是您通往成功的金牌之选!'
+            heading: "企业青睐, 就业无忧",
+            body: "我们的学院与魁北克省内多家知名建筑设计公司和工程咨询机构保持紧密合作关系. 凭借雄厚的师资力量和先进的教学设施, 我们的学院为企业输送了大批优秀的建筑制图人才. 作为我院的毕业生, 无论是立志在大企业担任要职, 还是计划自主创业, 都将拥有广阔的职业前景"
         }
     ];
 
@@ -61,30 +61,30 @@ const AutoMechanics: NextPage = () => {
         {
             id: 1,
             linkUrl: '#',
-            title: "全面技能培养",
+            title: "技能全面进阶",
             icon: 'uil-book-open',
-            description: "我们的课程设置全面,涵盖了从传统机械到先进电子系统的方方面面.无论是故障诊断,还是定期保养,您都将成为真正的专家"
+            description: "我们的课程体系全面而细致, 从手工绘图的基础技法到计算机辅助设计的高阶应用, 涵盖建筑制图的方方面面. 通过系统学习, 您将掌握建筑设计、结构分析等专业技能, 成为一名全能型的制图专家"
         },
         {
             id: 2,
             linkUrl: '#',
-            title: "真实实战环境",
+            title: "沉浸式实训环境",
             icon: 'uil-shield-exclamation',
-            description: "我们拥有先进的教学设施和设备,为您提供最真实的实战环境.在这里,您将亲身实践,积累宝贵的操作经验"
+            description: "我院拥有业内一流的教学设施和软硬件资源, 为学生营造身临其境的实战氛围. 在这里, 您将通过大量的实践操作和项目训练, 快速积累宝贵的设计经验, 为未来的职业发展打下坚实的基础"
         },
         {
             id: 3,
             linkUrl: '#',
-            title: "广阔就业方向",
+            title: "就业方向多元化",
             icon: 'uil-laptop-cloud',
-            description: "汽车修理技能让您可以在汽车制造、4S店、修理厂等多个领域择业。无论是创业还是就职,您都将拥有广阔的舞台"
+            description: "建筑制图是一项应用广泛的技能, 掌握它意味着拥有更多的职业选择. 我院毕业生在建筑设计院、工程咨询公司、房地产开发企业等多个领域大展拳脚, 无论自主创业还是就职大企业,都拥有广阔的发展空间"
         },
         {
             id: 4,
             linkUrl: '#',
-            title: "移民绝佳选择",
+            title: "助力技术移民梦",
             icon: 'uil-chart-line',
-            description: "汽车修理专业是魁北克省PEQ技术移民的热门选择. 完成学业,您不仅收获了一技之长,更为移民之路铺平了道路"
+            description: "住宅与商业制图专业是魁北克省PEQ技术移民计划的重点领域之一. 通过我院的专业培训, 您不仅能够掌握一技之长, 还能够满足技术移民的申请条件, 为实现在加拿大定居的梦想铺平道路"
         }
     ];
 
@@ -98,7 +98,7 @@ const AutoMechanics: NextPage = () => {
     const countList = [
         {
             id: 1,
-            amount: 5798,
+            amount: 5750,
             color: 'btn-soft-purple',
             title: "课程编号",
             icon: 'uil-presentation-check'
@@ -119,7 +119,7 @@ const AutoMechanics: NextPage = () => {
         },
         {
             id: 4,
-            amount: 29,
+            amount: 25,
             color: 'btn-soft-aqua',
             title: "课程数量",
             icon: 'uil-trophy'
@@ -128,194 +128,170 @@ const AutoMechanics: NextPage = () => {
 
     const classInfo = [
         {
-            id: 1,
-            title: "确定是否适合该行业和培训",
+            id: "755-002",
+            title: "在建筑工地上应用健康和安全概念",
+            hours: "30",
+            credits: "2"
+        },
+        {
+            id: "825-011",
+            title: "确定他们是否适合贸易和培训过程",
             hours: "15",
             credits: "1"
         },
         {
-            id: 2,
-            title: "避免健康、安全和环境危害",
+            id: "825-211",
+            title: "使用求职技巧",
+            hours: "15",
+            credits: "1"
+        },
+        {
+            id: "825-258",
+            title: "进入劳动力队伍",
+            hours: "120",
+            credits: "8"
+        },
+        {
+            id: "825-262",
+            title: "使用计算机",
             hours: "30",
             credits: "2"
         },
         {
-            id: 3,
-            title: "查找有关机动车的技术信息",
+            id: "825-273",
+            title: "绘制体系结构组件",
             hours: "45",
             credits: "3"
         },
         {
-            id: 4,
-            title: "进行加热、焊接和切割操作",
-            hours: "45",
-            credits: "3"
-        },
-        {
-            id: 5,
-            title: "车间工作",
-            hours: "75",
-            credits: "5"
-        },
-        {
-            id: 6,
-            title: "建立人际关系",
-            hours: "30",
-            credits: "2"
-        },
-        {
-            id: 7,
-            title: "检查内燃机",
-            hours: "75",
-            credits: "5"
-        },
-        {
-            id: 8,
-            title: "修理内燃机",
-            hours: "90",
-            credits: "6"
-        },
-        {
-            id: 9,
-            title: "检查行驶系统",
-            hours: "60",
-            credits: "4"
-        },
-        {
-            id: 10,
-            title: "修理行驶系统",
-            hours: "90",
-            credits: "6"
-        },
-        {
-            id: 11,
-            title: "安装和维护三相变压器",
-            hours: "60",
-            credits: "4"
-        },
-        {
-            id: 12,
-            title: "检查电气和电子系统",
-            hours: "90",
-            credits: "6"
-        },
-        {
-            id: 13,
-            title: "修理照明系统",
-            hours: "60",
-            credits: "4"
-        },
-        {
-            id: 14,
-            title: "检查基本的计算机控制系统",
-            hours: "60",
-            credits: "4"
-        },
-        {
-            id: 15,
-            title: "检查传动系统",
-            hours: "90",
-            credits: "6"
-        },
-        {
-            id: 16,
-            title: "修理传动系统",
+            id: "825-287",
+            title: "使用绘图软件应用程序的基本功能",
             hours: "105",
             credits: "7"
         },
         {
-            id: 17,
-            title: "检查起动和充电系统以及电磁附件",
+            id: "825-297",
+            title: "制作建筑对象的图纸",
+            hours: "105",
+            credits: "7"
+        },
+        {
+            id: "825-308",
+            title: "为单户住宅制定建筑计划",
+            hours: "120",
+            credits: "8"
+        },
+        {
+            id: "825-315",
+            title: "使用绘图软件应用程序的高级功能",
             hours: "75",
             credits: "5"
         },
         {
-            id: 18,
-            title: "修理起动和充电系统以及电磁附件",
-            hours: "75",
-            credits: "5"
-        },
-        {
-            id: 19,
-            title: "检查发动机和乘员舱温度控制系统",
-            hours: "45",
-            credits: "3"
-        },
-        {
-            id: 20,
-            title: "维护和修理发动机和乘员舱温度控制系统",
-            hours: "45",
-            credits: "3"
-        },
-        {
-            id: 21,
-            title: "检查主动和被动安全系统",
-            hours: "45",
-            credits: "3"
-        },
-        {
-            id: 22,
-            title: "修理主动和被动安全系统",
+            id: "825-324",
+            title: "制作钢筋混凝土图纸",
             hours: "60",
             credits: "4"
         },
         {
-            id: 23,
-            title: "对机动车进行一般维护",
-            hours: "60",
-            credits: "4"
+            id: "825-332",
+            title: "记录施工现场数据",
+            hours: "30",
+            credits: "2"
         },
         {
-            id: 24,
-            title: "检查电子点火系统",
-            hours: "60",
-            credits: "4"
-        },
-        {
-            id: 25,
-            title: "修理电子点火系统",
-            hours: "60",
-            credits: "4"
-        },
-        {
-            id: 26,
-            title: "检查电子喷射和防污染系统",
-            hours: "60",
-            credits: "4"
-        },
-        {
-            id: 27,
-            title: "维护和修理电子喷射和防污染系统",
-            hours: "75",
-            credits: "5"
-        },
-        {
-            id: 28,
-            title: "进行求职",
-            hours: "15",
-            credits: "1"
-        },
-        {
-            id: 29,
-            title: "进入劳动市场",
+            id: "825-346",
+            title: "与管道相关的研究信息",
             hours: "90",
             credits: "6"
+        },
+        {
+            id: "825-356",
+            title: "制定管道计划",
+            hours: "90",
+            credits: "6"
+        },
+        {
+            id: "825-362",
+            title: "绘制墙体截面图和详图",
+            hours: "30",
+            credits: "2"
+        },
+        {
+            id: "825-372",
+            title: "估算材料和设备的数量",
+            hours: "30",
+            credits: "2"
+        },
+        {
+            id: "825-384",
+            title: "制作钢结构装配图纸",
+            hours: "60",
+            credits: "4"
+        },
+        {
+            id: "825-398",
+            title: "制作钢结构施工图",
+            hours: "120",
+            credits: "8"
+        },
+        {
+            id: "825-408",
+            title: "为多户住宅制定建筑计划",
+            hours: "120",
+            credits: "8"
+        },
+        {
+            id: "825-413",
+            title: "电力相关研究信息",
+            hours: "45",
+            credits: "3"
+        },
+        {
+            id: "825-423",
+            title: "制定电气计划",
+            hours: "45",
+            credits: "3"
+        },
+        {
+            id: "825-437",
+            title: "制作演示图",
+            hours: "105",
+            credits: "7"
+        },
+        {
+            id: "825-446",
+            title: "通气相关研究信息",
+            hours: "90",
+            credits: "6"
+        },
+        {
+            id: "825-457",
+            title: "制定通风计划",
+            hours: "105",
+            credits: "7"
+        },
+        {
+            id: "825-468",
+            title: "制定商业建筑计划",
+            hours: "120",
+            credits: "8"
         }
     ];
 
-    const accordionList1 = [
+    const accordionList = [
         [
             {
                 no: 'One',
                 expand: false,
                 heading: "如何满足课程的法语要求?",
-                body: "我们提供专业的法语前置课程, 帮助您快速提升法语能力, 达到课程要求的入学标准. 我们的法语课程由经验丰富的教师授课, 通过有针对性的训练, 您将在短时间内掌握专业汽修所需的法语技能"
+                body: "我们提供专业的法语前置课程, 帮助您快速提升法语能力, 达到课程要求的入学标准. 我们的法语课程由经验丰富的教师授课, 通过有针对性的训练, 您将在短时间内掌握专业制图所需的法语技能"
             },
             {
                 no: 'Three',
                 expand: false,
                 heading: "为什么要选择法语PEQ?",
-                body: "法语PEQ移民项目是一条快速、高效的移民途径, 申请条件相对宽松. 作为长期紧缺的技术型人才, 汽修专业的毕业生在PEQ移民申请中享有很大优势"
+                body: "法语PEQ移民项目是一条快速、高效的移民途径, 申请条件相对宽松. 作为长期紧缺技术型人才, 住宅与商业制图专业的毕业生在PEQ移民申请中享有很大优势"
             }
         ],
         [
@@ -323,7 +299,7 @@ const AutoMechanics: NextPage = () => {
                 no: 'Two',
                 expand: false,
                 heading: "课程的就业前景如何?",
-                body: "汽修行业是魁北克省乃至整个加拿大的紧缺行业, 随着汽车保有量的不断增长, 对汽修技师的需求也在不断增加. 通过我们的PEQ课程, 您将掌握全面的汽修技能, 成为备受企业青睐的高端技术人才"
+                body: "建筑行业是魁北克省乃至整个加拿大的支柱产业, 随着城市化进程的加快, 对建筑制图人才的需求也在不断增加. 通过我们的PEQ课程, 您将掌握全面的制图技能, 成为备受企业青睐的高端技术人才"
             },
             {
                 no: 'Four',
@@ -349,7 +325,7 @@ const AutoMechanics: NextPage = () => {
                         className="row gy-10 gx-lg-8 gx-xl-12 mb-14 mb-md-16 align-items-center justify-content-center">
                         <div className="col-md-10 col-lg-6 col-sm-12">
                             <figure className="rounded">
-                                <img className="w-auto" src="/img/PEQ/am2.jpg" alt="Photo"/>
+                                <img className="w-auto" src="/img/PEQ/rcd3.jpg" alt="Photo"/>
                             </figure>
                         </div>
 
@@ -464,7 +440,7 @@ const AutoMechanics: NextPage = () => {
 
                         <div className="accordion-wrapper" id="accordion">
                             <div className="row">
-                                {accordionList1.map((items, i) => {
+                                {accordionList.map((items, i) => {
                                     return (
                                         <div className="col-md-6" key={i}>
                                             {items.map((item) => (
@@ -496,4 +472,4 @@ export async function getStaticProps({locale}: { locale: string }) {
     };
 }
 
-export default AutoMechanics;
+export default Electricity;

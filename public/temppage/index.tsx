@@ -7,7 +7,7 @@ import { Footer9 } from 'components/blocks/footer';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { useTranslation} from 'next-i18next';
 
-const Teams: NextPage = () => {
+const TempPage: NextPage = () => {
     const { t: navt } = useTranslation('nav');
     const { t: footert } = useTranslation('footer');
 
@@ -40,4 +40,4 @@ export async function getStaticProps({locale}: { locale: string }) {
     };
 }
 
-export default Teams;
+export default TempPage;

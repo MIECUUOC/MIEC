@@ -12,7 +12,7 @@ import IconBox from "../../../../src/components/reuseable/IconBox";
 import CountUp from "react-countup";
 // import ContactForms from "../../../../src/components/otherBlocks/ContactForms";
 
-const Teams: NextPage = () => {
+const RCDPage: NextPage = () => {
     const {t: navt} = useTranslation('nav');
     const {t: footert} = useTranslation('footer');
     // const {t: contactformst} = useTranslation('contactForms')
@@ -472,4 +472,4 @@ export async function getStaticProps({locale}: { locale: string }) {
     };
 }
 
-export default Teams;
+export default RCDPage;
