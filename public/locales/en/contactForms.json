@@ -1,0 +1,21 @@
+{
+  "title1": "Contact Us",
+  "title2": "Get in Touch for Any Query",
+  "title3": "We're Here to Help",
+  "title4": "Our team is dedicated to providing you with all the assistance you need. We look forward to being in touch with you and hope to be a strong support in your journey towards success.",
+  "button": "Send Message",
+  "form01": "Name",
+  "form02": "Please enter your name",
+  "form03": "Name is required",
+  "form04": "Phone",
+  "form05": "Please enter your phone number",
+  "form06": "Phone number is required",
+  "form07": "Email",
+  "form08": "Please enter your email",
+  "form09": "Email is required",
+  "form10": "Details",
+  "form11": "Please enter your questions or concerns",
+  "form12": "Details are required",
+  "result1": "Sending...",
+  "result2": "Sent successfully, we will contact you as soon as possible."
+}

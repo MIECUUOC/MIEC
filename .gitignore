@@ -36,3 +36,4 @@ yarn-error.log*
 
 tools/node_modules
 tools/output
+.idea/.name

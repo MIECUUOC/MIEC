@@ -10,12 +10,15 @@ import Accordion from "../../../../src/components/reuseable/accordion";
 import {Fragment} from "react";
 import IconBox from "../../../../src/components/reuseable/IconBox";
 import CountUp from "react-countup";
-// import ContactForms from "../../../../src/components/otherBlocks/ContactForms";
+import ContactForms from "../../../../src/components/otherBlocks/ContactForms";
 
-const RCDPage: NextPage = () => {
+
+const ResidentialCommercialDraftingPage: NextPage = () => {
     const {t: navt} = useTranslation('nav');
     const {t: footert} = useTranslation('footer');
-    // const {t: contactformst} = useTranslation('contactForms')
+    const {t: contactformst} = useTranslation('contactForms')
+
+    const currentPage = "Residential-Commercial-Drafting - 住宅与商业制图专业"
 
     const contentList = {
         title1: "MIEC - PEQ",
@@ -453,7 +456,7 @@ const RCDPage: NextPage = () => {
                         </div>
                     </div>
 
-                    {/*<ContactForms t={contactformst} />*/}
+                    {/*<ContactForms t={contactformst} pageInfo={{p: currentPage}}/>*/}
 
                 </RoundContainer>
             </main>
@@ -472,4 +475,4 @@ export async function getStaticProps({locale}: { locale: string }) {
     };
 }
 
-export default RCDPage;
+export default ResidentialCommercialDraftingPage;

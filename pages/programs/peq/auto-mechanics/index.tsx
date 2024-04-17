@@ -10,12 +10,14 @@ import Accordion from "../../../../src/components/reuseable/accordion";
 import {Fragment} from "react";
 import IconBox from "../../../../src/components/reuseable/IconBox";
 import CountUp from "react-countup";
-// import ContactForms from "../../../../src/components/otherBlocks/ContactForms";
+import ContactForms from "../../../../src/components/otherBlocks/ContactForms";
 
-const AutoMechanics: NextPage = () => {
+const AutoMechanicsPage: NextPage = () => {
     const {t: navt} = useTranslation('nav');
     const {t: footert} = useTranslation('footer');
-    // const {t: contactformst} = useTranslation('contactForms')
+    const {t: contactformst} = useTranslation('contactForms')
+
+    const currentPage = "Auto-Mechanics - 汽车修理专业"
 
     const contentList = {
         title1: "MIEC - PEQ",
@@ -477,7 +479,7 @@ const AutoMechanics: NextPage = () => {
                         </div>
                     </div>
 
-                    {/*<ContactForms t={contactformst} />*/}
+                    {/*<ContactForms t={contactformst} pageInfo={{p: currentPage}} />*/}
 
                 </RoundContainer>
             </main>
@@ -496,4 +498,4 @@ export async function getStaticProps({locale}: { locale: string }) {
     };
 }
 
-export default AutoMechanics;
+export default AutoMechanicsPage;

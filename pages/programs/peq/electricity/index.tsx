@@ -10,12 +10,14 @@ import Accordion from "../../../../src/components/reuseable/accordion";
 import {Fragment} from "react";
 import IconBox from "../../../../src/components/reuseable/IconBox";
 import CountUp from "react-countup";
-// import ContactForms from "../../../../src/components/otherBlocks/ContactForms";
+import ContactForms from "../../../../src/components/otherBlocks/ContactForms";
 
-const Electricity: NextPage = () => {
+const ElectricityPage: NextPage = () => {
     const {t: navt} = useTranslation('nav');
     const {t: footert} = useTranslation('footer');
-    // const {t: contactformst} = useTranslation('contactForms')
+    const {t: contactformst} = useTranslation('contactForms')
+
+    const currentPage = "Electricity - 电气专业"
 
     const contentList = {
         title1: "MIEC - PEQ",
@@ -25,13 +27,13 @@ const Electricity: NextPage = () => {
         title5: "理论实践并重, 全面提升电气技能",
         title6: "电气专业人才, 前景无限广阔",
         title7: "专业师资团队, 助您成就梦想",
-        title8: "加入电气精英, 开启精彩人生",
+        title8: "电气精英, 开启精彩人生",
         title9: "系统化课程设计, 培养电气专业精英",
         title10: "我们的课程体系由电气行业资深专家精心设计, 涵盖了电气领域的各个方面. 从基础电路原理到先进的自动化控制, 从住宅电气安装到工业电力系统维护, 24个模块环环相扣, 循序渐进. 通过系统学习, 您将全面掌握电气专业技能, 成为一名出类拔萃的电气技术人员",
         title11: "电气专业技能, 开启璀璨人生",
         title12: "立即报名, 成就非凡电气人才",
-        title13: "常见问题解答",
-        title14: "如有任何疑问, 欢迎随时垂询"
+        title13: "问题解答",
+        title14: "疑问专区, 查看常见问题"
     }
 
     const accordions = [
@@ -447,7 +449,7 @@ const Electricity: NextPage = () => {
                         </div>
                     </div>
 
-                    {/*<ContactForms t={contactformst} />*/}
+                    {/*<ContactForms t={contactformst} pageInfo={{p: currentPage}} />*/}
 
                 </RoundContainer>
             </main>
@@ -466,4 +468,4 @@ export async function getStaticProps({locale}: { locale: string }) {
     };
 }
 
-export default Electricity;
+export default ElectricityPage;

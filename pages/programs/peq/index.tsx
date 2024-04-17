@@ -10,14 +10,18 @@ import {Fragment} from "react";
 import Link from "next/link";
 import Image from "next/image";
 import {useRouter} from "next/router";
+import ContactForms from "../../../src/components/otherBlocks/ContactForms";
 
 const PEQPage: NextPage = () => {
     // get current locale
     const router = useRouter();
     const {locale} = router;
 
+    const currentPage = "PEQ - 魁北克经验类移民项目"
+
     const {t: navt} = useTranslation('nav');
     const {t: footert} = useTranslation('footer');
+    const {t: contactformst} = useTranslation('contactForms')
 
     const peqContents = {
         iconTitle: "MIEC旗下拥有多家职业学院, 让您的移民之旅一路通畅",
@@ -308,7 +312,7 @@ const PEQPage: NextPage = () => {
                         </div>
                     </Fragment>
 
-                    <div className="container py-4 py-md-5">
+                    <div id="programs-list" className="container py-4 py-md-5 mb-10">
                         <div className="row mb-8 text-center">
                             <div className="col-lg-9 col-xl-8 col-xxl-7 mx-auto">
                                 <h2 className="fs-16 text-uppercase text-primary mb-3">提供专业</h2>
@@ -345,6 +349,8 @@ const PEQPage: NextPage = () => {
                             </div>
                         </div>
                     </div>
+
+                    {/*<ContactForms t={contactformst} pageInfo={{p: currentPage}} />*/}
                 </RoundContainer>
             </main>
             <Footer9 t={footert}/>
@@ -356,7 +362,7 @@ export async function getStaticProps({locale}: { locale: string }) {
     console.log(`Current locale: ${locale}`);
     return {
         props: {
-            ...(await serverSideTranslations(locale, ['common', 'nav', 'footer']))
+            ...(await serverSideTranslations(locale, ['common', 'nav', 'contactForms', 'footer']))
             // Will be passed to the page component as props
         }
     };

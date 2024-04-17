@@ -8,11 +8,15 @@ import {serverSideTranslations} from 'next-i18next/serverSideTranslations';
 import {useTranslation} from 'next-i18next';
 import Accordion from "../../../src/components/reuseable/accordion";
 import {Fragment} from "react";
+import ContactForms from "../../../src/components/otherBlocks/ContactForms";
 
 const UniversityPathway: NextPage = () => {
     const {t: navt} = useTranslation('nav');
     const {t: footert} = useTranslation('footer');
     const {t: ossdt} = useTranslation('ossd')
+    const {t: contactformst} = useTranslation('contactForms')
+
+    const currentPage = "University-Pathway - 名校直通车"
 
     const upTitle = {
         mainTitle: ossdt("upTitle.mainTitle"),
@@ -213,7 +217,7 @@ const UniversityPathway: NextPage = () => {
                         </div>
                     </div>
 
-                    <Fragment>
+                    <div className="mb-10">
                         <h2 className="fs-15 text-uppercase text-muted mb-3 text-center mt-16">{questions.contentTitle}</h2>
                         <h3 className="display-4 mb-10 px-lg-12 px-xl-15 text-center">
                             {questions.mainTitle}
@@ -255,7 +259,10 @@ const UniversityPathway: NextPage = () => {
                                 })}
                             </div>
                         </div>
-                    </Fragment>
+                    </div>
+
+                    {/*<ContactForms t={contactformst} pageInfo={{p: currentPage}} />*/}
+
                 </RoundContainer>
             </main>
             <Footer9 t={footert}/>
@@ -267,7 +274,7 @@ export async function getStaticProps({locale}: { locale: string }) {
     console.log(`Current locale: ${locale}`);
     return {
         props: {
-            ...(await serverSideTranslations(locale, ['common', 'nav', 'ossd', 'footer']))
+            ...(await serverSideTranslations(locale, ['common', 'nav', 'contactForms', 'ossd', 'footer']))
             // Will be passed to the page component as props
         }
     };
