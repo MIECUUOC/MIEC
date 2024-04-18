@@ -1,5 +1,4 @@
 // noinspection DuplicatedCode
-
 import {TFunction} from 'next-i18next';
 import {FC, FormEvent, useState} from 'react';
 import Email from "../../icons/lineal/Email";

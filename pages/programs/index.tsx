@@ -28,7 +28,7 @@ const ProgramsPage: NextPage = () => {
             projectName: programst('programs.0.name'),
             projectType: programst('programs.0.type'),
             url: '/programs/peq',
-            image: {'1x': '/img/MIEC/project/PEQ.png', '2x': '/img/MIEC/project/PEQ@2x.png'}
+            image: '/img/MIEC/project/PEQ.jpg'
         },
         // {
         //     id: 2,
@@ -49,7 +49,7 @@ const ProgramsPage: NextPage = () => {
             projectName: programst('programs.1.name'),
             projectType: programst('programs.1.type'),
             url: `/${locale}/programs/university-pathway`,
-            image: {'1x': '/img/MIEC/project/uoc.png', '2x': '/img/MIEC/project/uoc@2x.png'}
+            image: '/img/MIEC/project/uoc.jpg'
         }
     ];
 
@@ -74,7 +74,7 @@ const ProgramsPage: NextPage = () => {
                             {projectList.map((item, index) => (
                                 <a href={item.url} key={index} className={styles.programsItems}>
                                     <div className={styles.itemsImage}>
-                                        <img src={projectList[index].image["2x"]} alt="Image"/>
+                                        <img src={item.image} alt="Image"/>
                                     </div>
                                     <div className={styles.itemsContent}>
                                         <h2>{programst(`projectList.${index}.projectName`)}</h2>

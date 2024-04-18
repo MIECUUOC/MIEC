@@ -479,7 +479,7 @@ const AutoMechanicsPage: NextPage = () => {
                         </div>
                     </div>
 
-                    {/*<ContactForms t={contactformst} pageInfo={{p: currentPage}} />*/}
+                    <ContactForms t={contactformst} pageInfo={{p: currentPage}} />
 
                 </RoundContainer>
             </main>

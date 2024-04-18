@@ -125,3 +125,22 @@
   width: 400px;
   content: "Use Type";
 }
+
+.otherBlogContent {
+  color: #00a6df;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-bottom: 1.45rem;
+  text-align: center;
+  background-repeat: no-repeat;
+  backdrop-filter: revert;
+  background-position: left;
+  top: 0;
+  left: 0;
+  position: absolute;
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap-reverse;
+  backface-visibility: hidden;
+  
+}

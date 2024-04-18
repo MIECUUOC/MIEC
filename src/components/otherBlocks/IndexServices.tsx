@@ -52,19 +52,19 @@ const IndexServices: FC<ServiceProps> = ({ t }) => {
             no: "bs1",
             url: "/programs/peq",
             button: t("buttonsList.0.button"),
-            image: "/img/MIEC/project/PEQ@2x.png"
+            image: "/img/MIEC/project/PEQ.jpg"
         },
         {
             no: "bs2",
             url: `/${locale}/programs/university-pathway`,
             button: t("buttonsList.1.button"),
-            image: "/img/MIEC/project/uoc@2x.png"
+            image: "/img/MIEC/project/uoc.jpg"
         },
         {
             no: "bs3",
             url: `/${locale}/programs`,
             button: t("buttonsList.2.button"),
-            image: "/img/MIEC/project/Canada5.png"
+            image: "/img/MIEC/project/Canada.jpg"
         }
     ]
 
@@ -81,7 +81,7 @@ const IndexServices: FC<ServiceProps> = ({ t }) => {
                 <div className="row gx-lg-8 gx-xl-12 gy-10 mb-6 mb-md-9 align-items-center">
                     <div className="col-lg-7">
                         <figure>
-                            <img className="w-auto" src="/img/SchoolList2.png" alt=""/>
+                            <img className="w-auto" src="/img/SchoolList2-min.png" alt="Logo"/>
                         </figure>
                     </div>
 
