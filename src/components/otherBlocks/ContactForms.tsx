@@ -1,4 +1,6 @@
 // noinspection DuplicatedCode
+// noinspection DuplicatedCode
+
 import {TFunction} from 'next-i18next';
 import {FC, FormEvent, useState} from 'react';
 import Email from "../../icons/lineal/Email";
@@ -62,7 +64,7 @@ const ContactForms: FC<ServiceProps> = ({t, pageInfo}) => {
 
         const formData = new FormData(event.currentTarget);
         // https://web3forms.com/
-        formData.append('access_key', 'f1685fdf-940b-4641-9e19-87339b53c225');
+        formData.append('access_key', '9ada1b14-c76d-4a01-9d72-dc7e0a301ce3');
 
         const response = await fetch('https://api.web3forms.com/submit', {
             method: 'POST',

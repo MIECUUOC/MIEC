@@ -7,7 +7,6 @@ import {Footer9} from 'components/blocks/footer';
 import {serverSideTranslations} from 'next-i18next/serverSideTranslations';
 import {useTranslation} from 'next-i18next';
 import Accordion from "../../../src/components/reuseable/accordion";
-import {Fragment} from "react";
 import ContactForms from "../../../src/components/otherBlocks/ContactForms";
 
 const UniversityPathway: NextPage = () => {
@@ -198,14 +197,16 @@ const UniversityPathway: NextPage = () => {
                     </div>
 
                     <div className="row gx-0 align-items-center">
-
-                        <img className="col-lg-6 image-wrapper bg-image object-fit-cover rounded-4 d-none d-md-block" src="/img/MIEC/programs/school4.jpg" alt=""/>
+                        <a className="col-lg-6" href="https://www.mcgill.ca/continuingstudies/community/scs-our-partners" target="_blank">
+                            <img className="image-wrapper bg-image object-fit-cover rounded-4 w-100"
+                                 src="/img/MIEC/programs/school6.jpg" alt=""/>
+                        </a>
 
                         <div className="col-lg-6">
-                            <div className="p-10 p-md-11 p-lg-13">
-                                <h2 className="display-4 mb-3">{upTitle.schoolName}</h2>
+                            <div className="p-4 p-md-6 p-lg-10">
+                            <h2 className="display-4 mb-3">{upTitle.schoolName}</h2>
 
-                                <p className="lead fs-lg">
+                                <p className="fs-lg">
                                     {upTitle.mapTitle}
                                 </p>
 
@@ -261,7 +262,7 @@ const UniversityPathway: NextPage = () => {
                         </div>
                     </div>
 
-                    {/*<ContactForms t={contactformst} pageInfo={{p: currentPage}} />*/}
+                    <ContactForms t={contactformst} pageInfo={{p: currentPage}}/>
 
                 </RoundContainer>
             </main>

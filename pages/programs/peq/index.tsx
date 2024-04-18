@@ -350,7 +350,7 @@ const PEQPage: NextPage = () => {
                         </div>
                     </div>
 
-                    {/*<ContactForms t={contactformst} pageInfo={{p: currentPage}} />*/}
+                    <ContactForms t={contactformst} pageInfo={{p: currentPage}} />
                 </RoundContainer>
             </main>
             <Footer9 t={footert}/>
