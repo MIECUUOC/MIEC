@@ -25,7 +25,16 @@ const UniversityPathway: NextPage = () => {
         mapTitle: ossdt("upTitle.mapTitle"),
         mapBody: ossdt("upTitle.mapBody"),
         mapButton: ossdt("upTitle.mapButton"),
-        schoolName: ossdt("upTitle.schoolName")
+        schoolName: ossdt("upTitle.schoolName"),
+        m1School1: "麦吉尔大学",
+        m1School2: "麦吉尔大学是顶尖的大学之一, 在世界大学排名中位列第31位",
+        m1School3: "作为加拿大历史最悠久的大学, 麦吉尔大学以其卓越的教学质量和研究成就而闻名于世. 麦吉尔大学致力于培养具有全球视野、创新精神和社会责任感的领导者. 通过我们的多伦多联合中学的合作, 为未来的大学学习和职业发展奠定坚实的基础",
+        m2School1: "多伦多大学",
+        m2School2: "多伦多大学是加拿大最大的研究型大学, 世界大学排名中位列第26位",
+        m2School3: "作为一所世界级的顶尖学府, 多伦多大学以其广泛的学科设置和尖端的研究成果而享誉全球, 多伦多大学注重培养学生的创新能力和全球公民意识. 通过与多伦多联合中学的合作, 为今后的大学学习和个人发展打下坚实的基础",
+        m3School1: "蒙特利尔高等商学院",
+        m3School2: "蒙特利尔高等商学院是加拿大顶尖的商学院之一, 在世界大学商学院排名中位列第79位",
+        m3School3: "作为北美地区第一所获得三重认证（AACSB、EQUIS和AMBA）的商学院, HEC Montréal以其创新的教学模式和卓越的研究成就而闻名于世, 学院致力于培养具有全球视野、创业精神和社会责任感的商界领袖"
     }
 
     const accordions = [
@@ -170,7 +179,7 @@ const UniversityPathway: NextPage = () => {
                         </div>
                     </div>
 
-                    <div className="row gx-md-8 gx-xl-12 gy-10 mt16">
+                    <div className="row gx-md-8 gx-xl-12 gy-10">
                         {forStudents.map((item) => (
                             <div className="col-lg-6" key={item.id}>
                                 <div className="d-flex flex-row">
@@ -196,15 +205,16 @@ const UniversityPathway: NextPage = () => {
                         </div>
                     </div>
 
-                    <div className="row gx-0 align-items-center">
-                        <a className="col-lg-6" href="https://www.mcgill.ca/continuingstudies/community/scs-our-partners" target="_blank">
+                    <div className="row gx-0 align-items-center mb-14">
+                        <a className="col-lg-6 px-4"
+                           href="https://www.mcgill.ca/continuingstudies/community/scs-our-partners" target="_blank">
                             <img className="image-wrapper bg-image object-fit-cover rounded-4 w-100"
-                                 src="/img/MIEC/programs/school6.jpg" alt=""/>
+                                 src="/img/MIEC/programs/school6.jpg" alt="Photo"/>
                         </a>
 
-                        <div className="col-lg-6">
-                            <div className="p-4 p-md-6 p-lg-10">
-                            <h2 className="display-4 mb-3">{upTitle.schoolName}</h2>
+                        <div className="col-lg-6 px-2 mt-sm-4">
+                            <div>
+                                <h2 className="display-4 mb-3">{upTitle.schoolName}</h2>
 
                                 <p className="fs-lg">
                                     {upTitle.mapTitle}
@@ -216,6 +226,77 @@ const UniversityPathway: NextPage = () => {
 
                             </div>
                         </div>
+                    </div>
+
+                    <div className="row gx-0 align-items-center flex-column-reverse flex-lg-row mb-14">
+
+                        <div className="col-lg-6 px-2 mt-sm-4">
+                            <div>
+                                <h2 className="display-4 mb-3">{upTitle.m1School1}</h2>
+
+                                <p className="fs-lg">
+                                    {upTitle.m1School2}
+                                </p>
+
+                                <p>
+                                    {upTitle.m1School3}
+                                </p>
+
+                            </div>
+                        </div>
+
+                        <a className="col-lg-6 px-4"
+                           href="https://www.mcgill.ca/" target="_blank">
+                            <img className="image-wrapper bg-image object-fit-cover rounded-4 w-100"
+                                 src="/img/MIEC/programs/ss3.jpg" alt="Photo"/>
+                        </a>
+                    </div>
+
+                    <div className="row gx-0 align-items-center mb-14">
+                        <a className="col-lg-6 px-4"
+                           href="https://www.utoronto.ca/" target="_blank">
+                            <img className="image-wrapper bg-image object-fit-cover rounded-4 w-100"
+                                 src="/img/MIEC/programs/ss2-min.jpg" alt="Photo"/>
+                        </a>
+
+                        <div className="col-lg-6 px-2 mt-sm-4">
+                            <div>
+                                <h2 className="display-4 mb-3">{upTitle.m2School1}</h2>
+
+                                <p className="fs-lg">
+                                    {upTitle.m2School2}
+                                </p>
+
+                                <p>
+                                    {upTitle.m2School3}
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="row gx-0 align-items-center flex-column-reverse flex-lg-row mb-18">
+
+                        <div className="col-lg-6 px-2 mt-sm-4">
+                            <div>
+                                <h2 className="display-4 mb-3">{upTitle.m3School1}</h2>
+
+                                <p className="fs-lg">
+                                    {upTitle.m3School2}
+                                </p>
+
+                                <p>
+                                    {upTitle.m3School3}
+                                </p>
+
+                            </div>
+                        </div>
+
+                        <a className="col-lg-6 px-4"
+                           href="https://www.hec.ca/" target="_blank">
+                            <img className="image-wrapper bg-image object-fit-cover rounded-4 w-100"
+                                 src="/img/MIEC/programs/ss1.jpg" alt="Photo"/>
+                        </a>
                     </div>
 
                     <div className="mb-10">
