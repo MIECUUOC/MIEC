@@ -212,7 +212,7 @@ const UniversityPathway: NextPage = () => {
                                  src="/img/MIEC/programs/school6.jpg" alt="Photo"/>
                         </a>
 
-                        <div className="col-lg-6 px-2 mt-sm-4">
+                        <div className="col-lg-6 px-2 mt-lg-0 mt-md-0 pt-4">
                             <div>
                                 <h2 className="display-4 mb-3">{upTitle.schoolName}</h2>
 
@@ -230,7 +230,7 @@ const UniversityPathway: NextPage = () => {
 
                     <div className="row gx-0 align-items-center flex-column-reverse flex-lg-row mb-14">
 
-                        <div className="col-lg-6 px-2 mt-sm-4">
+                        <div className="col-lg-6 px-2 mt-lg-0 mt-md-0 pt-4">
                             <div>
                                 <h2 className="display-4 mb-3">{upTitle.m1School1}</h2>
 
@@ -259,7 +259,7 @@ const UniversityPathway: NextPage = () => {
                                  src="/img/MIEC/programs/ss2-min.jpg" alt="Photo"/>
                         </a>
 
-                        <div className="col-lg-6 px-2 mt-sm-4">
+                        <div className="col-lg-6 px-2 mt-lg-0 mt-md-0 pt-4">
                             <div>
                                 <h2 className="display-4 mb-3">{upTitle.m2School1}</h2>
 
@@ -277,7 +277,7 @@ const UniversityPathway: NextPage = () => {
 
                     <div className="row gx-0 align-items-center flex-column-reverse flex-lg-row mb-18">
 
-                        <div className="col-lg-6 px-2 mt-sm-4">
+                        <div className="col-lg-6 px-2 mt-lg-0 mt-md-0 pt-4">
                             <div>
                                 <h2 className="display-4 mb-3">{upTitle.m3School1}</h2>
 
