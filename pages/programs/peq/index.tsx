@@ -116,18 +116,18 @@ const PEQPage: NextPage = () => {
             url: `/${locale}/programs/peq/western-cuisine-pastry`
         },
         {
+            id: "pl08",
+            no: "5195",
+            img: "/img/programs/pl-hj.jpg",
+            name: "焊接与装配",
+            url: `/${locale}/programs/peq/welding-fitting`
+        },
+        {
             id: "pl09",
             no: "5225",
             img: "/img/programs/pl-gysj.jpg",
             name: "工业设计",
             url: `/${locale}/programs/peq/industrial-design`
-        },
-        {
-            id: "pl02",
-            no: "5858",
-            img: "/img/programs/pl-hl.jpg",
-            name: "家庭护理",
-            url: `/${locale}/programs/peq/home-care`
         },
         {
             id: "pl10",
@@ -137,33 +137,33 @@ const PEQPage: NextPage = () => {
             url: `/${locale}/programs/peq/architectural-design`
         },
         {
-            id: "pl06",
-            no: "5319",
-            img: "/img/programs/pl-mg.jpg",
-            name: "木工技术",
-            url: `/${locale}/programs/peq/carpentry`
-        },
-        {
             id: "pl11",
             no: "5857",
             img: "/img/programs/pl-wm.jpg",
             name: "文秘专业",
             url: `/${locale}/programs/peq/secretarial`
-        },
-        {
-            id: "pl07",
-            no: "5333",
-            img: "/img/programs/pl-gn.jpg",
-            name: "管道和供暖",
-            url: `/${locale}/programs/peq/plumbing-heating`
-        },
-        {
-            id: "pl08",
-            no: "5195",
-            img: "/img/programs/pl-hj.jpg",
-            name: "焊接与装配",
-            url: `/${locale}/programs/peq/welding-fitting`
         }
+        // {
+        //     id: "pl02",
+        //     no: "5858",
+        //     img: "/img/programs/pl-hl.jpg",
+        //     name: "家庭护理",
+        //     url: `/${locale}/programs/peq/home-care`
+        // },
+        // {
+        //     id: "pl06",
+        //     no: "5319",
+        //     img: "/img/programs/pl-mg.jpg",
+        //     name: "木工技术",
+        //     url: `/${locale}/programs/peq/carpentry`
+        // },
+        // {
+        //     id: "pl07",
+        //     no: "5333",
+        //     img: "/img/programs/pl-gn.jpg",
+        //     name: "管道和供暖",
+        //     url: `/${locale}/programs/peq/plumbing-heating`
+        // },
     ]
 
     const accordions = [

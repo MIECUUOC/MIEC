@@ -1,0 +1,27 @@
+.ossd-title {
+  font-size: 1.75rem;
+  font-family: "IBM Plex Serif", serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+.ossd-second-title {
+  font-size: 1.15rem;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: normal;
+  text-align: center;
+}
+
+.ossd-subtitle {
+  font-size: 0.85rem;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: normal;
+}
+
+.ossd-text {
+  font-size: 0.85rem;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: normal;
+}
+
+/*# sourceMappingURL=ossd.css.map */
