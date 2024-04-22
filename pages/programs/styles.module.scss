@@ -37,12 +37,12 @@
   }
 
   .programsItems {
-    width: 380px;
+    width: 460px;
     height: 360px;
   }
 }
 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 1235px) {
   .programsItems {
     margin: 0.5rem 0.5rem 0.5rem 0.5rem;
   }
@@ -50,6 +50,64 @@
   .programsItems {
     width: 380px;
     height: 360px;
+  }
+}
+
+@media screen and (max-width: 1205px) {
+  .programsItems {
+    margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+  }
+
+  .programsItems {
+    width: 520px;
+    height: 460px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .programsItems {
+    margin: 0.6rem;
+  }
+
+  .programsItems {
+    width: 380px;
+    height: 360px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .programsItems {
+    margin: 0.6rem;
+  }
+
+  .programsItems{
+    width: 280px;
+    height: 260px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .programsItems{
+    margin: 0.1rem;
+  }
+
+  .programsItems {
+    width: 240px;
+    height: 220px;
+  }
+}
+
+@media screen and (max-width: 260px) {
+  .programsItems {
+    width: 200px;
+    height: 180px;
+  }
+}
+
+@media screen and (max-width: 220px) {
+  .programsItems {
+    width: 160px;
+    height: 140px;
   }
 }
 
@@ -142,5 +200,4 @@
   flex-flow: row;
   flex-wrap: wrap-reverse;
   backface-visibility: hidden;
-  
 }
