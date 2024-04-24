@@ -11,6 +11,7 @@ import Link from "next/link";
 import Image from "next/image";
 import {useRouter} from "next/router";
 import ContactForms from "../../../src/components/otherBlocks/ContactForms";
+import Accordion from "../../../src/components/reuseable/accordion";
 
 const PEQPage: NextPage = () => {
     // get current locale
@@ -116,11 +117,11 @@ const PEQPage: NextPage = () => {
             url: `/${locale}/programs/peq/western-cuisine-pastry`
         },
         {
-            id: "pl10",
-            no: "5250",
-            img: "/img/programs/pl-jzsj.jpg",
-            name: "建筑设计",
-            url: `/${locale}/programs/peq/architectural-design`
+            id: "pl11",
+            no: "5857",
+            img: "/img/programs/pl-wm.jpg",
+            name: "文秘专业",
+            url: `/${locale}/programs/peq/secretarial`
         },
         {
             id: "pl08",
@@ -130,18 +131,18 @@ const PEQPage: NextPage = () => {
             url: `/${locale}/programs/peq/welding-fitting`
         },
         {
+            id: "pl10",
+            no: "5250",
+            img: "/img/programs/pl-jzsj.jpg",
+            name: "建筑设计",
+            url: `/${locale}/programs/peq/architectural-design`
+        },
+        {
             id: "pl09",
             no: "5225",
             img: "/img/programs/pl-gysj.jpg",
             name: "工业设计",
             url: `/${locale}/programs/peq/industrial-design`
-        },
-        {
-            id: "pl11",
-            no: "5857",
-            img: "/img/programs/pl-wm.jpg",
-            name: "文秘专业",
-            url: `/${locale}/programs/peq/secretarial`
         }
         // {
         //     id: "pl02",
@@ -194,7 +195,9 @@ const PEQPage: NextPage = () => {
         title4: "我们旗下拥有多所魁北克省顶尖大专院校, 我们可以为申请人提供最为优质的学习和工作机会, 帮助申请人满足PEQ项目的申请条件. 而且相比于其他机构, 我们旗下院校的学费更低, 且毕业速度更快, 让您的移民之路快人一步.",
         title5: "我们定制的PEQ项目是最快最安全的移民通道",
         title6: "我们提供最优质法语培训, 助您快速满足PEQ条件",
-        title7: "我们有最专业的律师团队解决问题, 助您移民成功"
+        title7: "我们有最专业的律师团队解决问题, 助您移民成功",
+        title8: "常见问题",
+        title9: "如果您还有其他问题, 请联系我们"
     }
 
     const processList2 = [
@@ -233,6 +236,18 @@ const PEQPage: NextPage = () => {
                 expand: false,
                 heading: "我要参加法语考试? 我的法语不够好怎么办?",
                 body: "PEQ项目对申请人有一定的法语能力要求. 如果您的法语水平不足, 我们建议您参加我们的法语强化课程, 帮助您在短时间内达到所需的语言水平. 我们的学校由经验丰富的教师授课, 为申请人提高其法语能力"
+            },
+            {
+                no: 'Five',
+                expand: false,
+                heading: "申请PEQ项目对学历有什么要求?",
+                body: "PEQ项目要求申请人必须拥有魁北克省教育机构颁发的文凭或学位证书, 如职业技术文凭(DEP)、大专(DEC)、本科学位、研究生等. 对于法语学位或文凭的申请人, 无需满足任何工作经验的要求即可递交申请"
+            },
+            {
+                no: 'Six',
+                expand: false,
+                heading: "我是法语毕业生, 是否要提供语言成绩?",
+                body: "对于完全由法语授课的全日制学习项目的毕业生, 在申请PEQ项目时无需提供语言成绩证明, 您的法语能力通过已完成的纯法语教育来证明. 我们建议您参加我们的法语强化课程, 以进一步提高语言能力和成绩"
             }
         ],
         [
@@ -247,6 +262,18 @@ const PEQPage: NextPage = () => {
                 expand: false,
                 heading: "获得永居身份后, 我是否必须留在魁北克工作?",
                 body: "通过PEQ项目获得永居身份后, 您可以选择在魁北克省内工作, 也可以在加拿大的其他省份工作. 但我们会建议您可以先在魁北克工作一段时间, 积累工作经验, 这对您未来在加拿大的职业发展会有很大帮助"
+            },
+            {
+                no: 'Seven',
+                expand: false,
+                heading: "获得永居身份后, 我的家人是否可以随行?",
+                body: "通过PEQ项目获得永居身份后, 您可以为您的配偶和子女申请随行移民. 符合条件的家属可获得申请人相同的永居身份, 子女可在加拿大接受免费的公立教育. 我们专业的顾问可为您的家属申请提供无忧服务"
+            },
+            {
+                no: 'Eight',
+                expand: false,
+                heading: "获得永居身份后, 我是否可申请加拿大国籍?",
+                body: "通过PEQ项目获得永居身份后, 您可以在满足一定居住要求的情况下申请加拿大国籍. 成为加拿大公民, 您享有加拿大工作、生活、投票等全部权利, 并持有加拿大护照. 我们可为您提供申请国籍的专业指导"
             }
         ]
     ];
@@ -384,7 +411,28 @@ const PEQPage: NextPage = () => {
                         </div>
                     </div>
 
-                    <ContactForms t={contactformst} pageInfo={{p: currentPage}} />
+                    <div className="mt-18 mb-6">
+                        <h2 className="fs-15 text-uppercase text-muted mb-3 text-center">{mainContent.title8}</h2>
+                        <h3 className="display-4 mb-10 px-lg-12 px-xl-15 text-center">
+                            {mainContent.title9}
+                        </h3>
+
+                        <div className="accordion-wrapper" id="accordion">
+                            <div className="row">
+                                {accordionList.map((items, i) => {
+                                    return (
+                                        <div className="col-md-6" key={i}>
+                                            {items.map((item) => (
+                                                <Accordion key={item.no} {...item} />
+                                            ))}
+                                        </div>
+                                    );
+                                })}
+                            </div>
+                        </div>
+                    </div>
+
+                    <ContactForms t={contactformst} pageInfo={{p: currentPage}}/>
                 </RoundContainer>
             </main>
             <Footer9 t={footert}/>
