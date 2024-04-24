@@ -116,6 +116,13 @@ const PEQPage: NextPage = () => {
             url: `/${locale}/programs/peq/western-cuisine-pastry`
         },
         {
+            id: "pl10",
+            no: "5250",
+            img: "/img/programs/pl-jzsj.jpg",
+            name: "建筑设计",
+            url: `/${locale}/programs/peq/architectural-design`
+        },
+        {
             id: "pl08",
             no: "5195",
             img: "/img/programs/pl-hj.jpg",
@@ -128,13 +135,6 @@ const PEQPage: NextPage = () => {
             img: "/img/programs/pl-gysj.jpg",
             name: "工业设计",
             url: `/${locale}/programs/peq/industrial-design`
-        },
-        {
-            id: "pl10",
-            no: "5250",
-            img: "/img/programs/pl-jzsj.jpg",
-            name: "建筑设计",
-            url: `/${locale}/programs/peq/architectural-design`
         },
         {
             id: "pl11",
@@ -219,6 +219,40 @@ const PEQPage: NextPage = () => {
             subtitle: '2个月获得CSQ, 准备申请加拿大绿卡'
         },
     ];
+
+    const accordionList = [
+        [
+            {
+                no: 'One',
+                expand: false,
+                heading: "PEQ项目与其他移民项目相比有何优势?",
+                body: "PEQ项目是最安全快速的移民项目, 处理时间相对较短. 同时, 对于在魁北克获得文凭并有一定工作经验的申请人, 其条件相对宽松. 符合条件的申请人在我们的辅助下可以更容易地获得魁北克省的永久居留权"
+            },
+            {
+                no: 'Three',
+                expand: false,
+                heading: "我要参加法语考试? 我的法语不够好怎么办?",
+                body: "PEQ项目对申请人有一定的法语能力要求. 如果您的法语水平不足, 我们建议您参加我们的法语强化课程, 帮助您在短时间内达到所需的语言水平. 我们的学校由经验丰富的教师授课, 为申请人提高其法语能力"
+            }
+        ],
+        [
+            {
+                no: 'Two',
+                expand: false,
+                heading: "申请PEQ项目需要哪些材料? 需要多长时间?",
+                body: "PEQ项目需要提交的材料包括身份证明、学历证明、语言成绩证明等. 具体的材料清单会根据您的情况有所不同, 我们的专业顾问团队会为您提供全程的申请指导, 也会确保您的申请材料完整、准确, 更快通过"
+            },
+            {
+                no: 'Four',
+                expand: false,
+                heading: "获得永居身份后, 我是否必须留在魁北克工作?",
+                body: "通过PEQ项目获得永居身份后, 您可以选择在魁北克省内工作, 也可以在加拿大的其他省份工作. 但我们会建议您可以先在魁北克工作一段时间, 积累工作经验, 这对您未来在加拿大的职业发展会有很大帮助"
+            }
+        ]
+    ];
+
+    const classNameListType = "btn btn-primary btn-lg btn-block mb-3 " +
+        "d-flex justify-content-center align-items-center text-white text-center font-weight-bold font-size-lg font-size-md font-size-xsm font-size-sm";
 
     useLightBox();
     return (
