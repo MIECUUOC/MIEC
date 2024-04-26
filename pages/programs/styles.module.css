@@ -103,7 +103,8 @@
   border-radius: 10px;
 }
 .itemsImage img {
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   width: 100%;
   height: 100%;
 }
@@ -175,7 +176,8 @@
   margin-bottom: 1.45rem;
   text-align: center;
   background-repeat: no-repeat;
-  backdrop-filter: revert;
+  -webkit-backdrop-filter: revert;
+          backdrop-filter: revert;
   background-position: left;
   top: 0;
   left: 0;
@@ -184,6 +186,4 @@
   flex-flow: row;
   flex-wrap: wrap-reverse;
   backface-visibility: hidden;
-}
-
-/*# sourceMappingURL=styles.module.css.map */
+}/*# sourceMappingURL=styles.module.css.map */

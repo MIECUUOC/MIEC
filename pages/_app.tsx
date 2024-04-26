@@ -22,6 +22,9 @@ import 'plugins/scrollcue/scrollCue.css';
 // Bootstrap and custom scss
 import 'assets/scss/style.scss';
 
+// custom css by Gen
+import "./programs/peq/peq-style.css"
+
 // import 'components/MIEC/PdfReader.css';
 
 function MyApp({ Component, pageProps }: AppProps) {
