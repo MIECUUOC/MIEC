@@ -2,7 +2,6 @@ import { NextPage } from 'next';
 import {useEffect} from 'react';
 // -------- custom component -------- //
 import {useRouter} from "next/router";
-import router from 'next/router';
 
 const NotFound: NextPage = () => {
   const router = useRouter();

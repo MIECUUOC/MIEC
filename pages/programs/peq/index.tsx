@@ -197,31 +197,33 @@ const PEQPage: NextPage = () => {
         title6: "我们提供最优质法语培训, 助您快速满足PEQ条件",
         title7: "我们有最专业的律师团队解决问题, 助您移民成功",
         title8: "常见问题",
-        title9: "如果您还有其他问题, 请联系我们"
+        title9: "如果您还有其他问题, 请联系我们",
+        title10: "项目对比",
+        title11: "对比其他项目, 移民快人一步"
     }
 
-    const processList2 = [
-        {
-            no: '01',
-            title: '极速Offer',
-            subtitle: '自有学院, 48小时获得Offer'
-        },
-        {
-            no: '02',
-            title: '获批CAQ及学签',
-            subtitle: '获得CAQ及学签, 期间学习法语前置'
-        },
-        {
-            no: '03',
-            title: 'DEP职业培训',
-            subtitle: '职业培训及法语培训,获得毕业证'
-        },
-        {
-            no: '04',
-            title: '申请CSQ (魁北克永居)',
-            subtitle: '2个月获得CSQ, 准备申请加拿大绿卡'
-        },
-    ];
+    // const processList2 = [
+    //     {
+    //         no: '01',
+    //         title: '极速Offer',
+    //         subtitle: '自有学院, 48小时获得Offer'
+    //     },
+    //     {
+    //         no: '02',
+    //         title: '获批CAQ及学签',
+    //         subtitle: '获得CAQ及学签, 期间学习法语前置'
+    //     },
+    //     {
+    //         no: '03',
+    //         title: 'DEP职业培训',
+    //         subtitle: '职业培训及法语培训,获得毕业证'
+    //     },
+    //     {
+    //         no: '04',
+    //         title: '申请CSQ (魁北克永居)',
+    //         subtitle: '2个月获得CSQ, 准备申请加拿大绿卡'
+    //     },
+    // ];
 
     const accordionList = [
         [
@@ -411,10 +413,106 @@ const PEQPage: NextPage = () => {
                         </div>
                     </div>
 
+
+                    <div className="peq-section mt-18 mb-6">
+                        <h2 className="fs-15 text-uppercase text-muted mb-3 text-center">{mainContent.title10}</h2>
+                        <h3 className="display-4 mb-10 px-lg-12 px-xl-15 text-center">
+                            {mainContent.title11}
+                        </h3>
+                        <div className="peq-cards">
+
+                            <div className="peq-card">
+                                <div className="peq-image">
+                                    <img src="/img/PEQ/gzdb.jpg" alt="photo-d"/>
+                                    <div className="peq-title">
+                                        <h3>雇主担保项目移民</h3>
+                                    </div>
+                                </div>
+
+                                <div className="peq-content">
+                                    <ul>
+                                        <li>雇主招聘: 雇主需发布3个月以上广告</li>
+                                        <li>雇主申请: 证明无法本地招聘约3个月</li>
+                                        <li>政府批准: 加拿大政府审批, 约4个月</li>
+                                        <li>工签申请: 申请人获得资格申请, 约3个月</li>
+                                        <li>工签获批: 提供体检等材料, 约2个月</li>
+                                        <li>加国永居: 提交申请, 大约12个月或以上</li>
+                                        <li>总共耗时: 40个月或更长时间拿下移民资格</li>
+                                    </ul>
+                                </div>
+
+                                <div className="peq-body">
+                                    <p>雇主担保项目移民是漫长且复杂的过程, 通常需要40个月或更长时间才能拿下移民资格.
+                                        申请人不仅需要等待雇主招聘和政府审批, 还需满足全职工作一年以上等条件,
+                                        而且也面临诸多不确定性风险, 比如雇主方面和政府方面. 申请人还需达到语言和学历要求,
+                                        进一步增加了申请难度</p>
+                                </div>
+                            </div>
+
+
+                            <div className="peq-card">
+                                <div className="peq-image">
+                                    <img src="/img/PEQ/peqxm.jpg" alt="photo-d"/>
+                                    <div className="peq-title">
+                                        <h3>PEQ项目移民</h3>
+                                    </div>
+                                </div>
+
+                                <div className="peq-content">
+                                    <ul>
+                                        <li>自有学院: 48小时急速获得OFFER</li>
+                                        <li>入学准备: 进入我们的法语课程学习</li>
+                                        <li>学签批准: 4个月左右获得学生签证</li>
+                                        <li>专业学习: 14-18个月的全日制课程</li>
+                                        <li>魁省永居: 约6个月左右CSQ申请通过</li>
+                                        <li>加国永居: 10-12个月PR永居申请通过</li>
+                                        <li>总共耗时: 40个月内成功拿下移民资格</li>
+                                    </ul>
+                                </div>
+                                <div className="peq-body">
+                                    <p>
+                                        我们定制的法语PEQ项目移民是一条高效、确定性强的绿色移民通道. 通过我们专业的法语课程学习,
+                                        申请人最快可在40个月内获得移民资格, 整个过程简单明确, 没有任何风险.
+                                        PEQ是希望以最短时间实现稳定移民梦想的申请人的理想选择
+                                    </p>
+                                </div>
+                            </div>
+
+
+                            <div className="peq-card">
+                                <div className="peq-image">
+                                    <img src="/img/PEQ/ee.jpg" alt="photo-d"/>
+                                    <div className="peq-title">
+                                        <h3>联邦移民通道</h3>
+                                    </div>
+                                </div>
+
+                                <div className="peq-content">
+                                    <ul>
+                                        <li>本科学习: 4年全日制本科教育</li>
+                                        <li>经验认证: 3年加拿大内外工作经验</li>
+                                        <li>提交申请: 进入候选人池, 有效期12个月</li>
+                                        <li>获得邀请: 根据分数获得邀请, 时间不定</li>
+                                        <li>准备材料: 获得邀请后60天内准备材料</li>
+                                        <li>正式申请: 提交永居申请, 约6个月审核周期</li>
+                                        <li>总共耗时: 6-8年以上完成留学和移民申请</li>
+                                    </ul>
+                                </div>
+                                <div className="peq-body">
+                                    <p>联邦移民通道是及其漫长的过程, 需要6-8年或更长时间才能完成学习、工作和移民申请.
+                                        申请人需要投入大量时间提升学历和积累工作经验, 还要通过语言考试达到CLB7级以上,
+                                        并等待时间不确定的邀请. 此外, 申请人还需准备大量材料, 如学历认证和体检等,
+                                        周期长达数月之久. 整个过程风险较高, 难度巨大</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
                     <div className="mt-18 mb-6">
                         <h2 className="fs-15 text-uppercase text-muted mb-3 text-center">{mainContent.title8}</h2>
                         <h3 className="display-4 mb-10 px-lg-12 px-xl-15 text-center">
-                            {mainContent.title9}
+                        {mainContent.title9}
                         </h3>
 
                         <div className="accordion-wrapper" id="accordion">
