@@ -35,7 +35,13 @@ const UniversityPathway: NextPage = () => {
         m2School3: "作为一所世界级的顶尖学府, 多伦多大学以其广泛的学科设置和尖端的研究成果而享誉全球, 多伦多大学注重培养学生的创新能力和全球公民意识",
         m3School1: "蒙特利尔高等商学院",
         m3School2: "蒙特利尔高等商学院是加拿大顶尖的商学院之一, 在世界大学商学院排名中位列第79位",
-        m3School3: "作为北美地区第一所获得三重认证（AACSB、EQUIS和AMBA）的商学院, HEC Montréal以其创新的教学模式和卓越的研究成就而闻名于世, 学院致力于培养具有全球视野、创业精神和社会责任感的商界领袖"
+        m3School3: "作为北美地区第一所获得三重认证（AACSB、EQUIS和AMBA）的商学院, HEC Montréal以其创新的教学模式和卓越的研究成就而闻名于世, 学院致力于培养具有全球视野、创业精神和社会责任感的商界领袖",
+        m4School1: "国王中学",
+        m4School2: "国王中学是加拿大安大略省伦敦市著名的私立高中之一, 创建于1878年,为9-12年级学生提供优质的学术课程",
+        m4School3: "学校以精英教育和高大学升学率著称, 采用小班教学, 注重发掘学生的个人潜力. 国王中学致力于培养兼具领导力、创造力和国际视野的杰出学子, 帮助他们成功申请到加拿大、美国、英国等国顶尖大学",
+        m5School1: "威尔士国际中学",
+        m5School2: "威尔士国际中学坐落于加拿大第一大城市多伦多北郊, 是一所享誉海内外的公立高中. 作为安大略省顶尖国际化中学, 这里吸引了来自世界各地的优秀留学生",
+        m5School3: "学校为国际学生提供英语强化课程(ESL), 帮助他们尽快适应加拿大的学习和生活. 威尔士国际中学重视学生的全人发展, 不仅提供高水准的学术项目, 还开设了丰富多彩的艺术和体育课, 培养学生成为德智体美劳全面发展的国际化人才"
     }
 
     const accordions = [
@@ -276,7 +282,7 @@ const UniversityPathway: NextPage = () => {
                         </div>
                     </div>
 
-                    <div className="row gx-0 align-items-center flex-column-reverse flex-lg-row mb-18">
+                    <div className="row gx-0 align-items-center flex-column-reverse flex-lg-row mb-14">
 
                         <div className="col-lg-6 px-2 mt-lg-0 mt-md-0 pt-4">
                             <div>
@@ -297,6 +303,57 @@ const UniversityPathway: NextPage = () => {
                            href="https://www.hec.ca/" target="_blank">
                             <img className="image-wrapper bg-image object-fit-cover rounded-4 w-100"
                                  src="/img/MIEC/programs/ss1.jpg" alt="Photo"/>
+                        </a>
+                    </div>
+
+
+
+
+
+                    <div className="row gx-0 align-items-center mb-14">
+                        <a className="col-lg-6 px-4"
+                           href="https://iceapkingsway.ca/" target="_blank">
+                            <img className="image-wrapper bg-image object-fit-cover rounded-4 w-100"
+                                 src="/img/MIEC/programs/k2.png" alt="Photo"/>
+                        </a>
+
+                        <div className="col-lg-6 px-2 mt-lg-0 mt-md-0 pt-4">
+                            <div>
+                                <h2 className="display-4 mb-3">{upTitle.m4School1}</h2>
+
+                                <p className="fs-lg">
+                                    {upTitle.m4School2}
+                                </p>
+
+                                <p>
+                                    {upTitle.m4School3}
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="row gx-0 align-items-center flex-column-reverse flex-lg-row mb-18">
+
+                        <div className="col-lg-6 px-2 mt-lg-0 mt-md-0 pt-4">
+                            <div>
+                                <h2 className="display-4 mb-3">{upTitle.m5School1}</h2>
+
+                                <p className="fs-lg">
+                                    {upTitle.m5School2}
+                                </p>
+
+                                <p>
+                                    {upTitle.m5School3}
+                                </p>
+
+                            </div>
+                        </div>
+
+                        <a className="col-lg-6 px-4"
+                           href="https://wp.walescollege.ca/" target="_blank">
+                            <img className="image-wrapper bg-image object-fit-cover rounded-4 w-100"
+                                 src="/img/MIEC/programs/ss2.jpg" alt="Photo"/>
                         </a>
                     </div>
 
