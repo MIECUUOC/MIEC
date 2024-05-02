@@ -143,14 +143,14 @@ const PEQPage: NextPage = () => {
             img: "/img/programs/pl-gysj.jpg",
             name: "工业设计",
             url: `/${locale}/programs/peq/industrial-design`
+        },
+        {
+            id: "pl02",
+            no: "5858",
+            img: "/img/programs/pl-hl.jpg",
+            name: "家庭护理",
+            url: `/${locale}/programs/peq/home-care`
         }
-        // {
-        //     id: "pl02",
-        //     no: "5858",
-        //     img: "/img/programs/pl-hl.jpg",
-        //     name: "家庭护理",
-        //     url: `/${locale}/programs/peq/home-care`
-        // },
         // {
         //     id: "pl06",
         //     no: "5319",
