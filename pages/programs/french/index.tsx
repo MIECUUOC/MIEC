@@ -131,7 +131,7 @@ const French: NextPage = () => {
 
                 <RoundContainer>
                     <div className="row gx-lg-8 gx-xl-12 gy-10 mb-14 mb-md-14 align-items-center">
-                        <div className="col-md-8 col-lg-6 position-relative">
+                        <div className="col-lg-6 position-relative">
                             <div
                                 className="shape bg-soft-primary rounded-circle rellax w-20 h-20"
                                 style={{top: '-2rem', left: '-1.9rem'}}
