@@ -306,10 +306,6 @@ const UniversityPathway: NextPage = () => {
                         </a>
                     </div>
 
-
-
-
-
                     <div className="row gx-0 align-items-center mb-14">
                         <a className="col-lg-6 px-4"
                            href="https://iceapkingsway.ca/" target="_blank">
