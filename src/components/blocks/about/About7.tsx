@@ -1,6 +1,4 @@
 import { FC } from 'react';
-import AccordionList from 'components/common/AccordionList';
-
 import Image from 'next/image';
 import Carousel from 'components/reuseable/Carousel';
 import NextLink from 'components/reuseable/links/NextLink';
@@ -33,6 +31,12 @@ const About7: FC<AboutProps> = ({ t }) => {
     }
   ];
   const carouselImages = [
+    {
+      id: 14,
+      url: '#',
+      title: '中法一带一路国际教育 &nbsp;河南行',
+      image: '/img/MIEC/history/p14.jpg'
+    },
     {
       id: 1,
       url: '#',
