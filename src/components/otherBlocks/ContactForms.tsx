@@ -86,7 +86,7 @@ const ContactForms: FC<ServiceProps> = ({t, pageInfo}) => {
     };
 
     return (
-        <div className="pt-10 pt-md-10 mb-10">
+        <div id="contact-us" className="pt-10 pt-md-10 mb-10">
 
             {/*<h2 className="fs-15 text-uppercase text-muted mb-3 text-center">{ContactContent.title1}</h2>*/}
             {/*<h3 className="display-4 mb-10 px-lg-12 px-xl-15 text-center">*/}

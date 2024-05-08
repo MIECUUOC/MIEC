@@ -31,13 +31,6 @@ const ProgramsPage: NextPage = () => {
             image: '/img/MIEC/project/PEQ.jpg'
         },
         // {
-        //     id: 2,
-        //     projectName: programst('programs.2.name'),
-        //     projectType: programst('programs.2.type'),
-        //     url: '#',
-        //     image: {'1x': '/img/MIEC/project/TEFAQ.png', '2x': '/img/MIEC/project/TEFAQ@2x.png'}
-        // },
-        // {
         //     id: 3,
         //     projectName: programst('programs.3.name'),
         //     projectType: programst('programs.3.type'),
@@ -50,7 +43,14 @@ const ProgramsPage: NextPage = () => {
             projectType: programst('programs.1.type'),
             url: `/${locale}/programs/university-pathway`,
             image: '/img/MIEC/project/uoc.jpg'
-        }
+        },
+        {
+            id: 2,
+            projectName: programst('programs.2.name'),
+            projectType: programst('programs.2.type'),
+            url: '/programs/french',
+            image: '/img/MIEC/project/TEFAQ@2x.png'
+        },
     ];
 
     useLightBox();

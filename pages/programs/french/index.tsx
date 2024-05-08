@@ -11,15 +11,14 @@ import ContactForms from "../../../src/components/otherBlocks/ContactForms";
 import Target from "../../../src/icons/lineal/Target";
 import AwardTwo from "../../../src/icons/lineal/AwardTwo";
 import {renderString} from "../../../src/components/reuseable/links/NextLink";
-import Carousel from "../../../src/components/reuseable/Carousel";
-import carouselBreakpoints from "../../../src/utils/carouselBreakpoints";
-import {testimonialList2} from "../../../src/data/testimonial-list";
-import {TestimonialCard3} from "../../../src/components/reuseable/testimonial-cards";
+import {useState} from "react";
+import PricingCard4 from "../../../src/components/reuseable/pricing-cards/PricingCard4";
 
 const French: NextPage = () => {
     const {t: navt} = useTranslation('nav');
     const {t: footert} = useTranslation('footer');
     const {t: contactformst} = useTranslation('contactForms')
+    const [activeYearly, setActiveYearly] = useState(false);
 
     const currentPage = "French - 法语直通"
 
@@ -118,6 +117,32 @@ const French: NextPage = () => {
         schoolBody1: "作为加拿大首屈一指的法语考试和教育机构, 加拿大国际法语考试中心致力于提供高质量的法语教学和考试服务. 我们的法语考试中心由经验丰富的法语教育专家组成, 采用先进的教学方法和技术, 为学生营造沉浸式的学习环境. 我们的考试中心是 Languages Canada 的成员, 也是 DELF/DALF/TEF/TCF 等国际认证法语考试的官方考试中心"
     }
 
+    const otherContent = {
+        serviceTitle: "服务列表",
+        serviceContext: "最优质的法语教育, 为您的移民之路保驾护航"
+    }
+
+    const pricingList3 = [
+        {
+            monthlyPrice: 0,
+            yearlyPrice: 0,
+            planName: "法语精通",
+            features: ['零到 B1', '无限重读', '名师指导', '真题模拟', '考前培训']
+        },
+        {
+            monthlyPrice: 0,
+            yearlyPrice: 0,
+            planName: "法语大师",
+            features: ['零到 B2', '无限重读', '名师指导', '真题模拟', '考前培训', '保驾护航']
+        },
+        {
+            monthlyPrice: 0,
+            yearlyPrice: 0,
+            planName: "法语冲刺",
+            features: ['任何基础', '量身定制', '名师指导', '真题模拟', '考前培训']
+        }
+    ];
+
     useLightBox();
     return (
         <div className="page-frame bg-pale-primary">
@@ -180,6 +205,41 @@ const French: NextPage = () => {
                             </div>
                         ))}
                     </div>
+
+
+
+
+
+                    <div>
+                        <div className="row text-center mt-20">
+                            <div className="col-md-11 col-lg-9 col-xl-8 mx-auto">
+                                <h2 className="fs-16 text-uppercase text-muted mb-3">{otherContent.serviceTitle}</h2>
+                                <h3 className="display-4 mb-10 px-xxl-10">
+                                    {otherContent.serviceContext}
+                                </h3>
+                            </div>
+                        </div>
+
+                        <div className="row">
+                            <div className="col-xl-11 mx-auto">
+                                <div className="pricing-wrapper mb-10 mb-md-14">
+                                    <div className="row gy-6 mt-3 mt-md-5">
+                                        {pricingList3.map((item, i) => (
+                                            <div className={`col-md-6 col-lg-4 ${i === 1 && 'popular'}`} key={i}>
+                                                <PricingCard4 roundedButton bulletBg {...item}
+                                                              activeYearly={activeYearly}/>
+                                            </div>
+                                        ))}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
 
                     <div className="container mt-16 pb-9 ">
                         <div className="row">
