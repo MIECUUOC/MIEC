@@ -30,13 +30,6 @@ const ProgramsPage: NextPage = () => {
             url: '/programs/peq',
             image: '/img/MIEC/project/PEQ.jpg'
         },
-        // {
-        //     id: 3,
-        //     projectName: programst('programs.3.name'),
-        //     projectType: programst('programs.3.type'),
-        //     url: '#',
-        //     image: {'1x': '/img/MIEC/project/Summer_camp.png', '2x': '/img/MIEC/project/Summer_camp@2x.png'}
-        // },
         {
             id: 4,
             projectName: programst('programs.1.name'),
@@ -51,6 +44,13 @@ const ProgramsPage: NextPage = () => {
             url: '/programs/french',
             image: '/img/MIEC/project/TEFAQ@2x.png'
         },
+        {
+            id: 3,
+            projectName: programst('programs.3.name'),
+            projectType: programst('programs.3.type'),
+            url: '/programs/summer-camp',
+            image: '/img/MIEC/project/sc.jpg'
+        }
     ];
 
     useLightBox();
