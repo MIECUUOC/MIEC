@@ -126,13 +126,13 @@ const About7: FC<AboutProps> = ({ t }) => {
       url: '#',
       title: '参加国际教育活动推介麦基尔大学',
       image: '/img/MIEC/history/p12.png'
-    },
-    {
-      id: 13,
-      url: '#',
-      title: 'MIEC签约加拿大汇枫集团',
-      image: '/img/MIEC/history/p13.png'
     }
+    // {
+    //   id: 13,
+    //   url: '#',
+    //   title: 'MIEC签约加拿大汇枫集团',
+    //   image: '/img/MIEC/history/p13.png'
+    // }
   ];
   return (
     <div className="col mb-n15">
