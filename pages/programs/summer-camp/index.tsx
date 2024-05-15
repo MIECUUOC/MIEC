@@ -9,6 +9,7 @@ import {useTranslation} from 'next-i18next';
 import useIsotope from "../../../src/hooks/useIsotope";
 import ContactForms from "../../../src/components/otherBlocks/ContactForms";
 import IconBox from "../../../src/components/reuseable/IconBox";
+import {useEffect} from "react";
 
 
 const SummerCamp: NextPage = () => {
@@ -18,6 +19,14 @@ const SummerCamp: NextPage = () => {
 
     const currentPage = "Summer Camp - HEC夏令营"
     const {filterKey, handleFilterKeyChange} = useIsotope();
+
+    useEffect(() => {
+        const timer = setTimeout(() => {
+            handleFilterKeyChange('.ac')();
+        }, 2000);
+
+        return () => clearTimeout(timer);
+    }, []);
 
 
     const accordions = [
