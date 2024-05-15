@@ -82,18 +82,49 @@ const SummerCamp: NextPage = () => {
     ];
 
     const portfolioList4 = [
-        {id: 1, image: 'pf1', title: 'Fringilla Nullam', category: 'drinks events'},
+        {id: 24, image: 'ee2', title: "LA TOHU", category: 'ee br'},
+        {id: 11, image: 'mm3', title: "蒙特利尔博物馆", category: 'ac'},
+        {id: 6, image: 'om6', title: "老城区酒吧", category: 'ee br'},
+        {id: 30, image: 'tt2', title: "蒙特利尔生物圈", category: 'ee ac ti'},
+        {id: 2, image: 'om2', title: "老港公园", category: 'ee'},
+        {id: 19, image: 'bb2', title: "知名多媒体工作室", category: 'ac br ti'},
+        {id: 8, image: 'om8', title: "教堂礼堂", category: 'ac ee'},
+        {id: 28, image: 'bb9', title: "加拿大广播公司", category: 'br'},
+        {id: 17, image: 'cc4', title: "马戏团 ELOIZE", category: 'ac'},
+        {id: 32, image: 'vv2', title: "蒙特利尔当代艺术博物馆", category: 'ee ac ti br'},
+        {id: 4, image: 'om4', title: "教堂礼乐", category: 'ac ee'},
+        {id: 22, image: 'bb5', title: "知名多媒体工作室", category: 'ac br ti'},
+        {id: 13, image: 'mm5', title: "蒙特利尔博物馆", category: 'ac'},
+        {id: 25, image: 'bb6', title: "魁北克水电公司", category: 'br'},
+        {id: 1, image: 'om1', title: "老港街道", category: 'ac ee'},
+        {id: 18, image: 'bb1', title: "知名多媒体工作室", category: 'ac br ti'},
+        {id: 5, image: 'om5', title: "老港河畔", category: 'ee'},
+        {id: 27, image: 'bb8', title: "加拿大广播公司", category: 'br'},
+        {id: 16, image: 'cc3', title: "马戏团 ELOIZE", category: 'ac'},
+        {id: 10, image: 'mm2', title: "蒙特利尔博物馆", category: 'ac'},
+        {id: 21, image: 'bb4', title: "知名多媒体工作室", category: 'ac br ti'},
+        {id: 3, image: 'om3', title: "独特的住宅", category: 'ac ee'},
+        {id: 26, image: 'bb7', title: "魁北克水电公司", category: 'br ti'},
+        {id: 12, image: 'mm4', title: "蒙特利尔博物馆", category: 'ac'},
+        {id: 23, image: 'ee1', title: "LA TOHU", category: 'ee br'},
+        {id: 14, image: 'cc1', title: "马戏团 ELOIZE", category: 'ac'},
+        {id: 7, image: 'om7', title: "老城区广场", category: 'ac ee'},
+        {id: 29, image: 'tt1', title: "蒙特利尔生物圈", category: 'ee ac ti'},
+        {id: 20, image: 'bb3', title: "知名多媒体工作室", category: 'ac br ti'},
+        {id: 9, image: 'mm1', title: "蒙特利尔博物馆", category: 'ac'},
+        {id: 31, image: 'vv1', title: "蒙特利尔天文馆", category: 'ee ac ti br'},
+        {id: 15, image: 'cc2', title: "马戏团 ELOIZE", category: 'ac'},
     ];
 
 
     const otherContext = {
         text1: "MIEC - HEC暑期夏校",
         text2: "开启最精彩的暑期探索之旅",
-        text3: "",
-        text4: "",
+        text3: "我们的特色",
+        text4: "全方位的成长体验,为您量身打造",
         text5: "",
         text6: "",
-        moreText: "MIEC暑期夏校是一个多元化学习平台, 专为18岁以上的青年学子设计. 学员们将开拓全球视野, 培养批判性思维和创新能力. 在蒙特利尔这个多元文化的大都会, 学员们还将结识来自世界各地的优秀青年, 建立宝贵的人脉. 加入加入我们的暑期夏校, 成就未来!"
+        moreText: "加入暑期夏校, 开启一段非凡的学习之旅. 完成课程, 你将获得3个大学学分, 并荣获HEC官方课程证书, 为你的学业生涯增光添彩. 这里不仅是开拓全球视野、培养创新能力的理想平台, 更是通往持续进修和移民之路的金钥匙. 课程结束后, 你可以选择直接进入HEC法语中心继续深造, 为攻克PEQ移民铺平道路. 亦或是以此为跳板, 进入HEC学士学位课程, 在求学梦想的道路上扬帆起航. 选择MIEC, 让这个夏天成为你未来发展的重要起点, 铸就辉煌人生!"
     }
 
 
@@ -173,52 +204,52 @@ const SummerCamp: NextPage = () => {
                     </div>
 
 
-                    {/*<section id="portfolio">*/}
-                    {/*    <div className="wrapper">*/}
-                    {/*        <div className="container py-15 py-md-17 text-center">*/}
-                    {/*        <div className="row">*/}
-                    {/*                <div className="col-lg-10 col-xl-8 col-xxl-7 mx-auto mb-8">*/}
-                    {/*                    <h2 className="display-5 mb-3">{otherContext.text5}</h2>*/}
-                    {/*                    <p className="lead fs-lg">{otherContext.text6}</p>*/}
-                    {/*                </div>*/}
-                    {/*            </div>*/}
+                    <section id="portfolio">
+                        <div className="wrapper">
+                            <div className="container py-15 py-md-17 text-center">
+                            <div className="row">
+                                    <div className="col-lg-10 col-xl-8 col-xxl-7 mx-auto mb-8">
+                                        <h2 className="display-5 mb-3">{otherContext.text5}</h2>
+                                        <p className="lead fs-lg">{otherContext.text6}</p>
+                                    </div>
+                                </div>
 
-                    {/*            <div className="grid grid-view projects-masonry">*/}
-                    {/*                <div className="isotope-filter filter mb-10">*/}
-                    {/*                    <ul>*/}
-                    {/*                        {filterList.map(({id, title, value}) => (*/}
-                    {/*                            <li key={id}>*/}
-                    {/*                                <a*/}
-                    {/*                                    onClick={handleFilterKeyChange(value)}*/}
-                    {/*                                    className={`filter-item ${filterKey === value ? 'active' : ''}`}*/}
-                    {/*                                >*/}
-                    {/*                                    {title}*/}
-                    {/*                                </a>*/}
-                    {/*                            </li>*/}
-                    {/*                        ))}*/}
-                    {/*                    </ul>*/}
-                    {/*                </div>*/}
+                                <div className="grid grid-view projects-masonry">
+                                    <div className="isotope-filter filter mb-10">
+                                        <ul>
+                                            {filterList.map(({id, title, value}) => (
+                                                <li key={id}>
+                                                    <a
+                                                        onClick={handleFilterKeyChange(value)}
+                                                        className={`filter-item ${filterKey === value ? 'active' : ''}`}
+                                                    >
+                                                        {title}
+                                                    </a>
+                                                </li>
+                                            ))}
+                                        </ul>
+                                    </div>
 
-                    {/*                <div className="row gx-md-6 gy-6 isotope">*/}
-                    {/*                    {portfolioList4.map(({category, id, image, title}) => (*/}
-                    {/*                        <div className={`project item col-md-6 col-xl-4 ${category}`} key={id}>*/}
-                    {/*                            <figure className="overlay overlay-1 rounded">*/}
-                    {/*                                <a href={`/img/summer/${image}-full.jpg`} data-glightbox*/}
-                    {/*                                   data-gallery="shots-group">*/}
-                    {/*                                    <img src={`/img/summer/${image}.jpg`} alt={title}/>*/}
-                    {/*                                    <span className="bg"/>*/}
-                    {/*                                </a>*/}
-                    {/*                                <figcaption>*/}
-                    {/*                                    <h5 className="from-top mb-0">{title}</h5>*/}
-                    {/*                                </figcaption>*/}
-                    {/*                            </figure>*/}
-                    {/*                        </div>*/}
-                    {/*                    ))}*/}
-                    {/*                </div>*/}
-                    {/*            </div>*/}
-                    {/*        </div>*/}
-                    {/*    </div>*/}
-                    {/*</section>*/}
+                                    <div className="row gx-md-6 gy-6 isotope">
+                                        {portfolioList4.map(({category, id, image, title}) => (
+                                            <div className={`project item col-md-6 col-xl-4 ${category}`} key={id}>
+                                                <figure className="overlay overlay-1 rounded">
+                                                    <a href={`/img/summer/${image}.jpg`} data-glightbox
+                                                       data-gallery="shots-group">
+                                                        <img src={`/img/summer/${image}.jpg`} alt={title}/>
+                                                        <span className="bg"/>
+                                                    </a>
+                                                    <figcaption>
+                                                        <h5 className="from-top mb-0">{title}</h5>
+                                                    </figcaption>
+                                                </figure>
+                                            </div>
+                                        ))}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
 
 
                     <ContactForms t={contactformst} pageInfo={{p: currentPage}}/>
