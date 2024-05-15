@@ -306,30 +306,12 @@ const UniversityPathway: NextPage = () => {
                         </a>
                     </div>
 
-                    <div className="row gx-0 align-items-center mb-14">
+                    <div className="row gx-0 align-items-center flex-column-reverse flex-lg-row mb-14">
                         <a className="col-lg-6 px-4"
-                           href="https://iceapkingsway.ca/" target="_blank">
+                           href="https://wp.walescollege.ca/" target="_blank">
                             <img className="image-wrapper bg-image object-fit-cover rounded-4 w-100"
-                                 src="/img/MIEC/programs/k2.png" alt="Photo"/>
+                                 src="/img/MIEC/programs/ss2.jpg" alt="Photo"/>
                         </a>
-
-                        <div className="col-lg-6 px-2 mt-lg-0 mt-md-0 pt-4">
-                            <div>
-                                <h2 className="display-4 mb-3">{upTitle.m4School1}</h2>
-
-                                <p className="fs-lg">
-                                    {upTitle.m4School2}
-                                </p>
-
-                                <p>
-                                    {upTitle.m4School3}
-                                </p>
-
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className="row gx-0 align-items-center flex-column-reverse flex-lg-row mb-18">
 
                         <div className="col-lg-6 px-2 mt-lg-0 mt-md-0 pt-4">
                             <div>
@@ -345,13 +327,31 @@ const UniversityPathway: NextPage = () => {
 
                             </div>
                         </div>
+                    </div>
+
+                    <div className="row gx-0 align-items-center mb-18">
+                        <div className="col-lg-6 px-2 mt-lg-0 mt-md-0 pt-4">
+                            <div>
+                                <h2 className="display-4 mb-3">{upTitle.m4School1}</h2>
+
+                                <p className="fs-lg">
+                                    {upTitle.m4School2}
+                                </p>
+
+                                <p>
+                                    {upTitle.m4School3}
+                                </p>
+
+                            </div>
+                        </div>
 
                         <a className="col-lg-6 px-4"
-                           href="https://wp.walescollege.ca/" target="_blank">
+                           href="https://iceapkingsway.ca/" target="_blank">
                             <img className="image-wrapper bg-image object-fit-cover rounded-4 w-100"
-                                 src="/img/MIEC/programs/ss2.jpg" alt="Photo"/>
+                                 src="/img/MIEC/programs/k2.png" alt="Photo"/>
                         </a>
                     </div>
+
 
                     <div className="mb-10">
                         <h2 className="fs-15 text-uppercase text-muted mb-3 text-center mt-16">{questions.contentTitle}</h2>
