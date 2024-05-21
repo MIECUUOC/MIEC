@@ -10,6 +10,7 @@ import useIsotope from "../../../src/hooks/useIsotope";
 import ContactForms from "../../../src/components/otherBlocks/ContactForms";
 import IconBox from "../../../src/components/reuseable/IconBox";
 import {useEffect} from "react";
+import Link from "next/link";
 
 
 const SummerCamp: NextPage = () => {
@@ -23,7 +24,7 @@ const SummerCamp: NextPage = () => {
     useEffect(() => {
         const timer = setTimeout(() => {
             handleFilterKeyChange('.ac')();
-        }, 2000);
+        }, 1000);
 
         return () => clearTimeout(timer);
     }, []);
@@ -131,9 +132,14 @@ const SummerCamp: NextPage = () => {
         text2: "开启最精彩的暑期探索之旅",
         text3: "我们的特色",
         text4: "全方位的成长体验,为您量身打造",
-        text5: "",
-        text6: "",
         moreText: "加入暑期夏校, 开启一段非凡的学习之旅. 完成课程, 你将获得3个大学学分, 并荣获HEC官方课程证书, 为你的学业生涯增光添彩. 这里不仅是开拓全球视野、培养创新能力的理想平台, 更是通往持续进修和移民之路的金钥匙. 课程结束后, 你可以选择直接进入HEC法语中心继续深造, 为攻克PEQ移民铺平道路. 亦或是以此为跳板, 进入HEC学士学位课程, 在求学梦想的道路上扬帆起航. 选择MIEC, 让这个夏天成为你未来发展的重要起点, 铸就辉煌人生!"
+    }
+
+    const detailContent = {
+        title1: "报名详情",
+        title2: "把握机会, 开启蒙特利尔之旅",
+        title3: "2024年6月17日报名截止, 名额有限!",
+        detail1: "立即报名, 开启你的蒙特利尔之旅!与HEC商学院的顶尖教授一起学习, 参观知名企业, 游览蒙特利尔名胜, 感受异国文化, 收获宝贵的海外学习经历. 课程费用$7680, 包含学费、住宿、餐费、保险以及为期一周的旅游参观活动(国际机票及签证费用自理). 这个夏天, 让我们一起在蒙特利尔留下难忘的回忆!"
     }
 
 
@@ -204,7 +210,8 @@ const SummerCamp: NextPage = () => {
                         <div className="row gx-md-8 gy-8 text-center mb-10 mb-md-12">
                             {serviceList2.map((item) => (
                                 <div key={item.id} className="col-md-6 col-lg-3">
-                                    <IconBox icon={item.icon} className='icon btn btn-circle btn-lg btn-primary pe-none mb-5' />
+                                    <IconBox icon={item.icon}
+                                             className='icon btn btn-circle btn-lg btn-primary pe-none mb-5'/>
                                     <h4 className=''>{item.title}</h4>
                                     <p className="mb-3">{item.description}</p>
                                 </div>
@@ -213,13 +220,51 @@ const SummerCamp: NextPage = () => {
                     </div>
 
 
+                    <div className="container mt-16 pb-9 ">
+                        <div className="row">
+                            <div className="mx-auto">
+                                <h3 className="display-4 mb-10">{detailContent.title1}</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="row gx-0 align-items-center mb-14">
+                        <div className="col-lg-6 px-4">
+                            <img className="image-wrapper bg-image object-fit-cover rounded-4 w-100"
+                                 src="/img/MIEC/programs/montreal1.jpg" alt="Photo"/>
+                        </div>
+
+                        <div className="col-lg-6 px-2 mt-lg-0 mt-md-0 pt-4">
+                            <div>
+                                <h2 className="display-4 mb-3">{detailContent.title2}</h2>
+
+                                <p className="fs-lg">
+                                    {detailContent.title3}
+                                </p>
+
+                                <p>
+                                    {detailContent.detail1}
+                                </p>
+
+                                <Link href="/programs/summer-camp#contact-us" className="btn btn-primary rounded-pill mt-2">
+                                    了解更多
+                                </Link>
+
+                            </div>
+                        </div>
+                    </div>
+
+
                     <section id="portfolio">
                         <div className="wrapper">
-                            <div className="container py-15 py-md-17 text-center">
-                            <div className="row">
+                            <div className="container pb-15 pb-md-17 text-center pt-12">
+                                <div className="row">
                                     <div className="col-lg-10 col-xl-8 col-xxl-7 mx-auto mb-8">
-                                        <h2 className="display-5 mb-3">{otherContext.text5}</h2>
-                                        <p className="lead fs-lg">{otherContext.text6}</p>
+                                        <h2 className="display-5 mb-3">
+
+                                        </h2>
+                                        <p className="lead fs-lg">
+
+                                        </p>
                                     </div>
                                 </div>
 
