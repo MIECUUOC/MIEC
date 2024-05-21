@@ -1,4 +1,4 @@
-import { appWithTranslation } from 'next-i18next';
+import {appWithTranslation, useTranslation} from 'next-i18next';
 import type { AppProps } from 'next/app';
 import Head from 'next/head';
 import { useRouter } from 'next/router';
@@ -24,8 +24,7 @@ import 'assets/scss/style.scss';
 
 // custom css by Gen
 import "./programs/peq/peq-style.css"
-
-// import 'components/MIEC/PdfReader.css';
+import {NextPage} from "next";
 
 function MyApp({ Component, pageProps }: AppProps) {
   const { pathname } = useRouter();
@@ -49,19 +48,32 @@ function MyApp({ Component, pageProps }: AppProps) {
   useEffect(() => setLoading(false), []);
 
   return (
-    <Fragment>
-      <Head>
-        <meta charSet="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>MIEC - 蒙特利尔国际教育中心</title>
-      </Head>
+      <Fragment>
+        <Head>
+          <meta charSet="utf-8" />
+          <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+          <title>MIEC - 蒙特利尔国际教育中心</title>
+        </Head>
 
-      <ThemeProvider>
-        {/* <div className="page-loader" /> */}
-        {loading ? <div className="page-loader" /> : <Component {...pageProps} />}
-      </ThemeProvider>
-    </Fragment>
+        <ThemeProvider>
+          {loading ? (
+              <div className="page-loader" />
+          ) : (
+              <TranslationWrapper Component={Component} pageProps={pageProps} />
+          )}
+        </ThemeProvider>
+      </Fragment>
   );
+}
+
+function TranslationWrapper({ Component, pageProps }: { Component: NextPage, pageProps: any }) {
+  const { t, ready } = useTranslation();
+
+  if (!ready) {
+    return <div className="page-loader"/>;
+  }
+
+  return <Component {...pageProps} />;
 }
 
 export default appWithTranslation(MyApp);
