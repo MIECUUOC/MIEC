@@ -1,4 +1,4 @@
-import {appWithTranslation, useTranslation} from 'next-i18next';
+import { appWithTranslation } from 'next-i18next';
 import type { AppProps } from 'next/app';
 import Head from 'next/head';
 import { useRouter } from 'next/router';
@@ -24,7 +24,8 @@ import 'assets/scss/style.scss';
 
 // custom css by Gen
 import "./programs/peq/peq-style.css"
-import {NextPage} from "next";
+
+// import 'components/MIEC/PdfReader.css';
 
 function MyApp({ Component, pageProps }: AppProps) {
   const { pathname } = useRouter();
@@ -56,24 +57,11 @@ function MyApp({ Component, pageProps }: AppProps) {
         </Head>
 
         <ThemeProvider>
-          {loading ? (
-              <div className="page-loader" />
-          ) : (
-              <TranslationWrapper Component={Component} pageProps={pageProps} />
-          )}
+          {/* <div className="page-loader" /> */}
+          {loading ? <div className="page-loader" /> : <Component {...pageProps} />}
         </ThemeProvider>
       </Fragment>
   );
-}
-
-function TranslationWrapper({ Component, pageProps }: { Component: NextPage, pageProps: any }) {
-  const { t, ready } = useTranslation();
-
-  if (!ready) {
-    return <div className="page-loader"/>;
-  }
-
-  return <Component {...pageProps} />;
 }
 
 export default appWithTranslation(MyApp);
