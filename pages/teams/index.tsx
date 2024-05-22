@@ -43,7 +43,7 @@ const Teams: NextPage = () => {
         },
         {
             id: 4,
-            image: '/img/MIEC/teams/BZ.png',
+            image: '/img/MIEC/teams/BZ2.png',
             color: color.leaf,
             name: teamst('teamMembers.3.name'),
             description: renderString(teamst('teamMembers.3.description'))
@@ -96,6 +96,14 @@ const Teams: NextPage = () => {
             image: '/img/MIEC/teams/stan.png'
         }
     ];
+
+    const chinaTeams = [
+        {
+            id: 1,
+            name: "徐靖博",
+            image: "/img/MIEC/teams/xjb.jpg"
+        }
+    ]
 
     useLightBox();
     return (
