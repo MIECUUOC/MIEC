@@ -27,7 +27,7 @@ const SummerCamp: NextPage = () => {
         }, 1000);
 
         return () => clearTimeout(timer);
-    }, []);
+    }, [handleFilterKeyChange]);
 
 
     const accordions = [
