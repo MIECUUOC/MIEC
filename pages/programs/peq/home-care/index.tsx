@@ -313,7 +313,7 @@ const HomeCarePage: NextPage = () => {
                     <div className="row gx-lg-0 gy-10 align-items-center mb-15 mb-lg-18">
                         <div className="col-lg-6 order-lg-2 offset-lg-1">
                             <div className="row gx-md-5 gy-5 align-items-center counter-wrapper">
-                                {countList.map(({id, icon, title, amount, color}) => (
+                                {countList.map(({id, icon, title, amount}) => (
                                     <div className="col-md-6" key={id}>
                                         <div className="card shadow-lg">
                                             <div className="card-body">
@@ -364,7 +364,7 @@ const HomeCarePage: NextPage = () => {
                         </tr>
                         </thead>
                         <tbody>
-                        {classInfo.map((item, index) => (
+                        {classInfo.map((item) => (
                             <tr key={item.id}>
                                 <td>{item.title}</td>
                                 <td>{item.hours}</td>
