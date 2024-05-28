@@ -127,7 +127,7 @@ const French: NextPage = () => {
             monthlyPrice: 0,
             yearlyPrice: 0,
             planName: "法语精通",
-            features: ['零到 B1', '无限重读', '名师指导', '真题模拟', '考前培训']
+            features: ['零到 B2', '无限重读', '名师指导', '真题模拟', '考前培训']
         },
         {
             monthlyPrice: 0,
