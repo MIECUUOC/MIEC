@@ -39,6 +39,10 @@
     {
       "title": "Legal Team",
       "description": "Our legal team consists of experts with rich experience and deep backgrounds in international relations and immigration law. Our legal team is committed to providing clients with professional legal guidance and support, including but not limited to representing clients in deportation orders, extradition requests, and spousal sponsorship appeals."
+    },
+    {
+      "title": "China Team",
+      "description": "Our business in China is led by a passionate and experienced team who deeply understand the unique needs of the Chinese market. They are committed to providing outstanding study abroad application guidance and immigration services to Chinese students, while actively expanding business cooperation and exploring diversified development opportunities."
     }
   ],
   "consultantTeams": [
@@ -82,6 +86,13 @@
       "name": "Stanislav Belevici",
       "designation": "Legal Director",
       "description": "Chairman of the Canadian Immigration Regulatory Council, Immigration Officer at Vertias-Miec"
+    }
+  ],
+  "ChinaTeams": [
+    {
+      "name": "Jingbo Xu",
+      "designation": "China Market Manager",
+      "description": "Head of China Market Channels"
     }
   ]
 }

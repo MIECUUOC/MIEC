@@ -101,7 +101,7 @@ const Teams: NextPage = () => {
         {
             id: 1,
             name: "徐靖博",
-            image: "/img/MIEC/teams/xjb.jpg"
+            image: "/img/MIEC/teams/xjbjpg.jpg"
         }
     ]
 
@@ -170,7 +170,7 @@ const Teams: NextPage = () => {
                     </div>
 
                     <div className="row text-center mb-10 mb-lg-15 mt-n5">
-                    <div className="col-md-10 col-lg-9 col-xxl-8 mx-auto">
+                        <div className="col-md-10 col-lg-9 col-xxl-8 mx-auto">
                             <h2 className="fs-30 text-uppercase text-muted mb-5">{teamst('teamTitle')}</h2>
                             <h3 className="display-3 px-xl-10 mb-0">{teamst('teamSubtitle')}</h3>
                         </div>
@@ -281,6 +281,35 @@ const Teams: NextPage = () => {
                                             image={team.image}
                                             description={teamst(`LawersTeams.${index}.description`)}
                                             designation={teamst(`LawersTeams.${index}.designation`)}
+                                        />
+                                    ))}
+                                </Carousel>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div className="row gx-lg-8 gx-xl-12 gy-10 mb-7 mb-md-10 mb-xl-15 align-items-center">
+                        <div className="col-lg-4">
+                            <h3 className="display-5 mb-5">{teamst('sections.4.title')}</h3>
+                            <p>{teamst('sections.4.description')}</p>
+                        </div>
+
+                        <div className="col-lg-8">
+                            <div className="swiper-container text-center mb-6">
+                                <Carousel
+                                    grabCursor
+                                    navigation={false}
+                                    breakpoints={carouselBreakpoints}
+                                    autoplay={{delay: 2500, disableOnInteraction: false}}
+                                >
+                                    {chinaTeams.map((team, index) => (
+                                        <TeamCard2
+                                            key={team.id}
+                                            name={teamst(`ChinaTeams.${index}.name`)}
+                                            image={team.image}
+                                            description={teamst(`ChinaTeams.${index}.description`)}
+                                            designation={teamst(`ChinaTeams.${index}.designation`)}
                                         />
                                     ))}
                                 </Carousel>

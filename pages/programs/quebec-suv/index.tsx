@@ -9,6 +9,9 @@ import {useTranslation} from 'next-i18next';
 import ContactForms from "../../../src/components/otherBlocks/ContactForms";
 import Accordion from "../../../src/components/reuseable/accordion";
 
+// import SCSS
+import styles from './QuebecSUV.module.scss';
+
 const QuebecSUV: NextPage = () => {
     const {t: navt} = useTranslation('nav');
     const {t: footert} = useTranslation('footer');
@@ -26,9 +29,9 @@ const QuebecSUV: NextPage = () => {
     const mainTitleContentList = [
         {
             no: 'One',
-            expand: true,
+            expand: false,
             heading: "快速通道, 领先一步",
-            body: "普通技术移民动辄需要1年以上的等待, 而我们的小SUV项目最快2-3个月即可批出工签, 为您赢得宝贵的海外发展时间. 抢先融入加拿大生活, 积累北美工作经验, 为未来事业发展铺平道路"
+            body: "普通技术移民动辄需要1年以上的等待, 而我们的小SUV更快获得工签, 为您赢得宝贵的海外发展时间. 抢先融入加拿大生活, 积累北美工作经验, 为未来事业发展铺平道路"
         },
         {
             no: 'Two',
@@ -67,6 +70,23 @@ const QuebecSUV: NextPage = () => {
             body: "从项目咨询到申请文件准备, 再到后期跟进, 我们都为您安排了经验丰富的移民律师提供一对一贴身服务. 客户的需求就是我们的努力方向, 您的满意是我们服务的宗旨. 专业、高效、贴心的服务, 让您的移民过程倍感轻松省心"
         }
     ]
+
+    const applicationProcess = {
+        title: "项目申请流程",
+        steps: [
+            {
+                id: 1,
+                title: "项目评估与签约",
+                description: "首先由我们专业的移民顾问对您的情况进行评估,确认您是否符合项目的申请条件。如果一切合适,我们会与您签订正式的服务协议,并开始着手准备申请材料。"
+            },
+            {
+                id: 2,
+                title: "准备申请文件",
+                description: "根据项目要求,我们的团队会协助您准备并核对所需的申请文件,包括身份证明、学历证明、工作证明、无犯罪证明等。同时,我们也会指导您准备一份详实的职业规划,列明您在加拿大工作和生活的打算。"
+            },
+        ],
+        conclusion: "只需6个简单的步骤,您就能实现在加拿大工作定居的梦想。我们专业的服务团队会在每一个阶段为您提供及时的帮助和建议,让您的移民之旅更加顺畅无忧。选择SUV项目,选择一站式移民服务,选择美好未来的开始!"
+    };
 
     useLightBox();
 
@@ -137,6 +157,21 @@ const QuebecSUV: NextPage = () => {
                             </div>
                         ))}
                     </div>
+
+                    {/*<div className={styles.timeline}>*/}
+                    {/*    <ul className={styles.items}>*/}
+                    {/*        {applicationProcess.steps.map((item, index) => (*/}
+                    {/*            <li className={styles.itemsList} key={item.id}>*/}
+                    {/*                <div>*/}
+                    {/*                    <div className={`${styles.eventDate} badge bg-info`}>{item.title}</div>*/}
+                    {/*                    <h5>第{index + 1}步</h5>*/}
+                    {/*                    <p>{item.description}</p>*/}
+                    {/*                </div>*/}
+                    {/*            </li>*/}
+                    {/*        ))}*/}
+
+                    {/*    </ul>*/}
+                    {/*</div>*/}
 
                     <ContactForms t={contactformst} pageInfo={{p: currentPage}}/>
 

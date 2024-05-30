@@ -39,6 +39,10 @@
     {
       "title": "Équipe Juridique",
       "description": "Notre équipe juridique est composée d'experts possédant une riche expérience et des antécédents approfondis dans les relations internationales et le droit de l'immigration. Notre équipe juridique s'engage à fournir aux clients une orientation et un soutien juridiques professionnels, y compris, mais sans s'y limiter, la représentation des clients dans les ordres d'expulsion, les demandes d'extradition et les appels de parrainage conjugal."
+    },
+    {
+      "title": "Équipe Chine",
+      "description": "Nos activités en Chine sont dirigées par une équipe passionnée et expérimentée qui comprend parfaitement les besoins uniques du marché chinois. Ils s'engagent à fournir des conseils exceptionnels sur les demandes d'études à l'étranger et des services d'immigration aux étudiants chinois, tout en développant activement la coopération commerciale et en explorant des opportunités de développement diversifiées."
     }
   ],
   "consultantTeams": [
@@ -82,6 +86,13 @@
       "name": "Stanislav Belevici",
       "designation": "Directeur Juridique",
       "description": "Président du Conseil de Réglementation de l'Immigration du Canada, Officier des Affaires d'Immigration chez Vertias-Miec"
+    }
+  ],
+  "ChinaTeams": [
+    {
+      "name": "Jingbo Xu",
+      "designation": "Responsable du marché chinois",
+      "description": "Responsable des canaux du marché chinois"
     }
   ]
 }

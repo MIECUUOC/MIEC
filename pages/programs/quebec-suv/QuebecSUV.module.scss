@@ -1,0 +1,84 @@
+.timeline {
+  margin: 6rem 0;
+  .items {
+    border-top: 3px solid #e9ecef;
+
+    .itemsList {
+      display: block;
+      position: relative;
+      text-align: center;
+      padding-top: 70px;
+      margin: 3rem;
+
+      &:before {
+        content: "";
+        position: absolute;
+        height: 36px;
+        border-right: 2px dashed #dee2e6;
+        top: 0;
+      }
+
+      .eventDate {
+        position: absolute;
+        top: 36px;
+        left: 0;
+        right: 0;
+        width: auto;
+        margin: 0 auto;
+        font-size: 0.9rem;
+        padding-top: 8px;
+      }
+    }
+  }
+
+  @media (min-width: 1140px) {
+    .items {
+      .itemsList {
+        display: inline-block;
+        width: 24%;
+        padding-top: 45px;
+
+        .eventDate {
+          top: -40px;
+        }
+      }
+    }
+  }
+}
+
+.applicationProcess {
+  .steps {
+    list-style: none;
+    padding: 0;
+
+    .step {
+      margin-bottom: 2rem;
+
+      .stepHeader {
+        display: flex;
+        align-items: center;
+        margin-bottom: 1rem;
+
+        .stepNumber {
+          font-size: 2rem;
+          font-weight: bold;
+          margin-right: 1rem;
+        }
+
+        .stepTitle {
+          font-size: 1.5rem;
+          margin: 0;
+        }
+      }
+
+      .stepDescription {
+        margin: 0;
+      }
+    }
+  }
+
+  .conclusion {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+}
