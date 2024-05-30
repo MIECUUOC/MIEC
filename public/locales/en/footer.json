@@ -9,13 +9,11 @@
   "nav": [
     { "title": "About Us", "url": "#about-us" },
     { "title": "Why Choose Us", "url": "#why-us" },
-    { "title": "Our Team", "url": "#teams" },
-    { "title": "Ace Projects", "url": "#project" },
+    { "title": "Our Team", "url": "teams" },
+    { "title": "Ace Projects", "url": "programs" },
     { "title": "Contact Us", "url": "#contact-us" }
   ],
   "helps": [
-    { "title": "Support", "url": "#contact-us" },
-    { "title": "Terms of Use", "url": "#" },
-    { "title": "Privacy Policy", "url": "#" }
+    { "title": "Support", "url": "#contact-us" }
   ]
 }

@@ -9,13 +9,11 @@
   "nav": [
     { "title": "À Propos", "url": "#about-us" },
     { "title": "Pourquoi Nous Choisir", "url": "#why-us" },
-    { "title": "Notre Équipe", "url": "#teams" },
-    { "title": "Projets Phares", "url": "#project" },
+    { "title": "Notre Équipe", "url": "teams" },
+    { "title": "Projets Phares", "url": "programs" },
     { "title": "Nous Contacter", "url": "#contact-us" }
   ],
   "helps": [
-    { "title": "Support", "url": "#contact-us" },
-    { "title": "Conditions d'Utilisation", "url": "#" },
-    { "title": "Politique de Confidentialité", "url": "#" }
+    { "title": "Support", "url": "#contact-us" }
   ]
 }

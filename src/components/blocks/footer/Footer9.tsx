@@ -19,9 +19,7 @@ const Footer9: FC<FooterProps> = ({ t }) => {
   ];
 
   const helps = [
-    { id: 1, title: t('helps.0.title'), url: t('helps.0.url') },
-    { id: 1, title: t('helps.1.title'), url: t('helps.1.url') },
-    { id: 1, title: t('helps.2.title'), url: t('helps.2.url') }
+    { id: 1, title: t('helps.0.title'), url: t('helps.0.url') }
   ];
   return (
     <footer className="bg-dark text-inverse">
@@ -36,7 +34,7 @@ const Footer9: FC<FooterProps> = ({ t }) => {
                 {t('copyright2')}
               </p>
 
-              <SocialLinks className="nav social social-white" />
+              {/*<SocialLinks className="nav social social-white" />*/}
             </div>
           </div>
 

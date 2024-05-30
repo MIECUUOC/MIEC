@@ -1,6 +1,6 @@
 {
-  "copyright1": "© 2024 蒙特利尔国际教育中心。",
-  "copyright2": "保留所有权利。",
+  "copyright1": "© 2024 蒙特利尔国际教育中心",
+  "copyright2": "保留所有权利",
   "needHelp": "需要帮助？",
   "moreInfo": "更多信息",
   "contact": "联系方式",
@@ -9,13 +9,11 @@
   "nav": [
     { "title": "关于我们", "url": "#about-us" },
     { "title": "选择我们", "url": "#why-us" },
-    { "title": "我们团队", "url": "#teams" },
-    { "title": "王牌项目", "url": "#project" },
+    { "title": "我们团队", "url": "teams" },
+    { "title": "王牌项目", "url": "programs" },
     { "title": "联系我们", "url": "#contact-us" }
   ],
   "helps": [
-    { "title": "支持", "url": "#contact-us" },
-    { "title": "使用条款", "url": "#" },
-    { "title": "隐私政策", "url": "#" }
+    { "title": "支持", "url": "#contact-us" }
   ]
 }
