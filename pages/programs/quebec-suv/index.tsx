@@ -71,22 +71,44 @@ const QuebecSUV: NextPage = () => {
         }
     ]
 
+
     const applicationProcess = {
         title: "项目申请流程",
         steps: [
             {
                 id: 1,
                 title: "项目评估与签约",
-                description: "首先由我们专业的移民顾问对您的情况进行评估,确认您是否符合项目的申请条件。如果一切合适,我们会与您签订正式的服务协议,并开始着手准备申请材料。"
+                description: "首先由我们专业的移民顾问对您的情况进行评估,确认您是否符合项目的申请条件。如果一切合适,我们会与您签订正式的服务协议,并开始着手准备申请材料"
             },
             {
                 id: 2,
                 title: "准备申请文件",
-                description: "根据项目要求,我们的团队会协助您准备并核对所需的申请文件,包括身份证明、学历证明、工作证明、无犯罪证明等。同时,我们也会指导您准备一份详实的职业规划,列明您在加拿大工作和生活的打算。"
+                description: "根据项目要求,我们的团队会协助您准备并核对所需的申请文件,包括身份证明、学历证明、工作证明、无犯罪证明等。同时,我们也会指导您准备一份详实的职业规划,列明您在加拿大工作和生活的打算"
             },
+            {
+                id: 3,
+                title: "递交申请,获取工签",
+                description: "材料准备完毕后,我们会代表您向加拿大移民局提交正式的工签申请。一般在2-3个月内,您就能收到批准通知,并获得为期1-2年的工作签证"
+            },
+            {
+                id: 4,
+                title: "抵达加拿大,开展工作",
+                description: "拿到工签后,您可以合法入境加拿大,并在我们的协助下完成分公司的注册和员工的派遣手续。之后,您就可以开始在加拿大工作和生活,积累宝贵的海外经验"
+            },
+            {
+                id: 5,
+                title: "积累居住时间,完成语言考试",
+                description: "在工作的同时,您需要尽可能多地居住在加拿大,累计满足至少2年的居住时间。此外,您还需要参加法语考试,并达到CLB 7级或以上的成绩,以满足魁北克移民的语言要求"
+            },
+            {
+                id: 6,
+                title: "递交PR申请,获得永居身份",
+                description: "当您满足了居住时间和语言成绩的要求后,就可以正式向魁北克移民局递交永居申请。一般在6-12个月内,您就能收到移民局的批准信,并被授予加拿大永久居民的身份"
+            }
         ],
         conclusion: "只需6个简单的步骤,您就能实现在加拿大工作定居的梦想。我们专业的服务团队会在每一个阶段为您提供及时的帮助和建议,让您的移民之旅更加顺畅无忧。选择SUV项目,选择一站式移民服务,选择美好未来的开始!"
     };
+
 
     useLightBox();
 
@@ -158,20 +180,33 @@ const QuebecSUV: NextPage = () => {
                         ))}
                     </div>
 
-                    {/*<div className={styles.timeline}>*/}
-                    {/*    <ul className={styles.items}>*/}
-                    {/*        {applicationProcess.steps.map((item, index) => (*/}
-                    {/*            <li className={styles.itemsList} key={item.id}>*/}
-                    {/*                <div>*/}
-                    {/*                    <div className={`${styles.eventDate} badge bg-info`}>{item.title}</div>*/}
-                    {/*                    <h5>第{index + 1}步</h5>*/}
-                    {/*                    <p>{item.description}</p>*/}
-                    {/*                </div>*/}
-                    {/*            </li>*/}
-                    {/*        ))}*/}
 
-                    {/*    </ul>*/}
-                    {/*</div>*/}
+
+
+                    <section className="section section-bg mt-17">
+                        <div className={styles.RoadMapList}>
+
+
+                            {applicationProcess.steps.map((item) => (
+                                <div key={item.id} className={styles.RoadMapItem}>
+                                    <div className={styles.RoadMapStep}>
+                                        <p>第{item.id}步</p>
+                                    </div>
+
+                                    <div className={styles.RoadMapTitle}>
+                                        <p>{item.title}</p>
+                                    </div>
+
+                                    <div className={styles.RoadMapDesc}>
+                                        <p>{item.description}</p>
+                                    </div>
+                                </div>
+                            ))}
+
+
+                        </div>
+                    </section>
+
 
                     <ContactForms t={contactformst} pageInfo={{p: currentPage}}/>
 
