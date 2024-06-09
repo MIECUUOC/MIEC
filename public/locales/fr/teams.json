@@ -93,6 +93,12 @@
       "name": "Jingbo Xu",
       "designation": "Responsable du marché chinois",
       "description": "Responsable des canaux du marché chinois"
+    },
+    {
+      "name": "Annie",
+      "designation": "Province du Henan",
+      "description": "Responsable des opérations pour la province du Henan"
     }
+
   ]
 }
