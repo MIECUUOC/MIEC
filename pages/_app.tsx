@@ -1,8 +1,8 @@
-import { appWithTranslation } from 'next-i18next';
-import type { AppProps } from 'next/app';
+import {appWithTranslation} from 'next-i18next';
+import type {AppProps} from 'next/app';
 import Head from 'next/head';
-import { useRouter } from 'next/router';
-import { Fragment, useEffect, useState } from 'react';
+import {useRouter} from 'next/router';
+import {Fragment, useEffect, useState} from 'react';
 import ThemeProvider from 'theme/ThemeProvider';
 
 // animate css
@@ -24,44 +24,46 @@ import 'assets/scss/style.scss';
 
 // custom css by Gen
 import "./programs/peq/peq-style.css"
+import {Analytics} from "@vercel/analytics/react";
 
 // import 'components/MIEC/PdfReader.css';
 
-function MyApp({ Component, pageProps }: AppProps) {
-  const { pathname } = useRouter();
-  const [loading, setLoading] = useState(true);
+function MyApp({Component, pageProps}: AppProps) {
+    const {pathname} = useRouter();
+    const [loading, setLoading] = useState(true);
 
-  // added bootstrap functionality
-  useEffect(() => {
-    if (typeof window !== 'undefined') import('bootstrap');
-  }, []);
+    // added bootstrap functionality
+    useEffect(() => {
+        if (typeof window !== 'undefined') import('bootstrap');
+    }, []);
 
-  // scroll animation added
-  useEffect(() => {
-    (async () => {
-      const scrollCue = (await import('plugins/scrollcue')).default;
-      scrollCue.init({ interval: -400, duration: 700, percentage: 0.8 });
-      scrollCue.update();
-    })();
-  }, [pathname]);
+    // scroll animation added
+    useEffect(() => {
+        (async () => {
+            const scrollCue = (await import('plugins/scrollcue')).default;
+            scrollCue.init({interval: -400, duration: 700, percentage: 0.8});
+            scrollCue.update();
+        })();
+    }, [pathname]);
 
-  // manage loading status
-  useEffect(() => setLoading(false), []);
+    // manage loading status
+    useEffect(() => setLoading(false), []);
 
-  return (
-      <Fragment>
-        <Head>
-          <meta charSet="utf-8" />
-          <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-          <title>MIEC - 蒙特利尔国际教育中心</title>
-        </Head>
+    return (
+        <Fragment>
+            <Head>
+                <meta charSet="utf-8"/>
+                <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+                <title>MIEC - 蒙特利尔国际教育中心</title>
+            </Head>
 
-        <ThemeProvider>
-          {/* <div className="page-loader" /> */}
-          {loading ? <div className="page-loader" /> : <Component {...pageProps} />}
-        </ThemeProvider>
-      </Fragment>
-  );
+            <ThemeProvider>
+                {/* <div className="page-loader" /> */}
+                {loading ? <div className="page-loader"/> : <Component {...pageProps} />}
+                <Analytics/>
+            </ThemeProvider>
+        </Fragment>
+    );
 }
 
 export default appWithTranslation(MyApp);

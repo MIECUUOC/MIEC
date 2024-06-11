@@ -1,5 +1,4 @@
 import Document, { DocumentContext, Head, Html, Main, NextScript } from 'next/document';
-import { Analytics } from '@vercel/analytics/react';
 
 export default class SandBox extends Document {
   render() {
@@ -12,7 +11,6 @@ export default class SandBox extends Document {
         <body>
           <Main />
           <NextScript />
-          <Analytics />
         </body>
       </Html>
     );
