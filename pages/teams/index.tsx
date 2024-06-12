@@ -22,7 +22,7 @@ const Teams: NextPage = () => {
     const mainteams = [
         {
             id: 1,
-            image: '/img/MIEC/teams/JL.png',
+            image: '/img/MIEC/teams/JL1.png',
             color: color.aqua,
             name: teamst('teamMembers.0.name'),
             description: renderString(teamst('teamMembers.0.description'))
@@ -43,7 +43,7 @@ const Teams: NextPage = () => {
         },
         {
             id: 4,
-            image: '/img/MIEC/teams/BZ2.png',
+            image: '/img/MIEC/teams/ZBQ.png',
             color: color.leaf,
             name: teamst('teamMembers.3.name'),
             description: renderString(teamst('teamMembers.3.description'))
