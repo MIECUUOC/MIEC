@@ -5,6 +5,7 @@ Theme URI:
 Version:	1.2.0
 Author:		ui-lib
 */
+
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700");
 :root {
   --bs-gray-100: #fefefe;
@@ -163,6 +164,11 @@ Author:		ui-lib
   --bs-link-hover-color: #3f78e0;
   --bs-code-color: #60697b;
   --bs-highlight-bg: #fef1de;
+  --team-level-1: #8dccad;
+  --team-level-2: #f5cc7f;
+  --team-level-3: #7b9fe0;
+  --team-level-4: #f27c8d;
+  --team-black: black;
 }
 
 *,

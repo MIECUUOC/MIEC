@@ -11,6 +11,7 @@ import carouselBreakpoints from "../../src/utils/carouselBreakpoints";
 import {TeamCard2} from "../../src/components/reuseable/team-cards";
 import color from "../../src/utils/color";
 import {renderString} from "../../src/components/reuseable/links/NextLink";
+// import styles from './teams.module.scss';
 
 const Teams: NextPage = () => {
     const { t: navt } = useTranslation('nav');
@@ -51,6 +52,16 @@ const Teams: NextPage = () => {
     ];
     const consultantTeams = [
         {
+            id: 3,
+            name: 'Eleni',
+            image: '/img/MIEC/teams/Eleni.png'
+        },
+        {
+            id:4,
+            name: 'Geoffrey',
+            image: '/img/MIEC/teams/Geoffrey.png'
+        },
+        {
             id: 1,
             name: '孙莱祥',
             image: '/img/MIEC/teams/slx.png'
@@ -59,7 +70,7 @@ const Teams: NextPage = () => {
             id: 2,
             name: '李维平',
             image: '/img/MIEC/teams/lwp.png'
-        }
+        },
     ];
     const admissionsTeams = [
         {
@@ -69,13 +80,6 @@ const Teams: NextPage = () => {
             designation: '招生主管',
             description: 'Matrix College & Veritas College 招生负责人'
         },
-        {
-            id: 2,
-            name: 'Sylvain Langlois',
-            image: '/img/MIEC/teams/sl.png',
-            designation: '执行理事',
-            description: '加拿大魁北克法语考试中心主任,加拿大Inter-Edu教育中心主任'
-        }
     ];
     const teachersTeams = [
         {
@@ -94,6 +98,11 @@ const Teams: NextPage = () => {
             id: 1,
             name: 'Stanislav Belevici',
             image: '/img/MIEC/teams/stan.png'
+        },
+        {
+            id: 2,
+            name: 'Ophelia',
+            image: '/img/MIEC/teams/oph.png'
         }
     ];
 
@@ -107,6 +116,33 @@ const Teams: NextPage = () => {
             id: 2,
             name: "安妮",
             image: "/img/MIEC/teams/anni.jpg"
+        }
+    ]
+
+    const secretaryTeams = [
+        {
+            id: 1,
+            name: "宦方舟",
+            image: "/img/MIEC/teams/hfz.png"
+        }
+    ]
+
+
+    const marketingTeams = [
+        {
+            id: 1,
+            name: "黄浩",
+            image: "/img/MIEC/teams/hh.png"
+        }
+    ]
+
+    const langTeams = [
+        {
+            id: 1,
+            name: 'Sylvain Langlois',
+            image: '/img/MIEC/teams/sl.png',
+            designation: '执行理事',
+            description: '加拿大魁北克法语考试中心主任,加拿大Inter-Edu教育中心主任'
         }
     ]
 
@@ -174,12 +210,116 @@ const Teams: NextPage = () => {
                         </div>
                     </div>
 
+
+                    {/*<div className={styles['team-org-chart']}>*/}
+                    {/*    <div className={styles['container']}>*/}
+                    {/*        <h1 className={`${styles['level-1']} ${styles['rectangle']}`}>CEO</h1>*/}
+                    {/*        <ol className={styles['level-2-wrapper']}>*/}
+                    {/*            <li>*/}
+                    {/*                <h2 className={`${styles['level-2']} ${styles['rectangle']}`}>Director A</h2>*/}
+                    {/*                <ol className={styles['level-3-wrapper']}>*/}
+                    {/*                    <li>*/}
+                    {/*                        <h3 className={`${styles['level-3']} ${styles['rectangle']}`}>Manager A</h3>*/}
+                    {/*                        <ol className={styles['level-4-wrapper']}>*/}
+                    {/*                            <li>*/}
+                    {/*                                <h4 className={`${styles['level-4']} ${styles['rectangle']}`}>Person*/}
+                    {/*                                    A</h4>*/}
+                    {/*                            </li>*/}
+                    {/*                            <li>*/}
+                    {/*                                <h4 className={`${styles['level-4']} ${styles['rectangle']}`}>Person*/}
+                    {/*                                    B</h4>*/}
+                    {/*                            </li>*/}
+                    {/*                            <li>*/}
+                    {/*                                <h4 className={`${styles['level-4']} ${styles['rectangle']}`}>Person*/}
+                    {/*                                    C</h4>*/}
+                    {/*                            </li>*/}
+                    {/*                            <li>*/}
+                    {/*                                <h4 className={`${styles['level-4']} ${styles['rectangle']}`}>Person*/}
+                    {/*                                    D</h4>*/}
+                    {/*                            </li>*/}
+                    {/*                        </ol>*/}
+                    {/*                    </li>*/}
+                    {/*                    <li>*/}
+                    {/*                        <h3 className={`${styles['level-3']} ${styles['rectangle']}`}>Manager B</h3>*/}
+                    {/*                        <ol className={styles['level-4-wrapper']}>*/}
+                    {/*                            <li>*/}
+                    {/*                                <h4 className={`${styles['level-4']} ${styles['rectangle']}`}>Person*/}
+                    {/*                                    A</h4>*/}
+                    {/*                            </li>*/}
+                    {/*                            <li>*/}
+                    {/*                                <h4 className={`${styles['level-4']} ${styles['rectangle']}`}>Person*/}
+                    {/*                                    B</h4>*/}
+                    {/*                            </li>*/}
+                    {/*                            <li>*/}
+                    {/*                                <h4 className={`${styles['level-4']} ${styles['rectangle']}`}>Person*/}
+                    {/*                                    C</h4>*/}
+                    {/*                            </li>*/}
+                    {/*                            <li>*/}
+                    {/*                                <h4 className={`${styles['level-4']} ${styles['rectangle']}`}>Person*/}
+                    {/*                                    D</h4>*/}
+                    {/*                            </li>*/}
+                    {/*                        </ol>*/}
+                    {/*                    </li>*/}
+                    {/*                </ol>*/}
+                    {/*            </li>*/}
+                    {/*            <li>*/}
+                    {/*                <h2 className={`${styles['level-2']} ${styles['rectangle']}`}>Director B</h2>*/}
+                    {/*                <ol className={styles['level-3-wrapper']}>*/}
+                    {/*                    <li>*/}
+                    {/*                        <h3 className={`${styles['level-3']} ${styles['rectangle']}`}>Manager C</h3>*/}
+                    {/*                        <ol className={styles['level-4-wrapper']}>*/}
+                    {/*                            <li>*/}
+                    {/*                                <h4 className={`${styles['level-4']} ${styles['rectangle']}`}>Person*/}
+                    {/*                                    A</h4>*/}
+                    {/*                            </li>*/}
+                    {/*                            <li>*/}
+                    {/*                                <h4 className={`${styles['level-4']} ${styles['rectangle']}`}>Person*/}
+                    {/*                                    B</h4>*/}
+                    {/*                            </li>*/}
+                    {/*                            <li>*/}
+                    {/*                                <h4 className={`${styles['level-4']} ${styles['rectangle']}`}>Person*/}
+                    {/*                                    C</h4>*/}
+                    {/*                            </li>*/}
+                    {/*                            <li>*/}
+                    {/*                                <h4 className={`${styles['level-4']} ${styles['rectangle']}`}>Person*/}
+                    {/*                                    D</h4>*/}
+                    {/*                            </li>*/}
+                    {/*                        </ol>*/}
+                    {/*                    </li>*/}
+                    {/*                    <li>*/}
+                    {/*                        <h3 className={`${styles['level-3']} ${styles['rectangle']}`}>Manager D</h3>*/}
+                    {/*                        <ol className={styles['level-4-wrapper']}>*/}
+                    {/*                            <li>*/}
+                    {/*                                <h4 className={`${styles['level-4']} ${styles['rectangle']}`}>Person*/}
+                    {/*                                    A</h4>*/}
+                    {/*                            </li>*/}
+                    {/*                            <li>*/}
+                    {/*                                <h4 className={`${styles['level-4']} ${styles['rectangle']}`}>Person*/}
+                    {/*                                    B</h4>*/}
+                    {/*                            </li>*/}
+                    {/*                            <li>*/}
+                    {/*                                <h4 className={`${styles['level-4']} ${styles['rectangle']}`}>Person*/}
+                    {/*                                    C</h4>*/}
+                    {/*                            </li>*/}
+                    {/*                            <li>*/}
+                    {/*                                <h4 className={`${styles['level-4']} ${styles['rectangle']}`}>Person*/}
+                    {/*                                    D</h4>*/}
+                    {/*                            </li>*/}
+                    {/*                        </ol>*/}
+                    {/*                    </li>*/}
+                    {/*                </ol>*/}
+                    {/*            </li>*/}
+                    {/*        </ol>*/}
+                    {/*    </div>*/}
+                    {/*</div>*/}
+
                     <div className="row text-center mb-10 mb-lg-15 mt-n5">
                         <div className="col-md-10 col-lg-9 col-xxl-8 mx-auto">
                             <h2 className="fs-30 text-uppercase text-muted mb-5">{teamst('teamTitle')}</h2>
                             <h3 className="display-3 px-xl-10 mb-0">{teamst('teamSubtitle')}</h3>
                         </div>
                     </div>
+
 
                     <div className="row gx-lg-8 gx-xl-12 gy-10 mb-7 mb-md-10 mb-xl-15 align-items-center">
                         <div className="col-lg-4">
@@ -209,10 +349,11 @@ const Teams: NextPage = () => {
                         </div>
                     </div>
 
+
                     <div className="row gx-lg-8 gx-xl-12 gy-10 mb-7 mb-md-10 mb-xl-15 align-items-center">
                         <div className="col-lg-4">
-                            <h3 className="display-5 mb-5">{teamst('sections.1.title')}</h3>
-                            <p>{teamst('sections.1.description')}</p>
+                            <h3 className="display-5 mb-5">{teamst('sections.8.title')}</h3>
+                            <p>{teamst('sections.8.description')}</p>
                         </div>
 
                         <div className="col-lg-8">
@@ -223,13 +364,13 @@ const Teams: NextPage = () => {
                                     breakpoints={carouselBreakpoints}
                                     autoplay={{delay: 2500, disableOnInteraction: false}}
                                 >
-                                    {admissionsTeams.map((team, index) => (
+                                    {secretaryTeams.map((team, index) => (
                                         <TeamCard2
                                             key={team.id}
-                                            name={teamst(`admissionsTeams.${index}.name`)}
+                                            name={teamst(`secretaryTeams.${index}.name`)}
                                             image={team.image}
-                                            description={teamst(`admissionsTeams.${index}.description`)}
-                                            designation={teamst(`admissionsTeams.${index}.designation`)}
+                                            description={teamst(`secretaryTeams.${index}.description`)}
+                                            designation={teamst(`secretaryTeams.${index}.designation`)}
                                         />
                                     ))}
                                 </Carousel>
@@ -237,33 +378,6 @@ const Teams: NextPage = () => {
                         </div>
                     </div>
 
-                    <div className="row gx-lg-8 gx-xl-12 gy-10 mb-7 mb-md-10 mb-xl-15 align-items-center">
-                        <div className="col-lg-4">
-                            <h3 className="display-5 mb-5">{teamst('sections.2.title')}</h3>
-                            <p>{teamst('sections.2.description')}</p>
-                        </div>
-
-                        <div className="col-lg-8">
-                            <div className="swiper-container text-center mb-6">
-                                <Carousel
-                                    grabCursor
-                                    navigation={false}
-                                    breakpoints={carouselBreakpoints}
-                                    autoplay={{delay: 2500, disableOnInteraction: false}}
-                                >
-                                    {teachersTeams.map((team, index) => (
-                                        <TeamCard2
-                                            key={team.id}
-                                            name={teamst(`teachersTeams.${index}.name`)}
-                                            image={team.image}
-                                            description={teamst(`teachersTeams.${index}.description`)}
-                                            designation={teamst(`teachersTeams.${index}.designation`)}
-                                        />
-                                    ))}
-                                </Carousel>
-                            </div>
-                        </div>
-                    </div>
 
                     <div className="row gx-lg-8 gx-xl-12 gy-10 mb-7 mb-md-10 mb-xl-15 align-items-center">
                         <div className="col-lg-4">
@@ -286,6 +400,93 @@ const Teams: NextPage = () => {
                                             image={team.image}
                                             description={teamst(`LawersTeams.${index}.description`)}
                                             designation={teamst(`LawersTeams.${index}.designation`)}
+                                        />
+                                    ))}
+                                </Carousel>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div className="row gx-lg-8 gx-xl-12 gy-10 mb-7 mb-md-10 mb-xl-15 align-items-center">
+                        <div className="col-lg-4">
+                            <h3 className="display-5 mb-5">{teamst('sections.5.title')}</h3>
+                            <p>{teamst('sections.5.description')}</p>
+                        </div>
+
+                        <div className="col-lg-8">
+                            <div className="swiper-container text-center mb-6">
+                                <Carousel
+                                    grabCursor
+                                    navigation={false}
+                                    breakpoints={carouselBreakpoints}
+                                    autoplay={{delay: 2500, disableOnInteraction: false}}
+                                >
+                                    {marketingTeams.map((team, index) => (
+                                        <TeamCard2
+                                            key={team.id}
+                                            name={teamst(`marketingTeams.${index}.name`)}
+                                            image={team.image}
+                                            description={teamst(`marketingTeams.${index}.description`)}
+                                            designation={teamst(`marketingTeams.${index}.designation`)}
+                                        />
+                                    ))}
+                                </Carousel>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div className="row gx-lg-8 gx-xl-12 gy-10 mb-7 mb-md-10 mb-xl-15 align-items-center">
+                        <div className="col-lg-4">
+                            <h3 className="display-5 mb-5">{teamst('sections.7.title')}</h3>
+                            <p>{teamst('sections.7.description')}</p>
+                        </div>
+
+                        <div className="col-lg-8">
+                            <div className="swiper-container text-center mb-6">
+                                <Carousel
+                                    grabCursor
+                                    navigation={false}
+                                    breakpoints={carouselBreakpoints}
+                                    autoplay={{delay: 2500, disableOnInteraction: false}}
+                                >
+                                    {langTeams.map((team, index) => (
+                                        <TeamCard2
+                                            key={team.id}
+                                            name={teamst(`langTeams.${index}.name`)}
+                                            image={team.image}
+                                            description={teamst(`langTeams.${index}.description`)}
+                                            designation={teamst(`langTeams.${index}.designation`)}
+                                        />
+                                    ))}
+                                </Carousel>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div className="row gx-lg-8 gx-xl-12 gy-10 mb-7 mb-md-10 mb-xl-15 align-items-center">
+                        <div className="col-lg-4">
+                            <h3 className="display-5 mb-5">{teamst('sections.1.title')}</h3>
+                            <p>{teamst('sections.1.description')}</p>
+                        </div>
+
+                        <div className="col-lg-8">
+                            <div className="swiper-container text-center mb-6">
+                                <Carousel
+                                    grabCursor
+                                    navigation={false}
+                                    breakpoints={carouselBreakpoints}
+                                    autoplay={{delay: 2500, disableOnInteraction: false}}
+                                >
+                                    {admissionsTeams.map((team, index) => (
+                                        <TeamCard2
+                                            key={team.id}
+                                            name={teamst(`admissionsTeams.${index}.name`)}
+                                            image={team.image}
+                                            description={teamst(`admissionsTeams.${index}.description`)}
+                                            designation={teamst(`admissionsTeams.${index}.designation`)}
                                         />
                                     ))}
                                 </Carousel>
