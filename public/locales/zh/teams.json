@@ -1,6 +1,6 @@
 {
-  "projectPlannersTitle": "项目策划人",
-  "projectPlannersSubtitle": "我们是最顶尖资源专业教育中心",
+  "projectPlannersTitle": "项目决策者",
+  "projectPlannersSubtitle": "项目决策者",
   "projectPlannersDescription": "我们汇聚了行业顶尖的专家和专业人士，包括金牌律师团队，以及经验丰富的教育专家和语言训练师。我们的团队致力于为您提供定制化的教育和移民解决方案，确保每一位学员和客户能够在加拿大的学习和生活中获得最佳体验。",
   "moreDetails": "更多细节",
   "teamMembers": [
@@ -38,7 +38,7 @@
     },
     {
       "title": "法务部门",
-      "description": "我们的法务团队由一群在国际关系和移民法方面具有丰富经验和深厚背景的专家组成。我们的法务团队致力于为客户提供专业的法律指导和支持，包括但不限于代表客户处理驱逐令、引渡请求和配偶赞助上诉等案件"
+      "description": "我们的法务团队在国际关系和移民法方面具有丰富经验和深厚背景。我们的法务团队致力于为客户提供专业的法律指导和支持，包括但不限于代表客户处理驱逐令、引渡请求和配偶赞助上诉等案件"
     },
     {
       "title": "中国团队",
@@ -87,23 +87,11 @@
       "description": "上海国际教育交流协会秘书长"
     }
   ],
-  "admissionsTeams": [
+  "sellerTeams": [
     {
       "name": "刘丁元 Tony Liu",
-      "designation": "招生主管",
+      "designation": "销售主管",
       "description": "Matrix College & Veritas College 招生负责人"
-    }
-  ],
-  "teachersTeams": [
-    {
-      "name": "Eleni",
-      "designation": "讲师",
-      "description": "联邦议员，前联邦政府司法部长，总检察长"
-    },
-    {
-      "name": "Geoffrey",
-      "designation": "讲师",
-      "description": "联邦议员，前联邦政府司法部长，总检察长"
     }
   ],
   "LawersTeams": [
@@ -115,29 +103,34 @@
     {
       "name": "Ophelia",
       "designation": "律师助理",
-      "description": "蒙特利尔国际教育中心法务部门"
+      "description": "蒙特利尔国际教育中心 法务部门"
     }
   ],
   "ChinaTeams": [
     {
-      "name": "徐靖博",
-      "designation": "中国市场经理",
-      "description": "中国市场渠道负责人"
-    },
-    {
       "name": "安妮",
       "designation": "河南省",
-      "description": "河南省事务总负责人"
+      "description": "河南省办事处负责人"
+    },
+    {
+      "name": "徐靖博",
+      "designation": "辽宁省",
+      "description": "中国市场渠道负责人"
     }
   ],
   "secretaryTeams": [
     {
-      "name": "宦方舟",
+      "name": "Kira",
       "designation": "总裁助理",
-      "description": "蒙特利尔国际教育中心事务办公室"
+      "description": "蒙特利尔国际教育中心 事务办公室"
     }
   ],
   "marketingTeams": [
+    {
+      "name": "毛书君",
+      "designation": "营销总监",
+      "description": "大中华地区总监"
+    },
     {
       "name": "黄浩",
       "designation": "营销总监",

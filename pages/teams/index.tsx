@@ -72,7 +72,7 @@ const Teams: NextPage = () => {
             image: '/img/MIEC/teams/lwp.png'
         },
     ];
-    const admissionsTeams = [
+    const sellerTeams = [
         {
             id: 1,
             name: '刘丁元 Tony Liu',
@@ -109,13 +109,13 @@ const Teams: NextPage = () => {
     const chinaTeams = [
         {
             id: 1,
-            name: "徐靖博",
-            image: "/img/MIEC/teams/xjbjpg.jpg"
+            name: "安妮",
+            image: "/img/MIEC/teams/anni.jpg"
         },
         {
             id: 2,
-            name: "安妮",
-            image: "/img/MIEC/teams/anni.jpg"
+            name: "徐靖博",
+            image: "/img/MIEC/teams/xjbjpg.jpg"
         }
     ]
 
@@ -131,6 +131,11 @@ const Teams: NextPage = () => {
     const marketingTeams = [
         {
             id: 1,
+            name: "毛书君",
+            image: "/img/MIEC/teams/mxz.png"
+        },
+        {
+            id: 2,
             name: "黄浩",
             image: "/img/MIEC/teams/hh.png"
         }
@@ -157,15 +162,15 @@ const Teams: NextPage = () => {
 
             <main className="content-wrapper">
                 <RoundContainer>
-                    <div className="row text-center mb-10 mb-lg-15 mt-n5">
+                    <div className="row text-center mb-3 mb-lg-6 mt-n5">
                         <div className="col-md-10 col-lg-9 col-xxl-8 mx-auto">
-                            <h2 className="fs-30 text-uppercase text-muted mb-5">{teamst('projectPlannersTitle')}</h2>
+                            {/*<h2 className="fs-30 text-uppercase text-muted mb-5">{teamst('projectPlannersTitle')}</h2>*/}
                             <h3 className="display-3 px-xl-10 mb-5">{teamst('projectPlannersSubtitle')}</h3>
-                            <h4 className=" px-xl-10 mb-0">{teamst('projectPlannersDescription')}</h4>
+                            {/*<h4 className=" px-xl-10 mb-0">{teamst('projectPlannersDescription')}</h4>*/}
                         </div>
                     </div>
 
-                    <div className="row gx-lg-8 gx-xl-12 gy-10 mb-7 mb-md-10 mb-xl-15 align-items-center">
+                    <div className="row gx-lg-8 gx-xl-12 gy-10 mb-3 mb-md-2 mb-xl-2 align-items-center">
 
                         <div className="">
                             <div className="swiper-container text-center mb-6">
@@ -211,6 +216,13 @@ const Teams: NextPage = () => {
                     </div>
 
 
+                    <div className="text-center mb-12">
+                        <h3 className="display-3 px-xl-10">我们的组织架构图</h3>
+                        <a href="/img/MIEC/teams/MIEC.svg" data-glightbox data-gallery="g1">
+                            <img src="/img/MIEC/teams/MIEC.svg" alt="SVG Icon"
+                                 style={{width: '100%', height: 'auto'}}/>
+                        </a>
+                    </div>
                     {/*<div className={styles['team-org-chart']}>*/}
                     {/*    <div className={styles['container']}>*/}
                     {/*        <h1 className={`${styles['level-1']} ${styles['rectangle']}`}>CEO</h1>*/}
@@ -323,35 +335,6 @@ const Teams: NextPage = () => {
 
                     <div className="row gx-lg-8 gx-xl-12 gy-10 mb-7 mb-md-10 mb-xl-15 align-items-center">
                         <div className="col-lg-4">
-                            <h3 className="display-5 mb-5">{teamst('sections.0.title')}</h3>
-                            <p>{teamst('sections.0.description')}</p>
-                        </div>
-
-                        <div className="col-lg-8">
-                            <div className="swiper-container text-center mb-6">
-                                <Carousel
-                                    grabCursor
-                                    navigation={false}
-                                    breakpoints={carouselBreakpoints}
-                                    autoplay={{delay: 2500, disableOnInteraction: false}}
-                                >
-                                    {consultantTeams.map((team, index) => (
-                                        <TeamCard2
-                                            key={team.id}
-                                            name={teamst(`consultantTeams.${index}.name`)}
-                                            image={team.image}
-                                            description={teamst(`consultantTeams.${index}.description`)}
-                                            designation={teamst(`consultantTeams.${index}.designation`)}
-                                        />
-                                    ))}
-                                </Carousel>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div className="row gx-lg-8 gx-xl-12 gy-10 mb-7 mb-md-10 mb-xl-15 align-items-center">
-                        <div className="col-lg-4">
                             <h3 className="display-5 mb-5">{teamst('sections.8.title')}</h3>
                             <p>{teamst('sections.8.description')}</p>
                         </div>
@@ -439,6 +422,35 @@ const Teams: NextPage = () => {
 
                     <div className="row gx-lg-8 gx-xl-12 gy-10 mb-7 mb-md-10 mb-xl-15 align-items-center">
                         <div className="col-lg-4">
+                            <h3 className="display-5 mb-5">{teamst('sections.6.title')}</h3>
+                            <p>{teamst('sections.6.description')}</p>
+                        </div>
+
+                        <div className="col-lg-8">
+                            <div className="swiper-container text-center mb-6">
+                                <Carousel
+                                    grabCursor
+                                    navigation={false}
+                                    breakpoints={carouselBreakpoints}
+                                    autoplay={{delay: 2500, disableOnInteraction: false}}
+                                >
+                                    {sellerTeams.map((team, index) => (
+                                        <TeamCard2
+                                            key={team.id}
+                                            name={teamst(`sellerTeams.${index}.name`)}
+                                            image={team.image}
+                                            description={teamst(`sellerTeams.${index}.description`)}
+                                            designation={teamst(`sellerTeams.${index}.designation`)}
+                                        />
+                                    ))}
+                                </Carousel>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div className="row gx-lg-8 gx-xl-12 gy-10 mb-7 mb-md-10 mb-xl-15 align-items-center">
+                        <div className="col-lg-4">
                             <h3 className="display-5 mb-5">{teamst('sections.7.title')}</h3>
                             <p>{teamst('sections.7.description')}</p>
                         </div>
@@ -468,8 +480,8 @@ const Teams: NextPage = () => {
 
                     <div className="row gx-lg-8 gx-xl-12 gy-10 mb-7 mb-md-10 mb-xl-15 align-items-center">
                         <div className="col-lg-4">
-                            <h3 className="display-5 mb-5">{teamst('sections.1.title')}</h3>
-                            <p>{teamst('sections.1.description')}</p>
+                            <h3 className="display-5 mb-5">{teamst('sections.0.title')}</h3>
+                            <p>{teamst('sections.0.description')}</p>
                         </div>
 
                         <div className="col-lg-8">
@@ -480,13 +492,13 @@ const Teams: NextPage = () => {
                                     breakpoints={carouselBreakpoints}
                                     autoplay={{delay: 2500, disableOnInteraction: false}}
                                 >
-                                    {admissionsTeams.map((team, index) => (
+                                    {consultantTeams.map((team, index) => (
                                         <TeamCard2
                                             key={team.id}
-                                            name={teamst(`admissionsTeams.${index}.name`)}
+                                            name={teamst(`consultantTeams.${index}.name`)}
                                             image={team.image}
-                                            description={teamst(`admissionsTeams.${index}.description`)}
-                                            designation={teamst(`admissionsTeams.${index}.designation`)}
+                                            description={teamst(`consultantTeams.${index}.description`)}
+                                            designation={teamst(`consultantTeams.${index}.designation`)}
                                         />
                                     ))}
                                 </Carousel>
