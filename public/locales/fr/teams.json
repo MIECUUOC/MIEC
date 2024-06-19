@@ -1,114 +1,147 @@
 {
-  "projectPlannersTitle": "Nos chefs de projet",
-  "projectPlannersSubtitle": "Avec des ressources de premier ordre et une équipe professionnelle",
-  "projectPlannersDescription": "Nous réunissons des experts et des professionnels de premier plan dans l'industrie, y compris une équipe juridique médaillée d'or, ainsi que des experts en éducation expérimentés et des formateurs linguistiques. Notre équipe s'engage à vous fournir des solutions éducatives et d'immigration personnalisées, garantissant que chaque étudiant et client puisse avoir la meilleure expérience d'étude et de vie au Canada.",
+  "projectPlannersTitle": "Planificateurs de Projet",
+  "projectPlannersSubtitle": "Planificateurs de Projet",
+  "projectPlannersDescription": "Notre équipe est composée des meilleurs experts et professionnels de l'industrie, y compris une équipe d'avocats médaillés d'or, d'experts en éducation expérimentés et de formateurs en langues. Nous nous engageons à fournir des solutions personnalisées en matière d'éducation et d'immigration pour garantir que chaque étudiant et client ait la meilleure expérience dans leurs études et leur vie au Canada.",
   "moreDetails": "Plus de détails",
   "teamMembers": [
     {
       "name": "Jay Liu",
-      "description": "Président du Centre d'Éducation Internationale de Montréal\nPrésident du conseil, Université Union du Canada\nVice-président du Bureau de l'éducation internationale du Canada\nPrésident de l'Alliance de l'éducation francophone internationale (Canada)"
+      "description": "Président du Centre International d'Éducation de Montréal\nPrésident du Conseil d'Administration des Universités Unies du Canada\nDirecteur adjoint du Bureau Canadien de l'Éducation Internationale\nPrésident de la Fédération Internationale de l'Éducation Française (Canada)"
     },
     {
       "name": "Josee Bouchard",
-      "description": "Présidente du Conseil canadien pour l'excellence en éducation\nPrésidente du Conseil des enseignants\nAncienne présidente de la Fédération du bureau de l'éducation française du Québec"
+      "description": "Présidente du Conseil Canadien de l'Excellence en Éducation\nPrésidente du Comité des Enseignants\nAncienne Présidente de la Fédération des Bureaux de l'Éducation Française du Québec"
     },
     {
       "name": "Marcus Tabachnick",
-      "description": "Directeur du conseil, Centre d'Éducation Internationale de Montréal\nPrésident de l'Association des commissions scolaires anglophones du Québec\nAncien président de l'Association des commissions scolaires du Canada\nDirecteur du conseil scolaire de Montréal\nRécipiendaire de la Médaille du jubilé d'argent de la reine Elizabeth II"
+      "description": "Administrateur du Conseil du Centre International d'Éducation de Montréal\nPrésident de l'Association des Écoles Anglaises du Québec au Canada\nAncien Président de la Fédération Canadienne des Écoles\nDirecteur du Bureau de l'Éducation de Montréal\nRécipiendaire de la Médaille du Jubilé de Diamant de la Reine Elizabeth II"
     },
     {
       "name": "Brock Zhao",
-      "description": "PDG du Centre d'Éducation Internationale de Montréal"
+      "description": "PDG du Centre International d'Éducation de Montréal"
     }
   ],
   "teamTitle": "Notre Équipe",
-  "teamSubtitle": "Nous rassemblons des experts de premier plan dans l'industrie, y compris une équipe d'avocats, des experts en éducation, des consultants en immigration certifiés et des instructeurs de français",
+  "teamSubtitle": "Nous rassemblons les meilleurs experts de l'industrie, y compris une équipe d'avocats, d'experts en éducation, de consultants en immigration certifiés et d'instructeurs de langue française",
   "sections": [
     {
       "title": "Conseillers Experts",
-      "description": "Notre équipe de conseillers experts est composée d'érudits reconnus et d'élites industrielles, tant nationales qu'internationales. Ils possèdent une solide expérience et une pratique approfondie dans des domaines tels que la gestion éducative, la recherche économique et la collaboration industrie-éducation. Avec le guidage et la consultation de ces experts, le Centre d'Éducation Internationale de Montréal s'engage à vous fournir les concepts éducatifs les plus avancés et les solutions d'immigration les plus efficaces, aidant ainsi vos rêves d'études à l'étranger et d'immigration à devenir réalité."
+      "description": "Notre équipe de conseillers experts est composée de chercheurs renommés et d'élites de l'industrie du pays et de l'étranger. Ils ont une solide expérience et une riche expérience pratique dans la gestion de l'éducation, la recherche économique et l'intégration industrie-éducation. Grâce à l'orientation et aux conseils de ces experts, le Centre International d'Éducation de Montréal s'engage à vous fournir des concepts éducatifs de pointe et des solutions d'immigration les plus efficaces, vous aidant à réaliser vos rêves d'études et d'immigration."
     },
     {
       "title": "Équipe d'Admissions",
-      "description": "Notre équipe d'admissions est dirigée par M. Tony Liu, un directeur d'admissions expérimenté, dédié à fournir à chaque étudiant un conseil éducatif personnalisé et un soutien à l'admission."
+      "description": "Dirigée par le directeur des admissions expérimenté, Tony Liu, notre équipe d'admissions est dédiée à fournir des conseils éducatifs personnalisés et un soutien à l'inscription pour chaque étudiant."
     },
     {
-      "title": "Équipe d'Instructeurs",
-      "description": "Nous avons rassemblé une équipe d'instructeurs composée d'experts en éducation expérimentés et accomplis. Nos membres d'équipe possèdent non seulement des antécédents académiques profonds, mais aussi une riche expérience pratique, capables de fournir des perspectives uniques et un enseignement de haute qualité aux étudiants."
+      "title": "Équipe de Conférenciers",
+      "description": "Nous avons une équipe d'experts en éducation hautement expérimentés et accomplis. Nos membres d'équipe ont non seulement une solide formation académique, mais aussi une riche expérience pratique, fournissant aux étudiants des perspectives uniques et un enseignement de haute qualité."
     },
     {
-      "title": "Équipe Juridique",
-      "description": "Notre équipe juridique est composée d'experts possédant une riche expérience et des antécédents approfondis dans les relations internationales et le droit de l'immigration. Notre équipe juridique s'engage à fournir aux clients une orientation et un soutien juridiques professionnels, y compris, mais sans s'y limiter, la représentation des clients dans les ordres d'expulsion, les demandes d'extradition et les appels de parrainage conjugal."
+      "title": "Département Juridique",
+      "description": "Notre équipe juridique a une vaste expérience et une solide expérience en relations internationales et en droit de l'immigration. Ils sont engagés à fournir des conseils et un soutien juridiques professionnels aux clients, y compris mais non limité à traiter les ordres d'expulsion, les demandes d'extradition et les appels de parrainage de conjoint."
     },
     {
-      "title": "Équipe Chine",
-      "description": "Nos activités en Chine sont dirigées par une équipe passionnée et expérimentée qui comprend parfaitement les besoins uniques du marché chinois. Ils s'engagent à fournir des conseils exceptionnels sur les demandes d'études à l'étranger et des services d'immigration aux étudiants chinois, tout en développant activement la coopération commerciale et en explorant des opportunités de développement diversifiées."
+      "title": "Équipe en Chine",
+      "description": "Nos opérations en Chine sont dirigées par une équipe passionnée et expérimentée. Ils comprennent les besoins uniques du marché chinois et s'engagent à fournir une excellente orientation pour les demandes d'études à l'étranger et des services d'immigration aux étudiants chinois tout en développant activement la coopération commerciale et en explorant des opportunités de développement diversifiées."
+    },
+    {
+      "title": "Département Marketing",
+      "description": "Notre département marketing est dédié à la promotion de la philosophie de marque du Centre International d'Éducation de Montréal. Grâce à des stratégies de marketing multi-canaux, nous améliorons la notoriété et l'influence de la marque. Nous utilisons des analyses de données innovantes et précises pour fournir aux clients les dernières informations en matière d'éducation et d'immigration, garantissant que chaque client reçoive en temps opportun les informations dont il a besoin."
+    },
+    {
+      "title": "Département de Marché",
+      "description": "Le département de marché se concentre sur l'exploration de nouvelles opportunités de marché, l'analyse des besoins et des tendances du marché et la formulation de stratégies de marché compétitives. Notre équipe ne se concentre pas seulement sur la dynamique actuelle du marché, mais aussi sur le développement futur. Grâce à une recherche de marché continue et aux retours des clients, nous veillons à ce que nos services soient toujours à la pointe de l'industrie."
+    },
+    {
+      "title": "Centre de Langues",
+      "description": "Notre centre de langues offre un service tout-en-un allant des examens aux cours de langue, aidant les étudiants à communiquer en toute confiance dans différents environnements linguistiques. Grâce à des méthodes d'enseignement flexibles et des ressources pédagogiques avancées, nous offrons aux étudiants une expérience d'apprentissage linguistique efficace et pratique, leur permettant d'obtenir de meilleurs résultats."
+    },
+    {
+      "title": "Bureau d'Administration",
+      "description": "Le bureau d'administration est le centre névralgique des opérations de l'entreprise, responsable de la coordination du travail des différents départements et d'assurer le bon déroulement des opérations quotidiennes. Notre équipe est efficace et professionnelle, dédiée à fournir aux employés un bon environnement de travail et un soutien logistique complet, garantissant que toutes les opérations commerciales se déroulent de manière ordonnée."
+    },
+    {
+      "title": "Département Financier",
+      "description": "Le département financier est responsable de la gestion financière et de la supervision du Centre International d'Éducation de Montréal, garantissant l'utilisation rationnelle des fonds et la transparence de la situation financière. Notre équipe financière maîtrise diverses opérations financières et réglementations légales, garantissant le développement stable de l'entreprise."
     }
   ],
   "consultantTeams": [
     {
       "name": "Eleni",
-      "designation": "Instructeur",
-      "description": "Membre du Parlement, ancien Ministre de la Justice et Procureur Général du Gouvernement Fédéral"
+      "designation": "Conférencier",
+      "description": "Députée fédérale, ancienne ministre de la Justice du gouvernement fédéral, procureure générale"
     },
     {
       "name": "Geoffrey",
-      "designation": "Instructeur",
-      "description": "Membre du Parlement, ancien Ministre de la Justice et Procureur Général du Gouvernement Fédéral"
+      "designation": "Conférencier",
+      "description": "Député fédéral, ancien ministre de la Justice du gouvernement fédéral, procureur général"
     },
     {
-      "name": "Lai Xiang Sun",
-      "designation": "Consultant Principal",
-      "description": "Ancien Vice-Président de l'Université Fudan, Vice-Président du Groupe d'Experts d'Évaluation de l'Enseignement de Premier Cycle du Ministère de l'Éducation de Chine, et Expert d'Évaluation en Chef de l'Institut d'Évaluation de l'Éducation de Shanghai"
+      "name": "Laixiang Sun",
+      "designation": "Conseiller Senior",
+      "description": "Ancien vice-président de l'Université Fudan, chef adjoint du groupe d'experts nationaux d'évaluation de l'enseignement de premier cycle du Ministère de l'Éducation de Chine, expert principal en évaluation de l'Institut d'évaluation de l'éducation de Shanghai"
     },
     {
-      "name": "Wei Ping Li",
-      "designation": "Consultant",
-      "description": "Secrétaire Général de l'Association d'Échange Éducatif International de Shanghai"
+      "name": "Weiping Li",
+      "designation": "Conseiller",
+      "description": "Secrétaire général de l'Association d'Échanges Internationaux de l'Éducation de Shanghai"
     }
   ],
-  "admissionsTeams": [
+  "sellerTeams": [
     {
       "name": "Tony Liu",
-      "designation": "Directeur d'Admissions",
+      "designation": "Directeur des Ventes",
       "description": "Responsable des admissions pour Matrix College & Veritas College"
-    },
-    {
-      "name": "Sylvain Langlois",
-      "designation": "Directeur Exécutif",
-      "description": "Directeur du Centre d'Examen de Français du Québec, Canada, et Directeur du Centre d'Éducation Inter-Edu au Canada"
-    }
-  ],
-  "teachersTeams": [
-    {
-      "name": "Eleni",
-      "designation": "Instructeur",
-      "description": "Membre du Parlement, ancien Ministre de la Justice et Procureur Général du Gouvernement Fédéral"
-    },
-    {
-      "name": "Geoffrey",
-      "designation": "Instructeur",
-      "description": "Membre du Parlement, ancien Ministre de la Justice et Procureur Général du Gouvernement Fédéral"
     }
   ],
   "LawersTeams": [
     {
       "name": "Stanislav Belevici",
       "designation": "Directeur Juridique",
-      "description": "Président du Conseil de Réglementation de l'Immigration du Canada, Officier des Affaires d'Immigration chez Vertias-Miec"
+      "description": "Président du Conseil de Réglementation de l'Immigration du Canada, Officier de l'Immigration chez Vertias-Miec"
+    },
+    {
+      "name": "Ophelia",
+      "designation": "Assistante Juridique",
+      "description": "Département juridique, Centre International d'Éducation de Montréal"
     }
   ],
   "ChinaTeams": [
     {
-      "name": "Jingbo Xu",
-      "designation": "Responsable du marché chinois",
-      "description": "Responsable des canaux du marché chinois"
-    },
-    {
       "name": "Annie",
       "designation": "Province du Henan",
-      "description": "Responsable des opérations pour la province du Henan"
+      "description": "Responsable du Bureau du Henan"
+    },
+    {
+      "name": "Jingbo Xu",
+      "designation": "Province du Liaoning",
+      "description": "Responsable des Canaux du Marché Chinois"
     }
-
+  ],
+  "secretaryTeams": [
+    {
+      "name": "Kira",
+      "designation": "Assistante du Président",
+      "description": "Bureau d'Administration, Centre International d'Éducation de Montréal"
+    }
+  ],
+  "marketingTeams": [
+    {
+      "name": "Shujun Mao",
+      "designation": "Directeur Marketing",
+      "description": "Directeur de la région de la Grande Chine"
+    },
+    {
+      "name": "Hao Huang",
+      "designation": "Directeur Marketing",
+      "description": "Directeur Marketing du Centre International d'Éducation de Montréal, Directeur des Admissions à Avron College"
+    }
+  ],
+  "langTeams": [
+    {
+      "name": "Sylvain Langlois",
+      "designation": "Directeur Exécutif",
+      "description": "Directeur du Centre d'Examens de Français du Québec, Directeur du Centre Éducatif Canadien Inter-Edu"
+    }
   ]
 }

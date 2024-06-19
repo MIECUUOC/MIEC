@@ -1,20 +1,20 @@
 {
-  "projectPlannersTitle": "Our Project Planners",
-  "projectPlannersSubtitle": "With top-tier resources and a professional team",
-  "projectPlannersDescription": "We bring together top industry experts and professionals, including a gold-medal legal team, as well as experienced educational experts and language trainers. Our team is committed to providing you with customized education and immigration solutions, ensuring that every student and client can have the best experience in studying and living in Canada.",
+  "projectPlannersTitle": "Project Planners",
+  "projectPlannersSubtitle": "Project Planners",
+  "projectPlannersDescription": "Our team comprises top experts and professionals in the industry, including a team of gold medal lawyers, experienced education experts, and language trainers. We are dedicated to providing customized education and immigration solutions to ensure that every student and client has the best experience in their studies and life in Canada.",
   "moreDetails": "More Details",
   "teamMembers": [
     {
       "name": "Jay Liu",
-      "description": "Chairman of Montreal International Education Center\nChairman of the Board, Union University of Canada\nVice President of Canada International Education Bureau\nChairman of the Francophone International Education Alliance (Canada)"
+      "description": "Chairman of Montreal International Education Center\nChairman of the Board of Directors of United Universities of Canada\nDeputy Director of the Canadian International Education Bureau\nChairman of the French International Education Federation (Canada)"
     },
     {
       "name": "Josee Bouchard",
-      "description": "Chair of the Canadian Council for Educational Excellence\nChair of the Teachers' Council\nFormer Chair of the Quebec French Education Bureau Federation"
+      "description": "Chairman of the Canadian Council on Education Excellence\nChairman of the Teachers' Committee\nFormer Chairman of the Quebec French Education Bureau Federation"
     },
     {
       "name": "Marcus Tabachnick",
-      "description": "Director of the Board, Montreal International Education Center\nChair of the Quebec English School Boards Association\nFormer Chair of the Canadian School Boards Association\nDirector of the Montreal School Board\nRecipient of the Queen Elizabeth II Silver Jubilee Medal"
+      "description": "Director of the Board of Montreal International Education Center\nChairman of the Quebec English Schools Association of Canada\nFormer President of the Canadian School Federation\nDirector of the Montreal Education Bureau\nRecipient of the Queen Elizabeth II Diamond Jubilee Medal"
     },
     {
       "name": "Brock Zhao",
@@ -22,73 +22,76 @@
     }
   ],
   "teamTitle": "Our Team",
-  "teamSubtitle": "We bring together top industry experts including a team of lawyers, education experts, certified immigration consultants, and French instructors",
+  "teamSubtitle": "We bring together top experts in the industry, including a team of lawyers, education experts, certified immigration consultants, and French language instructors",
   "sections": [
     {
-      "title": "Expert Consultants",
-      "description": "Our team of expert consultants consists of renowned scholars and industry elites from both domestic and international circles. They have profound backgrounds and extensive practical experience in fields such as educational management, economic research, and industry-education collaboration. With guidance and consultation from these experts, the Montreal International Education Center is committed to providing you with the most cutting-edge educational concepts and the most effective immigration solutions, helping your study abroad and immigration dreams come true."
+      "title": "Expert Advisors",
+      "description": "Our expert advisory team consists of renowned scholars and industry elites from home and abroad. They have a deep background and rich practical experience in education management, economic research, and industry-education integration. Through the guidance and consultation of these experts, the Montreal International Education Center is committed to providing you with cutting-edge educational concepts and the most effective immigration solutions, helping you realize your study and immigration dreams."
     },
     {
       "title": "Admissions Team",
-      "description": "Our admissions team is led by Mr. Tony Liu, an experienced admissions director, dedicated to providing each student with personalized educational consulting and admission support."
+      "description": "Led by the experienced admissions director, Tony Liu, our admissions team is dedicated to providing personalized education consulting and enrollment support to every student."
     },
     {
-      "title": "Instructors Team",
-      "description": "We have gathered a team of instructors made up of experienced and accomplished education experts. Our team members not only have profound academic backgrounds but also rich practical experience, capable of providing unique insights and high-quality teaching to students."
+      "title": "Lecturer Team",
+      "description": "We have a team of highly experienced and accomplished education experts. Our team members not only have a solid academic background but also rich practical experience, providing students with unique insights and high-quality teaching."
     },
     {
-      "title": "Legal Team",
-      "description": "Our legal team consists of experts with rich experience and deep backgrounds in international relations and immigration law. Our legal team is committed to providing clients with professional legal guidance and support, including but not limited to representing clients in deportation orders, extradition requests, and spousal sponsorship appeals."
+      "title": "Legal Department",
+      "description": "Our legal team has extensive experience and a deep background in international relations and immigration law. They are committed to providing professional legal guidance and support to clients, including but not limited to handling deportation orders, extradition requests, and spousal sponsorship appeals."
     },
     {
       "title": "China Team",
-      "description": "Our business in China is led by a passionate and experienced team who deeply understand the unique needs of the Chinese market. They are committed to providing outstanding study abroad application guidance and immigration services to Chinese students, while actively expanding business cooperation and exploring diversified development opportunities."
+      "description": "Our operations in China are led by a passionate and experienced team. They understand the unique needs of the Chinese market and are committed to providing excellent study abroad application guidance and immigration services to Chinese students while actively expanding business cooperation and exploring diverse development opportunities."
+    },
+    {
+      "title": "Marketing Department",
+      "description": "Our marketing department is dedicated to promoting the brand philosophy of the Montreal International Education Center. Through multi-channel marketing strategies, we enhance brand awareness and influence. We use innovative and precise data analysis to provide clients with the latest education and immigration information, ensuring that every client receives the information they need in a timely manner."
+    },
+    {
+      "title": "Market Department",
+      "description": "The market department focuses on exploring new market opportunities, analyzing market needs and trends, and formulating competitive market strategies. Our team not only pays attention to current market dynamics but also focuses on future development. Through continuous market research and customer feedback, we ensure that our services are always at the forefront of the industry."
+    },
+    {
+      "title": "Language Center",
+      "description": "Our language center offers a one-stop service from exams to language courses, helping students confidently communicate in different language environments. Through flexible teaching methods and advanced teaching resources, we provide students with an efficient and practical language learning experience, enabling them to achieve better results."
+    },
+    {
+      "title": "Administration Office",
+      "description": "The administration office is the hub of the company's operations, responsible for coordinating the work of various departments and ensuring smooth daily operations. Our team is efficient and professional, dedicated to providing employees with a good working environment and comprehensive logistical support, ensuring that all business operations proceed orderly."
+    },
+    {
+      "title": "Finance Department",
+      "description": "The finance department is responsible for the financial management and supervision of the Montreal International Education Center, ensuring the rational use of funds and transparent financial status. Our finance team is proficient in various financial operations and legal regulations, safeguarding the company's steady development."
     }
   ],
   "consultantTeams": [
     {
       "name": "Eleni",
-      "designation": "Instructor",
-      "description": "Member of Parliament, former Minister of Justice and Attorney General of the Federal Government"
+      "designation": "Lecturer",
+      "description": "Member of Parliament, former Minister of Justice, Attorney General"
     },
     {
       "name": "Geoffrey",
-      "designation": "Instructor",
-      "description": "Member of Parliament, former Minister of Justice and Attorney General of the Federal Government"
+      "designation": "Lecturer",
+      "description": "Member of Parliament, former Minister of Justice, Attorney General"
     },
     {
-      "name": "Lai Xiang Sun",
-      "designation": "Senior Consultant",
-      "description": "Former Vice President of Fudan University, Deputy Head of the National Undergraduate Teaching Assessment Expert Group of the Ministry of Education of China, and Chief Assessment Expert of the Shanghai Educational Assessment Institute"
+      "name": "Laixiang Sun",
+      "designation": "Senior Advisor",
+      "description": "Former Vice President of Fudan University, Deputy Leader of the National Undergraduate Teaching Evaluation Expert Group of the Ministry of Education of China, Chief Evaluation Expert of the Shanghai Education Evaluation Institute"
     },
     {
-      "name": "Wei Ping Li",
-      "designation": "Consultant",
-      "description": "Secretary-General of the Shanghai International Education Exchange Association"
+      "name": "Weiping Li",
+      "designation": "Advisor",
+      "description": "Secretary General of the Shanghai International Education Exchange Association"
     }
   ],
-  "admissionsTeams": [
+  "sellerTeams": [
     {
       "name": "Tony Liu",
-      "designation": "Admissions Director",
-      "description": "Admissions head for Matrix College & Veritas College"
-    },
-    {
-      "name": "Sylvain Langlois",
-      "designation": "Executive Director",
-      "description": "Director of the French Language Examination Center in Quebec, Canada, and Director of the Inter-Edu Education Center in Canada"
-    }
-  ],
-  "teachersTeams": [
-    {
-      "name": "Eleni",
-      "designation": "Instructor",
-      "description": "Member of Parliament, former Minister of Justice and Attorney General of the Federal Government"
-    },
-    {
-      "name": "Geoffrey",
-      "designation": "Instructor",
-      "description": "Member of Parliament, former Minister of Justice and Attorney General of the Federal Government"
+      "designation": "Sales Director",
+      "description": "Head of Admissions for Matrix College & Veritas College"
     }
   ],
   "LawersTeams": [
@@ -96,19 +99,49 @@
       "name": "Stanislav Belevici",
       "designation": "Legal Director",
       "description": "Chairman of the Canadian Immigration Regulatory Council, Immigration Officer at Vertias-Miec"
+    },
+    {
+      "name": "Ophelia",
+      "designation": "Legal Assistant",
+      "description": "Legal Department, Montreal International Education Center"
     }
   ],
   "ChinaTeams": [
     {
-      "name": "Jingbo Xu",
-      "designation": "China Market Manager",
-      "description": "Head of China Market Channels"
-    },
-    {
       "name": "Annie",
       "designation": "Henan Province",
-      "description": "Head of Operations for Henan Province"
+      "description": "Head of Henan Office"
+    },
+    {
+      "name": "Jingbo Xu",
+      "designation": "Liaoning Province",
+      "description": "Head of China Market Channels"
     }
-
+  ],
+  "secretaryTeams": [
+    {
+      "name": "Kira",
+      "designation": "Assistant to the President",
+      "description": "Administration Office, Montreal International Education Center"
+    }
+  ],
+  "marketingTeams": [
+    {
+      "name": "Shujun Mao",
+      "designation": "Marketing Director",
+      "description": "Director of Greater China Region"
+    },
+    {
+      "name": "Hao Huang",
+      "designation": "Marketing Director",
+      "description": "Marketing Director of Montreal International Education Center, Director of Admissions at Avron College"
+    }
+  ],
+  "langTeams": [
+    {
+      "name": "Sylvain Langlois",
+      "designation": "Executive Director",
+      "description": "Director of the Quebec French Exam Center, Director of the Canadian Inter-Edu Education Center"
+    }
   ]
 }
