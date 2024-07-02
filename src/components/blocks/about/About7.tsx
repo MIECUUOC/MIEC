@@ -32,6 +32,12 @@ const About7: FC<AboutProps> = ({ t }) => {
   ];
   const carouselImages = [
     {
+      id: 15,
+      url: '#',
+      title: 'MIEC 与 山东力明科技职业学院 签约',
+      image: '/img/MIEC/history/p16.png'
+    },
+    {
       id: 14,
       url: '#',
       title: '中法一带一路国际教育 &nbsp;河南行',
@@ -60,6 +66,12 @@ const About7: FC<AboutProps> = ({ t }) => {
       url: '#',
       title: '刘裕佳-HEC客座讲师',
       image: '/img/MIEC/history/p3.png'
+    },
+    {
+      id: 13,
+      url: '#',
+      title: 'PEQ项目郑州演讲',
+      image: '/img/MIEC/history/p15.png'
     },
     {
       id: 4,
@@ -127,12 +139,6 @@ const About7: FC<AboutProps> = ({ t }) => {
       title: '参加国际教育活动推介麦基尔大学',
       image: '/img/MIEC/history/p12.png'
     }
-    // {
-    //   id: 13,
-    //   url: '#',
-    //   title: 'MIEC签约加拿大汇枫集团',
-    //   image: '/img/MIEC/history/p13.png'
-    // }
   ];
   return (
     <div className="col mb-n15">
