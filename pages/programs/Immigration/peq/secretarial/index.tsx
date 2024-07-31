@@ -6,18 +6,18 @@ import RoundContainer from 'components/MIEC/Round-Container';
 import {Footer9} from 'components/blocks/footer';
 import {serverSideTranslations} from 'next-i18next/serverSideTranslations';
 import {useTranslation} from 'next-i18next';
-import Accordion from "../../../../src/components/reuseable/accordion";
+import Accordion from "../../../../../src/components/reuseable/accordion";
 import {Fragment} from "react";
-import IconBox from "../../../../src/components/reuseable/IconBox";
+import IconBox from "../../../../../src/components/reuseable/IconBox";
 import CountUp from "react-countup";
-import ContactForms from "../../../../src/components/otherBlocks/ContactForms";
+import ContactForms from "../../../../../src/components/otherBlocks/ContactForms";
 
-const IndustrialDesignPage: NextPage = () => {
+const PlumbingHeatingPage: NextPage = () => {
     const {t: navt} = useTranslation('nav');
     const {t: footert} = useTranslation('footer');
     const {t: contactformst} = useTranslation('contactForms')
 
-    const currentPage = "Industrial-Design - 工业设计专业"
+    const currentPage = "Secretarial - 文秘专业"
 
     const iconBoxClassNames = "icon btn btn-circle btn-lg btn-primary pe-none mb-5"
 
@@ -31,28 +31,28 @@ const IndustrialDesignPage: NextPage = () => {
     const countList = [
         {
             id: 1,
-            amount: 5225,
+            amount: 5857,
             color: 'btn-soft-purple',
             title: "课程编号",
             icon: 'uil-presentation-check'
         },
         {
             id: 2,
-            amount: 1800,
+            amount: 1935,
             color: 'btn-soft-red',
             title: "课程时长",
             icon: 'uil-users-alt'
         },
         {
             id: 3,
-            amount: 120,
+            amount: 129,
             color: 'btn-soft-yellow',
             title: "项目学分",
             icon: 'uil-user-check'
         },
         {
             id: 4,
-            amount: 28,
+            amount: 34,
             color: 'btn-soft-aqua',
             title: "课程数量",
             icon: 'uil-trophy'
@@ -61,19 +61,19 @@ const IndustrialDesignPage: NextPage = () => {
 
     const contentList = {
         title1: "MIEC - PEQ",
-        title2: "工业设计专业",
-        title3: "我们的\"工业设计专业培训\"项目, 助您实现设计师梦想!通过14个月(含3周企业实习)的深入学习, 您将掌握工业设计的专业技能, 成为备受行业青睐的优秀设计师. 我们拥有先进的教学设施、经验丰富的师资团队, 为您提供全方位的学习支持. 让我们一起探索工业设计的奥秘,创造属于您的辉煌人生!",
-        title4: "设计梦想, 从这里启航",
-        title5: "量身定制, 成就卓越设计师",
-        title6: "开启成功之门, 缔造非凡设计人生",
+        title2: "文秘专业",
+        title3: "我们的\"文秘专业培训\"项目, 不仅助您成为职场精英,更是移民加拿大的绝佳途径! 通过1935小时(含文秘1485小时及医务或法律秘书450小时)的深入学习, 您将掌握文秘工作的专业技能, 成为备受企业青睐的优秀文员. 更重要的是, 完成学业后, 您有资格获得长达三年的工作签证, 为未来定居加拿大铺平道路. 让我们一起探索文秘工作的奥秘, 创造属于您的辉煌人生!",
+        title4: "文秘梦想, 从这里启航",
+        title5: "量身定制, 成就卓越文秘",
+        title6: "开启成功, 缔造非凡人生",
         title7: "专业培训, 助您事业腾飞",
-        title8: "加入工业设计专业大家庭",
-        title9: "精心打造课程, 成就设计专家",
-        title10: "我们的课程体系全面涵盖工业设计的各个领域, 从机械制图到AutoCAD设计, 从材料工艺到产品结构, 从概念设计到产品建模. 通过系统的学习和实践, 您将掌握行业前沿技术, 成为集创意设计和技术实现于一身的工业设计专家. 让我们共同开启通往成功的大门!",
-        title11: "专业技能, 开启璀璨设计人生",
-        title12: "招生进行, 成为设计精英",
+        title8: "加入文秘专业大家庭",
+        title9: "精心打造, 成就办公专家",
+        title10: "我们的课程体系全面涵盖文秘工作的各个领域, 从文本录入到文档编辑, 从数据处理到演示文稿设计, 从客户服务到会议组织. 通过系统的学习和实践, 您将掌握行业前沿技术, 成为集组织能力和沟通技巧于一身的办公专家. 让我们共同开启通往成功的大门!",
+        title11: "专业技能, 开启璀璨人生",
+        title12: "招生进行, 成为文秘精英",
         title13: "问题专区",
-        title14: "如有疑问, 欢迎联系我们"
+        title14: "如有疑问, 欢迎随时联系"
     }
 
     const accordions = [
@@ -81,19 +81,19 @@ const IndustrialDesignPage: NextPage = () => {
             no: 'One',
             expand: false,
             heading: '官方认证, 行业信赖',
-            body: "我们的技术学院是魁北克省教育部认证的职业教育机构, \"工业设计专业培训\"项目获得官方认可. 通过完成全部学习, 学生将获得魁北克省颁发的D.E.P.文凭, 这将是您设计职业生涯的金字招牌, 为未来发展奠定坚实基础"
+            body: "我们的技术学院是魁北克省教育部认证的职业教育机构, \"文秘专业培训\"项目获得官方认可. 通过完成全部学习, 学生将获得魁北克省颁发的职业教育文凭(DEP), 这将是您职业生涯的金字招牌, 为未来发展奠定坚实基础"
         },
         {
             no: 'Two',
             expand: false,
-            heading: "企业实习, 就业无忧",
-            body: "我们的\"工业设计专业培训\"项目特别设置了3周的企业实习环节. 通过在真实的工作环境中实践, 学生将全面提升机械制图、AutoCAD绘图、产品设计等专业技能. 这一宝贵的实习经历, 将让您在未来的设计职业生涯中拥有更强的竞争力"
+            heading: "医法选修, 就业无忧",
+            body: "我们的\"文秘专业培训\"项目在普通文秘课程基础上, 还提供医务秘书和法律秘书两个方向的进阶学习. 通过额外的450小时专业学习, 您可以根据自己的兴趣和职业规划, 选择医务或法律方向深造,成为更加专业化的文秘人才"
         },
         {
             no: 'Three',
             expand: false,
-            heading: '就业广泛, 前景无限',
-            body: '工业设计专业人才在魁北克省乃至加拿大有着广阔的就业前景. 制造业、工程咨询、政府部门等都对工业设计专业人才有着巨大需求. 凭借我们的专业培训和官方认证, 您将在求职时拥有巨大优势, 让我们开启成功的职业生涯!'
+            heading: '完成学业, 获得工签',
+            body: '文秘专业属于魁北克省劳动力短缺职业, 这意味着完成文凭的毕业生, 在找到相关工作后, 可以申请为期最长三年的"毕业后工作许可", 为未来移民加拿大提供了便利条件. 这无疑让文秘专业的吸引力大大提升,也是明智的选择'
         }
     ];
 
@@ -103,28 +103,28 @@ const IndustrialDesignPage: NextPage = () => {
             linkUrl: '#',
             title: "全方位技能培养",
             icon: 'uil-book-open',
-            description: "我们的课程涵盖了工业设计的方方面面, 从机械制图到AutoCAD设计, 从材料工艺到产品结构, 让您成为全能设计专家"
+            description: "我们的课程涵盖了文秘工作的方方面面, 从文本录入到文档编辑, 从数据处理到演示文稿设计, 让您成为全能型办公专家"
         },
         {
             id: 2,
             linkUrl: '#',
-            title: "3周企业实习",
+            title: "医务法律双选修",
             icon: 'uil-shield-exclamation',
-            description: "我们提供3周的企业实习, 让您在真实的工作环境中锻炼专业技能, 积累实战经验, 为未来的设计职业生涯奠定坚实基础"
+            description: "我们提供医务秘书和法律秘书两个专业方向的选修课程, 让您根据自己的兴趣和职业规划, 成为更专业化的文秘人才"
         },
         {
             id: 3,
             linkUrl: '#',
-            title: "就业前景广阔",
-            icon: 'uil-laptop-cloud',
-            description: "工业设计专业在加拿大和魁北克都有着广阔的就业前景. 制造业、工程咨询、政府部门等都对工业设计人才有着巨大需求"
+            title: "毕业可获得工签",
+            icon: 'uil-award',
+            description: "完成文秘专业学习, 获得DEP文凭后, 毕业生可申请三年期\"毕业后工作许可\", 为未来移民加拿大铺平道路"
         },
         {
             id: 4,
             linkUrl: '#',
             title: "移民的绝佳选择",
-            icon: 'uil-chart-line',
-            description: "工业设计专业是魁北克省技术移民的热门选择, 通过我们的PEQ课程, 您不仅收获一技之长, 更是为移民之路铺平了道路"
+            icon: 'uil-plane-departure',
+            description: "文秘专业是魁北克省技术移民的热门选择, 通过我们的PEQ课程, 您不仅收获一技之长, 更为移民之路铺平了道路"
         }
     ];
 
@@ -134,13 +134,13 @@ const IndustrialDesignPage: NextPage = () => {
                 no: 'One',
                 expand: false,
                 heading: "如何满足课程的法语要求?",
-                body: "我们提供专业的法语强化课程, 帮助您快速提升法语能力, 达到课程入学标准. 我们的法语课程由经验丰富的教师授课, 通过针对性的训练, 您将在短时间内掌握工业设计专业所需的法语技能"
+                body: "我们提供专业的法语强化课程, 帮助您快速提升法语能力, 达到课程入学标准. 我们的法语课程由经验丰富的教师授课, 通过针对性的训练, 您将在短时间内掌握专业所需的法语技能"
             },
             {
                 no: 'Three',
                 expand: false,
                 heading: "为什么要选择法语PEQ?",
-                body: "法语PEQ移民项目是一条快速、高效的移民途径,申请条件相对宽松. 作为长期紧缺的工业设计专业人才, 我们的毕业生在PEQ移民申请中享有很大优势, 可以更快实现在加拿大工作生活的梦想"
+                body: "法语PEQ移民项目是一条快速、高效的移民途径,申请条件相对宽松. 作为长期紧缺的专业人才, 我们的毕业生在PEQ移民申请中享有很大优势, 可以更快实现在加拿大工作生活的梦想"
             }
         ],
         [
@@ -148,167 +148,221 @@ const IndustrialDesignPage: NextPage = () => {
                 no: 'Two',
                 expand: false,
                 heading: "课程的就业前景如何?",
-                body: "工业设计行业是魁北克省乃至整个加拿大地区的朝阳行业, 对工业设计专业人才的需求也在不断增加. 通过我们的PEQ课程, 您将掌握全面的工业设计技能, 成为备受企业青睐的高端技术人才"
+                body: "文秘行业是魁北克省乃至整个加拿大地区的稳定行业, 对文秘专业人才的需求也在不断增加. 通过我们的PEQ课程, 您将掌握全面的文秘技能, 成为备受企业青睐的高素质人才"
             },
             {
                 no: 'Four',
                 expand: false,
                 heading: "为什么选择我们的服务?",
-                body: "我们是加拿大魁北克PEQ项目的领军者, 我们专业的移民顾问和团队可为您提供全程的申请指导, 助您早日获得魁北克省的永久居住权. 同时, 也为毕业生提供优质的就业机会和职业发展平台"
+                body: "我们是加拿大魁北克PEQ项目的领军者, 我们移民顾问和团队将可为您提供全程申请指导, 助您早日获得魁北克省的永久居住权. 同时, 也为毕业生提供优质的机会和发展平台"
             }
         ]
     ];
 
     const classInfo = [
         {
-            id: "372-311",
-            title: "了解职业特点和培训过程",
+            id: "960-501",
+            title: "确定职业和培训过程的适合性",
             hours: "15",
             credits: "1"
         },
         {
-            id: "372-035",
-            title: "解读技术图纸",
+            id: "960-515",
+            title: "校对英文文本的拼写和语法",
             hours: "75",
             credits: "5"
         },
         {
-            id: "372-324",
-            title: "解决工业制图应用问题",
-            hours: "60",
-            credits: "4"
-        },
-        {
-            id: "372-335",
-            title: "绘制草图",
-            hours: "75",
-            credits: "5"
-        },
-        {
-            id: "372-345",
-            title: "使用计算机工作站",
-            hours: "75",
-            credits: "5"
-        },
-        {
-            id: "372-356",
-            title: "绘制机械零件详图",
+            id: "960-526",
+            title: "执行文字处理任务",
             hours: "90",
             credits: "6"
         },
         {
-            id: "372-364",
-            title: "表示连接件",
+            id: "960-534",
+            title: "确保书面英语的质量",
             hours: "60",
             credits: "4"
         },
         {
-            id: "372-373",
-            title: "表示机构的布置和运动",
-            hours: "45",
-            credits: "3"
-        },
-        {
-            id: "372-386",
-            title: "解读材料和制造工艺的技术信息",
-            hours: "90",
-            credits: "6"
-        },
-        {
-            id: "372-395",
-            title: "绘制装配图",
-            hours: "75",
-            credits: "5"
-        },
-        {
-            id: "372-407",
-            title: "使用计算机辅助设计软件的高级功能",
-            hours: "105",
-            credits: "7"
-        },
-        {
-            id: "372-054",
-            title: "测量与尺寸解析",
+            id: "960-544",
+            title: "提供客户服务",
             hours: "60",
             credits: "4"
         },
         {
-            id: "372-414",
-            title: "确定尺寸公差",
+            id: "960-554",
+            title: "执行文档管理",
             hours: "60",
             credits: "4"
         },
         {
-            id: "372-421",
-            title: "修改图纸",
-            hours: "15",
-            credits: "1"
-        },
-        {
-            id: "372-153",
-            title: "适应新的组织工作特点",
-            hours: "45",
-            credits: "3"
-        },
-        {
-            id: "372-507",
-            title: "绘制机器底座",
-            hours: "105",
-            credits: "7"
-        },
-        {
-            id: "372-495",
-            title: "绘制机械系统图",
-            hours: "75",
-            credits: "5"
-        },
-        {
-            id: "372-482",
-            title: "寻找或创造就业机会",
+            id: "960-562",
+            title: "制作电子表格",
             hours: "30",
             credits: "2"
         },
         {
-            id: "372-476",
-            title: "绘制工业管路和电路图",
+            id: "960-572",
+            title: "设计演示文稿",
+            hours: "30",
+            credits: "2"
+        },
+        {
+            id: "960-584",
+            title: "用英语撰写商务文本",
+            hours: "60",
+            credits: "4"
+        },
+        {
+            id: "960-596",
+            title: "执行会计操作",
             hours: "90",
             credits: "6"
         },
         {
-            id: "372-466",
-            title: "绘制机构详图",
+            id: "960-605",
+            title: "制作商务通信",
+            hours: "75",
+            credits: "5"
+        },
+        {
+            id: "960-613",
+            title: "创建数据库",
+            hours: "45",
+            credits: "3"
+        },
+        {
+            id: "960-623",
+            title: "处理现金",
+            hours: "45",
+            credits: "3"
+        },
+        {
+            id: "960-635",
+            title: "翻译文本",
+            hours: "75",
+            credits: "5"
+        },
+        {
+            id: "960-644",
+            title: "制作表格和图表",
+            hours: "60",
+            credits: "4"
+        },
+        {
+            id: "960-656",
+            title: "准备文件的视觉设计",
             hours: "90",
             credits: "6"
         },
         {
-            id: "372-456",
-            title: "创建三维模型",
+            id: "960-666",
+            title: "用法语撰写和格式化商务文本",
             hours: "90",
             credits: "6"
         },
         {
-            id: "372-446",
-            title: "绘制展开图",
-            hours: "90",
-            credits: "6"
+            id: "960-672",
+            title: "更新在数字媒体上发布的信息",
+            hours: "30",
+            credits: "2"
         },
         {
-            id: "372-517",
-            title: "设计简单的技术对象",
-            hours: "105",
-            credits: "7"
+            id: "960-683",
+            title: "在商务环境中用法语交流",
+            hours: "45",
+            credits: "3"
         },
         {
-            id: "372-436",
-            title: "表示传动件",
-            hours: "90",
-            credits: "6"
+            id: "960-695",
+            title: "跟进商务通信",
+            hours: "75",
+            credits: "5"
         },
         {
-            id: "372-526",
+            id: "960-704",
+            title: "执行与会议和活动组织相关的活动",
+            hours: "60",
+            credits: "4"
+        },
+        {
+            id: "960-714",
+            title: "制作报告",
+            hours: "60",
+            credits: "4"
+        },
+        {
+            id: "960-722",
+            title: "提供技术支持",
+            hours: "30",
+            credits: "2"
+        },
+        {
+            id: "960-733",
+            title: "协调多项任务",
+            hours: "45",
+            credits: "3"
+        },
+        {
+            id: "960-746",
             title: "进入劳动力市场",
             hours: "90",
             credits: "6"
+        },
+        {
+            id: "943-355",
+            title: "为医疗咨询提供行政支持",
+            hours: "75",
+            credits: "5"
+        },
+        {
+            id: "949-301",
+            title: "确定职业和培训过程的适合性",
+            hours: "15",
+            credits: "1"
+        },
+        {
+            id: "949-313",
+            title: "解释医学术语",
+            hours: "45",
+            credits: "3"
+        },
+        {
+            id: "949-324",
+            title: "建立医学术语与医学专业之间的联系",
+            hours: "60",
+            credits: "4"
+        },
+        {
+            id: "949-333",
+            title: "修改由自动系统转录的报告",
+            hours: "45",
+            credits: "3"
+        },
+        {
+            id: "949-343",
+            title: "转录医疗咨询报告",
+            hours: "45",
+            credits: "3"
+        },
+        {
+            id: "949-363",
+            title: "转录医学影像报告",
+            hours: "45",
+            credits: "3"
+        },
+        {
+            id: "949-373",
+            title: "转录手术报告",
+            hours: "45",
+            credits: "3"
+        },
+        {
+            id: "949-385",
+            title: "进入劳动力市场",
+            hours: "75",
+            credits: "5"
         }
     ];
 
@@ -327,7 +381,7 @@ const IndustrialDesignPage: NextPage = () => {
                         className="row gy-10 gx-lg-8 gx-xl-12 mb-14 mb-md-16 align-items-center justify-content-center">
                         <div className="col-md-10 col-lg-6 col-sm-12">
                             <figure className="rounded">
-                                <img className="w-auto" src="/img/PEQ/id.jpg" alt="Photo"/>
+                                <img className="w-auto" src="/img/PEQ/wm.jpg" alt="Photo"/>
                             </figure>
                         </div>
 
@@ -397,6 +451,7 @@ const IndustrialDesignPage: NextPage = () => {
                                 ))}
                             </div>
                         </div>
+
 
                         <div className="col-lg-5">
                             <h2 className="display-4 mb-3">{contentList.title8}</h2>
@@ -474,4 +529,4 @@ export async function getStaticProps({locale}: { locale: string }) {
     };
 }
 
-export default IndustrialDesignPage;
+export default PlumbingHeatingPage;

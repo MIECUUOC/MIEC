@@ -6,7 +6,7 @@ import RoundContainer from 'components/MIEC/Round-Container';
 import {Footer9} from 'components/blocks/footer';
 import {serverSideTranslations} from 'next-i18next/serverSideTranslations';
 import {useTranslation} from 'next-i18next';
-import NextLink from "../../../../src/components/reuseable/links/NextLink";
+import NextLink from "../../../../../src/components/reuseable/links/NextLink";
 
 const CarpentryPage: NextPage = () => {
     const {t: navt} = useTranslation('nav');

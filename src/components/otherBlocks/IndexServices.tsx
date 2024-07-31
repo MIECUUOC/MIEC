@@ -50,9 +50,9 @@ const IndexServices: FC<ServiceProps> = ({ t }) => {
     const buttonsList = [
         {
             no: "bs1",
-            url: "/programs/peq",
+            url: "/programs/Immigration",
             button: t("buttonsList.0.button"),
-            image: "/img/MIEC/project/PEQ.jpg"
+            image: "/img/MIEC/project/CanadaImmigration.jpg"
         },
         {
             no: "bs2",

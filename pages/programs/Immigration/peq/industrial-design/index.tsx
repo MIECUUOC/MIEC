@@ -6,87 +6,20 @@ import RoundContainer from 'components/MIEC/Round-Container';
 import {Footer9} from 'components/blocks/footer';
 import {serverSideTranslations} from 'next-i18next/serverSideTranslations';
 import {useTranslation} from 'next-i18next';
-import Accordion from "../../../../src/components/reuseable/accordion";
+import Accordion from "../../../../../src/components/reuseable/accordion";
 import {Fragment} from "react";
-import IconBox from "../../../../src/components/reuseable/IconBox";
+import IconBox from "../../../../../src/components/reuseable/IconBox";
 import CountUp from "react-countup";
-import ContactForms from "../../../../src/components/otherBlocks/ContactForms";
+import ContactForms from "../../../../../src/components/otherBlocks/ContactForms";
 
-const WesternCuisinePastryPage: NextPage = () => {
+const IndustrialDesignPage: NextPage = () => {
     const {t: navt} = useTranslation('nav');
     const {t: footert} = useTranslation('footer');
     const {t: contactformst} = useTranslation('contactForms')
 
-    const currentPage = "Western-Cuisine-Pastry - 西餐厨师和糕点专业"
+    const currentPage = "Industrial-Design - 工业设计专业"
 
-    const contentList = {
-        title1: "MIEC - PEQ",
-        title2: "西餐厨师和糕点专业",
-        title3: "掌握西餐烹饪和糕点制作技能,开启精彩人生. 我们的\"西餐厨师和糕点专业培训\"项目助您实现梦想! 在这里, 通过1920小时的密集学习将让您掌握多项专业技能, 使您成为备受行业认可的优秀厨师. 我们有最先进的教学厨房、最专业的师资团队、最真实的实战环境, 带您探索西餐和糕点的奥秘, 我们的资格证书将为您打开通往成功的大门. 无论您是行业新人还是转换职业, 机会就在眼前, 改变从这里开始",
-        title4: "成就金牌人生, 从这里启程",
-        title5: "量身定制, 实现职业蜕变",
-        title6: "开启成功之门, 铸就非凡人生",
-        title7: "专业培训, 支持职业发展",
-        title8: "加入厨师专业大家庭",
-        title9: "精心设计课程, 成为全面的厨师大师",
-        title10: "我们的课程体系涵盖了西餐和糕点行业的方方面面, 从基础的烹饪原理到创新的糕点设计, 从经典的菜肴制作到现代的餐厅管理. 通过全面的学习, 您将成为一名全能型的西餐厨师和糕点师, 在职场中拥有更多的选择和机会",
-        title11: "专业西餐技能, 开启璀璨未来",
-        title12: "加入我们的课程, 成为全能厨师",
-        title13: "问题专区",
-        title14: "如有任何问题, 请联系我们"
-    }
-
-    const serviceList = [
-        {
-            id: 1,
-            linkUrl: '#',
-            title: "全方位技能培养",
-            icon: 'uil-book-open',
-            description: "我们的课程设置全面, 涵盖了从经典西餐到创新糕点的方方面面. 无论是烹饪技巧, 还是美学设计, 您都将成为真正的专家"
-        },
-        {
-            id: 2,
-            linkUrl: '#',
-            title: "真实餐厅环境",
-            icon: 'uil-shield-exclamation',
-            description: "我们拥有先进的教学厨房和设备, 为您提供最真实的餐厅环境. 在这里, 您将亲身实践, 积累宝贵的操作经验"
-        },
-        {
-            id: 3,
-            linkUrl: '#',
-            title: "就业前景广阔",
-            icon: 'uil-laptop-cloud',
-            description: "西餐厨师和糕点师技能让您可以在高级餐厅、酒店、度假村等多个领域择业. 无论是创业还是就职, 您都将拥有广阔的舞台"
-        },
-        {
-            id: 4,
-            linkUrl: '#',
-            title: "移民的绝佳选择",
-            icon: 'uil-chart-line',
-            description: "西餐厨师和糕点专业是魁北克省PEQ技术移民的热门选择. 完成学业, 您不仅收获了一技之长, 更为移民之路铺平了道路"
-        }
-    ];
-
-    const accordions = [
-        {
-            no: 'One',
-            expand: false,
-            heading: '魁北克省教育部认证机构',
-            body: "我们的学院是魁北克省教育部认证的职业教育机构, 我们的西餐厨师和糕点专业培训获得了官方认可. 通过学习, 学生将获得魁北克省承认的专业文凭, 为未来的职业生涯奠定坚实基础"
-        },
-        {
-            no: 'Two',
-            expand: false,
-            heading: "业内口碑领先的培训课程",
-            body: "我们的学院开设的1920小时\"西餐厨师和糕点专业培训\"课程在业内享有极高声誉. 我们全面的课程设置, 涵盖了西餐烹饪和糕点制作的各项核心技能, 让学生在职场中脱颖而出"
-        },
-        {
-            no: 'Three',
-            expand: false,
-            heading: '毕业即就业,前景无限广阔',
-            body: '我们的学院与魁北克省内众多知名餐厅、酒店建立了合作关系. 凭借我们的专业培训和官方认证, 您在求职时将具有巨大优势. 无论是新人入行还是转换职业, 都是您通往成功的金牌之选!'
-        }
-    ];
+    const iconBoxClassNames = "icon btn btn-circle btn-lg btn-primary pe-none mb-5"
 
     const listContent = {
         className: "课程名称",
@@ -98,14 +31,14 @@ const WesternCuisinePastryPage: NextPage = () => {
     const countList = [
         {
             id: 1,
-            amount: 5311,
+            amount: 5225,
             color: 'btn-soft-purple',
             title: "课程编号",
             icon: 'uil-presentation-check'
         },
         {
             id: 2,
-            amount: 1920,
+            amount: 1800,
             color: 'btn-soft-red',
             title: "课程时长",
             icon: 'uil-users-alt'
@@ -119,10 +52,79 @@ const WesternCuisinePastryPage: NextPage = () => {
         },
         {
             id: 4,
-            amount: 33,
+            amount: 28,
             color: 'btn-soft-aqua',
             title: "课程数量",
             icon: 'uil-trophy'
+        }
+    ];
+
+    const contentList = {
+        title1: "MIEC - PEQ",
+        title2: "工业设计专业",
+        title3: "我们的\"工业设计专业培训\"项目, 助您实现设计师梦想!通过14个月(含3周企业实习)的深入学习, 您将掌握工业设计的专业技能, 成为备受行业青睐的优秀设计师. 我们拥有先进的教学设施、经验丰富的师资团队, 为您提供全方位的学习支持. 让我们一起探索工业设计的奥秘,创造属于您的辉煌人生!",
+        title4: "设计梦想, 从这里启航",
+        title5: "量身定制, 成就卓越设计师",
+        title6: "开启成功之门, 缔造非凡设计人生",
+        title7: "专业培训, 助您事业腾飞",
+        title8: "加入工业设计专业大家庭",
+        title9: "精心打造课程, 成就设计专家",
+        title10: "我们的课程体系全面涵盖工业设计的各个领域, 从机械制图到AutoCAD设计, 从材料工艺到产品结构, 从概念设计到产品建模. 通过系统的学习和实践, 您将掌握行业前沿技术, 成为集创意设计和技术实现于一身的工业设计专家. 让我们共同开启通往成功的大门!",
+        title11: "专业技能, 开启璀璨设计人生",
+        title12: "招生进行, 成为设计精英",
+        title13: "问题专区",
+        title14: "如有疑问, 欢迎联系我们"
+    }
+
+    const accordions = [
+        {
+            no: 'One',
+            expand: false,
+            heading: '官方认证, 行业信赖',
+            body: "我们的技术学院是魁北克省教育部认证的职业教育机构, \"工业设计专业培训\"项目获得官方认可. 通过完成全部学习, 学生将获得魁北克省颁发的D.E.P.文凭, 这将是您设计职业生涯的金字招牌, 为未来发展奠定坚实基础"
+        },
+        {
+            no: 'Two',
+            expand: false,
+            heading: "企业实习, 就业无忧",
+            body: "我们的\"工业设计专业培训\"项目特别设置了3周的企业实习环节. 通过在真实的工作环境中实践, 学生将全面提升机械制图、AutoCAD绘图、产品设计等专业技能. 这一宝贵的实习经历, 将让您在未来的设计职业生涯中拥有更强的竞争力"
+        },
+        {
+            no: 'Three',
+            expand: false,
+            heading: '就业广泛, 前景无限',
+            body: '工业设计专业人才在魁北克省乃至加拿大有着广阔的就业前景. 制造业、工程咨询、政府部门等都对工业设计专业人才有着巨大需求. 凭借我们的专业培训和官方认证, 您将在求职时拥有巨大优势, 让我们开启成功的职业生涯!'
+        }
+    ];
+
+    const serviceList = [
+        {
+            id: 1,
+            linkUrl: '#',
+            title: "全方位技能培养",
+            icon: 'uil-book-open',
+            description: "我们的课程涵盖了工业设计的方方面面, 从机械制图到AutoCAD设计, 从材料工艺到产品结构, 让您成为全能设计专家"
+        },
+        {
+            id: 2,
+            linkUrl: '#',
+            title: "3周企业实习",
+            icon: 'uil-shield-exclamation',
+            description: "我们提供3周的企业实习, 让您在真实的工作环境中锻炼专业技能, 积累实战经验, 为未来的设计职业生涯奠定坚实基础"
+        },
+        {
+            id: 3,
+            linkUrl: '#',
+            title: "就业前景广阔",
+            icon: 'uil-laptop-cloud',
+            description: "工业设计专业在加拿大和魁北克都有着广阔的就业前景. 制造业、工程咨询、政府部门等都对工业设计人才有着巨大需求"
+        },
+        {
+            id: 4,
+            linkUrl: '#',
+            title: "移民的绝佳选择",
+            icon: 'uil-chart-line',
+            description: "工业设计专业是魁北克省技术移民的热门选择, 通过我们的PEQ课程, 您不仅收获一技之长, 更是为移民之路铺平了道路"
         }
     ];
 
@@ -132,13 +134,13 @@ const WesternCuisinePastryPage: NextPage = () => {
                 no: 'One',
                 expand: false,
                 heading: "如何满足课程的法语要求?",
-                body: "我们提供专业的法语前置课程, 帮助您快速提升法语能力, 达到课程要求的入学标准. 我们的法语课程由经验丰富的教师授课, 通过有针对性的训练, 您将在短时间内掌握所需的法语技能"
+                body: "我们提供专业的法语强化课程, 帮助您快速提升法语能力, 达到课程入学标准. 我们的法语课程由经验丰富的教师授课, 通过针对性的训练, 您将在短时间内掌握工业设计专业所需的法语技能"
             },
             {
                 no: 'Three',
                 expand: false,
                 heading: "为什么要选择法语PEQ?",
-                body: "法语PEQ移民项目是一条快速、高效的移民途径, 申请条件相对宽松. 作为长期紧缺的技术型人才, 西餐厨师和糕点专业的毕业生在PEQ移民申请中享有很大优势, 而且也容易就业"
+                body: "法语PEQ移民项目是一条快速、高效的移民途径,申请条件相对宽松. 作为长期紧缺的工业设计专业人才, 我们的毕业生在PEQ移民申请中享有很大优势, 可以更快实现在加拿大工作生活的梦想"
             }
         ],
         [
@@ -146,217 +148,167 @@ const WesternCuisinePastryPage: NextPage = () => {
                 no: 'Two',
                 expand: false,
                 heading: "课程的就业前景如何?",
-                body: "餐饮行业是魁北克省乃至整个加拿大的支柱产业, 西餐厨师和糕点师的需求也在不断增加. 通过我们的PEQ课程, 您将掌握全面的西餐烹饪和糕点制作技能, 成为备受企业青睐的高端技术人才"
+                body: "工业设计行业是魁北克省乃至整个加拿大地区的朝阳行业, 对工业设计专业人才的需求也在不断增加. 通过我们的PEQ课程, 您将掌握全面的工业设计技能, 成为备受企业青睐的高端技术人才"
             },
             {
                 no: 'Four',
                 expand: false,
                 heading: "为什么选择我们的服务?",
-                body: "我们是加拿大魁北克PEQ项目的领军者, 我们的专业移民顾问和团队将助您早日获得魁北克省的永久居留权. 同时, 我们与当地餐厅、酒店有着密切的合作关系, 为可以为您提供优质的就业机会"
+                body: "我们是加拿大魁北克PEQ项目的领军者, 我们专业的移民顾问和团队可为您提供全程的申请指导, 助您早日获得魁北克省的永久居住权. 同时, 也为毕业生提供优质的就业机会和职业发展平台"
             }
         ]
     ];
 
-    const iconBoxClassNames = "icon btn btn-circle btn-lg btn-primary pe-none mb-5"
-
     const classInfo = [
         {
-            id: 1,
-            title: "了解行业和培训过程",
-            hours: "30",
-            credits: "2"
+            id: "372-311",
+            title: "了解职业特点和培训过程",
+            hours: "15",
+            credits: "1"
         },
         {
-            id: 2,
-            title: "采取食品卫生和安全预防措施",
-            hours: "30",
-            credits: "2"
+            id: "372-035",
+            title: "解读技术图纸",
+            hours: "75",
+            credits: "5"
         },
         {
-            id: 3,
-            title: "采取健康和安全预防措施",
-            hours: "30",
-            credits: "2"
-        },
-        {
-            id: 4,
-            title: "评估食物的感官品质",
-            hours: "45",
-            credits: "3"
-        },
-        {
-            id: 5,
-            title: "将烹饪技术与食材相结合",
-            hours: "30",
-            credits: "2"
-        },
-        {
-            id: 6,
-            title: "进行与厨房组织相关的活动",
-            hours: "30",
-            credits: "2"
-        },
-        {
-            id: 7,
-            title: "准备水果和蔬菜",
+            id: "372-324",
+            title: "解决工业制图应用问题",
             hours: "60",
             credits: "4"
         },
         {
-            id: 8,
-            title: "制作基本的准备工作",
+            id: "372-335",
+            title: "绘制草图",
+            hours: "75",
+            credits: "5"
+        },
+        {
+            id: "372-345",
+            title: "使用计算机工作站",
+            hours: "75",
+            credits: "5"
+        },
+        {
+            id: "372-356",
+            title: "绘制机械零件详图",
             hours: "90",
             credits: "6"
         },
         {
-            id: 9,
-            title: "建立专业关系",
-            hours: "30",
-            credits: "2"
-        },
-        {
-            id: 10,
-            title: "准备汤类",
-            hours: "45",
-            credits: "3"
-        },
-        {
-            id: 11,
-            title: "制作基本面食",
+            id: "372-364",
+            title: "表示连接件",
             hours: "60",
             credits: "4"
         },
         {
-            id: 12,
-            title: "准备肉类、家禽和野味",
-            hours: "105",
-            credits: "7"
+            id: "372-373",
+            title: "表示机构的布置和运动",
+            hours: "45",
+            credits: "3"
         },
         {
-            id: 13,
-            title: "准备鱼类、软体动物和甲壳类动物",
+            id: "372-386",
+            title: "解读材料和制造工艺的技术信息",
             hours: "90",
             credits: "6"
         },
         {
-            id: 14,
-            title: "准备开胃菜和头盘",
-            hours: "60",
-            credits: "4"
+            id: "372-395",
+            title: "绘制装配图",
+            hours: "75",
+            credits: "5"
         },
         {
-            id: 15,
-            title: "准备甜点",
+            id: "372-407",
+            title: "使用计算机辅助设计软件的高级功能",
             hours: "105",
             credits: "7"
         },
         {
-            id: 16,
-            title: "设计均衡的菜单",
+            id: "372-054",
+            title: "测量与尺寸解析",
             hours: "60",
             credits: "4"
         },
         {
-            id: 17,
-            title: "提供早餐服务",
+            id: "372-414",
+            title: "确定尺寸公差",
             hours: "60",
             credits: "4"
         },
         {
-            id: 18,
-            title: "制作烹饪演示",
+            id: "372-421",
+            title: "修改图纸",
+            hours: "15",
+            credits: "1"
+        },
+        {
+            id: "372-153",
+            title: "适应新的组织工作特点",
             hours: "45",
             credits: "3"
         },
         {
-            id: 19,
-            title: "提供当日菜单服务",
-            hours: "60",
-            credits: "4"
-        },
-        {
-            id: 20,
-            title: "提供生产菜单服务",
-            hours: "45",
-            credits: "3"
-        },
-        {
-            id: 21,
-            title: "确保宴会和餐饮服务的生产",
-            hours: "75",
-            credits: "5"
-        },
-        {
-            id: 22,
-            title: "提供自助餐服务",
-            hours: "45",
-            credits: "3"
-        },
-        {
-            id: 23,
-            title: "提供套餐和单点菜单服务",
-            hours: "135",
-            credits: "9"
-        },
-        {
-            id: 24,
-            title: "融入工作环境",
+            id: "372-507",
+            title: "绘制机器底座",
             hours: "105",
             credits: "7"
         },
         {
-            id: 25,
-            title: "制作配料",
-            hours: "60",
-            credits: "4"
-        },
-        {
-            id: 26,
-            title: "制作基本面食产品",
+            id: "372-495",
+            title: "绘制机械系统图",
             hours: "75",
             credits: "5"
         },
         {
-            id: 27,
-            title: "制作饼干和支撑物",
+            id: "372-482",
+            title: "寻找或创造就业机会",
             hours: "30",
             credits: "2"
         },
         {
-            id: 28,
-            title: "制作巧克力产品",
-            hours: "30",
-            credits: "2"
+            id: "372-476",
+            title: "绘制工业管路和电路图",
+            hours: "90",
+            credits: "6"
         },
         {
-            id: 29,
-            title: "制作经典的甜点",
-            hours: "60",
-            credits: "4"
+            id: "372-466",
+            title: "绘制机构详图",
+            hours: "90",
+            credits: "6"
         },
         {
-            id: 30,
-            title: "制作装饰品",
-            hours: "30",
-            credits: "2"
+            id: "372-456",
+            title: "创建三维模型",
+            hours: "90",
+            credits: "6"
         },
         {
-            id: 31,
-            title: "制作当代甜点",
-            hours: "75",
-            credits: "5"
+            id: "372-446",
+            title: "绘制展开图",
+            hours: "90",
+            credits: "6"
         },
         {
-            id: 32,
-            title: "制作冰淇淋产品",
-            hours: "30",
-            credits: "2"
+            id: "372-517",
+            title: "设计简单的技术对象",
+            hours: "105",
+            credits: "7"
         },
         {
-            id: 33,
-            title: "创造盘装甜点",
-            hours: "60",
-            credits: "4"
+            id: "372-436",
+            title: "表示传动件",
+            hours: "90",
+            credits: "6"
+        },
+        {
+            id: "372-526",
+            title: "进入劳动力市场",
+            hours: "90",
+            credits: "6"
         }
     ];
 
@@ -375,7 +327,7 @@ const WesternCuisinePastryPage: NextPage = () => {
                         className="row gy-10 gx-lg-8 gx-xl-12 mb-14 mb-md-16 align-items-center justify-content-center">
                         <div className="col-md-10 col-lg-6 col-sm-12">
                             <figure className="rounded">
-                                <img className="w-auto" src="/img/PEQ/cc1.jpg" alt="Photo"/>
+                                <img className="w-auto" src="/img/PEQ/id.jpg" alt="Photo"/>
                             </figure>
                         </div>
 
@@ -522,4 +474,4 @@ export async function getStaticProps({locale}: { locale: string }) {
     };
 }
 
-export default WesternCuisinePastryPage;
+export default IndustrialDesignPage;

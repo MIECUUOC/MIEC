@@ -6,88 +6,87 @@ import RoundContainer from 'components/MIEC/Round-Container';
 import {Footer9} from 'components/blocks/footer';
 import {serverSideTranslations} from 'next-i18next/serverSideTranslations';
 import {useTranslation} from 'next-i18next';
-import Accordion from "../../../../src/components/reuseable/accordion";
+import Accordion from "../../../../../src/components/reuseable/accordion";
 import {Fragment} from "react";
-import IconBox from "../../../../src/components/reuseable/IconBox";
+import IconBox from "../../../../../src/components/reuseable/IconBox";
 import CountUp from "react-countup";
-import ContactForms from "../../../../src/components/otherBlocks/ContactForms";
+import ContactForms from "../../../../../src/components/otherBlocks/ContactForms";
 
-
-const ResidentialCommercialDraftingPage: NextPage = () => {
+const ComputerSupportPage: NextPage = () => {
     const {t: navt} = useTranslation('nav');
     const {t: footert} = useTranslation('footer');
     const {t: contactformst} = useTranslation('contactForms')
 
-    const currentPage = "Residential-Commercial-Drafting - 住宅与商业制图专业"
+    const currentPage = "Computer-Support - 计算机支持专业"
 
     const contentList = {
         title1: "MIEC - PEQ",
-        title2: "住宅与商业制图专业",
-        title3: "建筑制图是一门融合艺术与技术的学科, 它将创意设计与严谨的工程实践相结合. 在我们的专业培训项目中, 您将接受1800小时的系统训练, 掌握手工绘图、计算机辅助设计等多项技能, 成为一名出色的制图师. 无论您是建筑行业的新手, 还是正在寻求职业转型, 我们的课程都将为您提供一个实现梦想的绝佳平台. 让我们一起踏上这个精彩的旅程, 开启人生的新篇章!",
-        title4: "绘制蓝图, 构筑未来",
-        title5: "个性化教学, 全面提升制图技能",
-        title6: "扬帆起航, 驶向成功彼岸",
-        title7: "专注教学, 助力职业腾飞",
-        title8: "融入制图精英团队",
-        title9: "缜密课程设计, 培养制图英才",
-        title10: "我们的课程体系由业内资深专家精心设计, 涵盖了建筑制图的各个领域. 从手工绘图的基本功到计算机辅助设计的进阶技巧, 从常规建筑图纸的绘制到复杂结构的设计表现, 25个模块环环相扣, 循序渐进. 通过系统学习, 您将全面掌握制图技能, 成为一名出类拔萃的建筑制图师",
-        title11: "建筑制图专业技能, 开创美好人生",
-        title12: "立即报名, 成就非凡制图人才",
-        title13: "常见问题解答",
-        title14: "如有任何疑问, 欢迎随时垂询"
+        title2: "计算机支持专业",
+        title3: "掌握计算机技能, 开启精彩人生. 我们的\"计算机支持专业培训\"项目助您实现梦想! 在这里, 通过1560小时的密集学习将让您掌握多项专业技能, 并且提供两个120小时的必修实习项目让您成为备受行业认可的计算机支持专家. 我们有最先进的教学设施、最专业的师资团队、最真实的实战环境, 带您探索计算机技术的奥秘, 我们的资格证书将为您打开通往成功的大门. 无论您是行业新人还是转换职业, 机会就在眼前, 改变从这里开始",
+        title4: "成就卓越人生, 从这里启程",
+        title5: "实现技能进阶与职业蜕变",
+        title6: "开启成功之门, 铸就非凡人生",
+        title7: "专业培训, 助力您的职业发展",
+        title8: "加入计算机支持专业大家庭",
+        title9: "成为全面的计算机支持专家",
+        title10: "我们的课程体系涵盖了计算机支持领域的方方面面, 从基础的软件应用到先进的网络管理, 从常规的故障诊断到系统的优化配置, 22门课程让您成为一名全能型的计算机支持专家, 在职场中拥有更多的选择和机会",
+        title11: "专业计算机技能, 开启璀璨未来",
+        title12: "加入我们, 成为计算机支持领域的佼佼者",
+        title13: "问题专区",
+        title14: "如果您有任何其他问题, 请随时联系我们"
     }
 
     const accordions = [
         {
             no: 'One',
             expand: false,
-            heading: "官方认证, 扬帆起航",
-            body: "我们旗下院校是魁北克省教育部认可的职业教育机构, 住宅与商业制图专业培训项目经过严格评估, 获得官方认证. 完成学业后, 您将获得魁北克省颁发的专业文凭, 这将是您职业生涯的一张金名片, 为您在建筑行业的发展奠定坚实的基础"
+            heading: '省教育部认证机构',
+            body: "我们的技术学院是魁北克省教育部认证的职业教育机构, 我们的计算机支持专业培训项目获得了官方认可. 通过学习, 学生将获得魁北克省承认的专业文凭, 为未来的职业生涯奠定坚实基础"
         },
         {
             no: 'Two',
             expand: false,
-            heading: "优质口碑, 行业翘楚",
-            body: "我们的学院开设的1800小时住宅与商业制图专业培训课程, 在业内享有盛誉. 课程内容丰富全面, 涵盖建筑制图的25项核心技能, 理论与实践并重, 案例与项目结合, 确保学生掌握扎实的专业知识和过硬的操作技能, 成为建筑制图领域的佼佼者"
+            heading: "量身定制的培训课程",
+            body: "我们的技术学院开设的1800小时\"计算机支持专业培训\"课程, 根据行业需求量身定制. 我们的课程设置涵盖了计算机支持的各个方面, 从软件应用到网络管理, 让学生成为全能型人才, 在职场中游刃有余"
         },
         {
             no: 'Three',
             expand: false,
-            heading: "企业青睐, 就业无忧",
-            body: "我们的学院与魁北克省内多家知名建筑设计公司和工程咨询机构保持紧密合作关系. 凭借雄厚的师资力量和先进的教学设施, 我们的学院为企业输送了大批优秀的建筑制图人才. 作为我院的毕业生, 无论是立志在大企业担任要职, 还是计划自主创业, 都将拥有广阔的职业前景"
+            heading: '拥有广阔的就业前景',
+            body: '我们的技术学院与魁北克省内众多知名IT公司和企业建立了长期合作关系. 凭借我们的专业培训和官方认证, 毕业生在求职时将具有巨大优势, 无论是新人入行, 还是转换职业, 都是您通往成功的金牌之选!'
         }
     ];
 
     const iconBoxClassNames = "icon btn btn-circle btn-lg btn-primary pe-none mb-5"
 
-    const serviceList2 = [
+    const serviceList = [
         {
             id: 1,
             linkUrl: '#',
-            title: "技能全面进阶",
+            title: "全方位技能培养",
             icon: 'uil-book-open',
-            description: "我们的课程体系全面而细致, 从手工绘图的基础技法到计算机辅助设计的高阶应用, 涵盖建筑制图的方方面面. 通过系统学习, 您将掌握建筑设计、结构分析等专业技能, 成为一名全能型的制图专家"
+            description: "我们的课程设置全面, 从基础软件应用到先进网络管理的方方面面. 无论系统优化, 还是故障诊断, 您都将成为真正的专家"
         },
         {
             id: 2,
             linkUrl: '#',
-            title: "沉浸式实训环境",
+            title: "实战教学环境",
             icon: 'uil-shield-exclamation',
-            description: "我院拥有业内一流的教学设施和软硬件资源, 为学生营造身临其境的实战氛围. 在这里, 您将通过大量的实践操作和项目训练, 快速积累宝贵的设计经验, 为未来的职业发展打下坚实的基础"
+            description: "我们拥有先进的教学设施和设备,为您提供实战环境. 在这里, 您亲身实践, 积累操作经验, 为未来的职业生涯打下坚实基础"
         },
         {
             id: 3,
             linkUrl: '#',
-            title: "就业方向多元化",
+            title: "就业方向广泛",
             icon: 'uil-laptop-cloud',
-            description: "建筑制图是一项应用广泛的技能, 掌握它意味着拥有更多的职业选择. 我院毕业生在建筑设计院、工程咨询公司、房地产开发企业等多个领域大展拳脚, 无论自主创业还是就职大企业,都拥有广阔的发展空间"
+            description: "计算机支持技能让您可以在IT公司、大型企业、政府机构等多个领域择业. 无论创业或就职, 您都有广阔的舞台和发展空间"
         },
         {
             id: 4,
             linkUrl: '#',
-            title: "助力技术移民梦",
+            title: "移民的绝佳选择",
             icon: 'uil-chart-line',
-            description: "住宅与商业制图专业是魁北克省PEQ技术移民计划的重点领域之一. 通过我院的专业培训, 您不仅能够掌握一技之长, 还能够满足技术移民的申请条件, 为实现在加拿大定居的梦想铺平道路"
+            description: "计算机支持专业是魁北克省PEQ技术移民的热门选择. 您不仅收获了一技之长, 更为移民之路铺平了道路,实现移民梦想"
         }
     ];
 
@@ -101,7 +100,7 @@ const ResidentialCommercialDraftingPage: NextPage = () => {
     const countList = [
         {
             id: 1,
-            amount: 5750,
+            amount: 5729,
             color: 'btn-soft-purple',
             title: "课程编号",
             icon: 'uil-presentation-check'
@@ -122,163 +121,10 @@ const ResidentialCommercialDraftingPage: NextPage = () => {
         },
         {
             id: 4,
-            amount: 25,
+            amount: 22,
             color: 'btn-soft-aqua',
             title: "课程数量",
             icon: 'uil-trophy'
-        }
-    ];
-
-    const classInfo = [
-        {
-            id: "755-002",
-            title: "在建筑工地上应用健康和安全概念",
-            hours: "30",
-            credits: "2"
-        },
-        {
-            id: "825-011",
-            title: "确定他们是否适合贸易和培训过程",
-            hours: "15",
-            credits: "1"
-        },
-        {
-            id: "825-211",
-            title: "使用求职技巧",
-            hours: "15",
-            credits: "1"
-        },
-        {
-            id: "825-258",
-            title: "进入劳动力队伍",
-            hours: "120",
-            credits: "8"
-        },
-        {
-            id: "825-262",
-            title: "使用计算机",
-            hours: "30",
-            credits: "2"
-        },
-        {
-            id: "825-273",
-            title: "绘制体系结构组件",
-            hours: "45",
-            credits: "3"
-        },
-        {
-            id: "825-287",
-            title: "使用绘图软件应用程序的基本功能",
-            hours: "105",
-            credits: "7"
-        },
-        {
-            id: "825-297",
-            title: "制作建筑对象的图纸",
-            hours: "105",
-            credits: "7"
-        },
-        {
-            id: "825-308",
-            title: "为单户住宅制定建筑计划",
-            hours: "120",
-            credits: "8"
-        },
-        {
-            id: "825-315",
-            title: "使用绘图软件应用程序的高级功能",
-            hours: "75",
-            credits: "5"
-        },
-        {
-            id: "825-324",
-            title: "制作钢筋混凝土图纸",
-            hours: "60",
-            credits: "4"
-        },
-        {
-            id: "825-332",
-            title: "记录施工现场数据",
-            hours: "30",
-            credits: "2"
-        },
-        {
-            id: "825-346",
-            title: "与管道相关的研究信息",
-            hours: "90",
-            credits: "6"
-        },
-        {
-            id: "825-356",
-            title: "制定管道计划",
-            hours: "90",
-            credits: "6"
-        },
-        {
-            id: "825-362",
-            title: "绘制墙体截面图和详图",
-            hours: "30",
-            credits: "2"
-        },
-        {
-            id: "825-372",
-            title: "估算材料和设备的数量",
-            hours: "30",
-            credits: "2"
-        },
-        {
-            id: "825-384",
-            title: "制作钢结构装配图纸",
-            hours: "60",
-            credits: "4"
-        },
-        {
-            id: "825-398",
-            title: "制作钢结构施工图",
-            hours: "120",
-            credits: "8"
-        },
-        {
-            id: "825-408",
-            title: "为多户住宅制定建筑计划",
-            hours: "120",
-            credits: "8"
-        },
-        {
-            id: "825-413",
-            title: "电力相关研究信息",
-            hours: "45",
-            credits: "3"
-        },
-        {
-            id: "825-423",
-            title: "制定电气计划",
-            hours: "45",
-            credits: "3"
-        },
-        {
-            id: "825-437",
-            title: "制作演示图",
-            hours: "105",
-            credits: "7"
-        },
-        {
-            id: "825-446",
-            title: "通气相关研究信息",
-            hours: "90",
-            credits: "6"
-        },
-        {
-            id: "825-457",
-            title: "制定通风计划",
-            hours: "105",
-            credits: "7"
-        },
-        {
-            id: "825-468",
-            title: "制定商业建筑计划",
-            hours: "120",
-            credits: "8"
         }
     ];
 
@@ -288,13 +134,13 @@ const ResidentialCommercialDraftingPage: NextPage = () => {
                 no: 'One',
                 expand: false,
                 heading: "如何满足课程的法语要求?",
-                body: "我们提供专业的法语前置课程, 帮助您快速提升法语能力, 达到课程要求的入学标准. 我们的法语课程由经验丰富的教师授课, 通过有针对性的训练, 您将在短时间内掌握专业制图所需的法语技能"
+                body: "我们提供专业的法语前置课程, 帮助您提升法语能力, 达到课程要求的入学标准. 我们的法语课程由经验丰富的教师授课, 您将在短时间内掌握所需的法语技能"
             },
             {
                 no: 'Three',
                 expand: false,
                 heading: "为什么要选择法语PEQ?",
-                body: "法语PEQ移民项目是一条快速、高效的移民途径, 申请条件相对宽松. 作为长期紧缺技术型人才, 住宅与商业制图专业的毕业生在PEQ移民申请中享有很大优势"
+                body: "法语PEQ移民项目是一条快速、高效的移民途径,申请条件相对宽松. 作为长期紧缺的技术型人才, 计算机支持专业的毕业生在PEQ移民申请中享有很大优势"
             }
         ],
         [
@@ -302,15 +148,150 @@ const ResidentialCommercialDraftingPage: NextPage = () => {
                 no: 'Two',
                 expand: false,
                 heading: "课程的就业前景如何?",
-                body: "建筑行业是魁北克省乃至整个加拿大的支柱产业, 随着城市化进程的加快, 对建筑制图人才的需求也在不断增加. 通过我们的PEQ课程, 您将掌握全面的制图技能, 成为备受企业青睐的高端技术人才"
+                body: "计算机支持行业是魁北克省乃至整个加拿大的热门行业, 对计算机支持专业人才的需求也在不断增加. 通过我们的PEQ课程,您将成为备受青睐的高端技术人才"
             },
             {
                 no: 'Four',
                 expand: false,
                 heading: "为什么选择我们的服务?",
-                body: "我们是加拿大魁北克PEQ项目的领军者, 我们最权威的专业移民顾问和团队将为您提供全程的申请指导, 助您早日获得魁北克省的永久居留权"
+                body: "我们是加拿大魁北克PEQ项目的领军者, 我们最权威的专业移民顾问和团队将为您提供全程的申请指导,助您早日获得魁北克省的永久居留权"
             }
         ]
+    ];
+
+    const classInfo = [
+        {
+            id: "962-012",
+            title: "确定是否适合该职业和培训过程",
+            hours: "30",
+            credits: "2"
+        },
+        {
+            id: "962-025",
+            title: "分析计算机系统的架构和操作",
+            hours: "75",
+            credits: "5"
+        },
+        {
+            id: "962-038",
+            title: "利用老旧技术操作系统的功能",
+            hours: "120",
+            credits: "8"
+        },
+        {
+            id: "962-043",
+            title: "应用问题解决方法",
+            hours: "45",
+            credits: "3"
+        },
+        {
+            id: "962-053",
+            title: "研究信息",
+            hours: "30",
+            credits: "2"
+        },
+        {
+            id: "962-068",
+            title: "开发实用程序",
+            hours: "120",
+            credits: "8"
+        },
+        {
+            id: "962-074",
+            title: "在各种工作情况下互动",
+            hours: "60",
+            credits: "4"
+        },
+        {
+            id: "962-088",
+            title: "发掘应用软件的可能性",
+            hours: "120",
+            credits: "8"
+        },
+        {
+            id: "962-096",
+            title: "探索使用新技术的操作系统的可能性",
+            hours: "90",
+            credits: "6"
+        },
+        {
+            id: "962-106",
+            title: "创建和使用数据库",
+            hours: "90",
+            credits: "6"
+        },
+        {
+            id: "962-116",
+            title: "安装计算机的硬件和软件",
+            hours: "90",
+            credits: "6"
+        },
+        {
+            id: "962-122",
+            title: "管理时间",
+            hours: "30",
+            credits: "2"
+        },
+        {
+            id: "962-135",
+            title: "用法语沟通",
+            hours: "75",
+            credits: "5"
+        },
+        {
+            id: "962-148",
+            title: "管理网络资源的访问",
+            hours: "120",
+            credits: "8"
+        },
+        {
+            id: "962-157",
+            title: "安装网络的可共享资源",
+            hours: "105",
+            credits: "7"
+        },
+        {
+            id: "962-166",
+            title: "评估电信设施的可能性",
+            hours: "90",
+            credits: "6"
+        },
+        {
+            id: "962-173",
+            title: "管理职业生涯",
+            hours: "45",
+            credits: "3"
+        },
+        {
+            id: "962-186",
+            title: "解决计算机问题",
+            hours: "90",
+            credits: "6"
+        },
+        {
+            id: "962-194",
+            title: "优化计算机性能",
+            hours: "15",
+            credits: "1"
+        },
+        {
+            id: "962-205",
+            title: "在电话帮助台提供技术支持",
+            hours: "75",
+            credits: "5"
+        },
+        {
+            id: "962-218",
+            title: "确保工作场所计算机的正常运行",
+            hours: "120",
+            credits: "8"
+        },
+        {
+            id: "962-228",
+            title: "在工作场所为客户提供服务",
+            hours: "120",
+            credits: "8"
+        }
     ];
 
     useLightBox();
@@ -328,7 +309,7 @@ const ResidentialCommercialDraftingPage: NextPage = () => {
                         className="row gy-10 gx-lg-8 gx-xl-12 mb-14 mb-md-16 align-items-center justify-content-center">
                         <div className="col-md-10 col-lg-6 col-sm-12">
                             <figure className="rounded">
-                                <img className="w-auto" src="/img/PEQ/rcd3.jpg" alt="Photo"/>
+                                <img className="w-auto" src="/img/PEQ/cs-min.jpg" alt="Photo"/>
                             </figure>
                         </div>
 
@@ -354,7 +335,7 @@ const ResidentialCommercialDraftingPage: NextPage = () => {
                         </div>
 
                         <div className="row gx-md-8 gy-8 text-center mb-14 mb-md-17">
-                            {serviceList2.map((item) => (
+                            {serviceList.map((item) => (
                                 <div key={item.id} className="col-md-6 col-lg-3">
                                     <IconBox icon={item.icon} className={iconBoxClassNames}/>
                                     <h4>{item.title}</h4>
@@ -475,4 +456,4 @@ export async function getStaticProps({locale}: { locale: string }) {
     };
 }
 
-export default ResidentialCommercialDraftingPage;
+export default ComputerSupportPage;

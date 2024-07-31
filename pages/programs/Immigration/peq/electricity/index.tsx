@@ -6,11 +6,11 @@ import RoundContainer from 'components/MIEC/Round-Container';
 import {Footer9} from 'components/blocks/footer';
 import {serverSideTranslations} from 'next-i18next/serverSideTranslations';
 import {useTranslation} from 'next-i18next';
-import Accordion from "../../../../src/components/reuseable/accordion";
+import Accordion from "../../../../../src/components/reuseable/accordion";
 import {Fragment} from "react";
-import IconBox from "../../../../src/components/reuseable/IconBox";
+import IconBox from "../../../../../src/components/reuseable/IconBox";
 import CountUp from "react-countup";
-import ContactForms from "../../../../src/components/otherBlocks/ContactForms";
+import ContactForms from "../../../../../src/components/otherBlocks/ContactForms";
 
 const ElectricityPage: NextPage = () => {
     const {t: navt} = useTranslation('nav');

@@ -6,87 +6,85 @@ import RoundContainer from 'components/MIEC/Round-Container';
 import {Footer9} from 'components/blocks/footer';
 import {serverSideTranslations} from 'next-i18next/serverSideTranslations';
 import {useTranslation} from 'next-i18next';
-import Accordion from "../../../../src/components/reuseable/accordion";
+import Accordion from "../../../../../src/components/reuseable/accordion";
 import {Fragment} from "react";
-import IconBox from "../../../../src/components/reuseable/IconBox";
+import IconBox from "../../../../../src/components/reuseable/IconBox";
 import CountUp from "react-countup";
-import ContactForms from "../../../../src/components/otherBlocks/ContactForms";
+import ContactForms from "../../../../../src/components/otherBlocks/ContactForms";
 
-const AutoMechanicsPage: NextPage = () => {
+const WesternCuisinePastryPage: NextPage = () => {
     const {t: navt} = useTranslation('nav');
     const {t: footert} = useTranslation('footer');
     const {t: contactformst} = useTranslation('contactForms')
 
-    const currentPage = "Auto-Mechanics - 汽车修理专业"
+    const currentPage = "Western-Cuisine-Pastry - 西餐厨师和糕点专业"
 
     const contentList = {
         title1: "MIEC - PEQ",
-        title2: "汽车修理专业",
-        title3: "掌握汽车修理技能, 开启精彩人生. 我们的\"汽车修理专业培训\"项目助您实现梦想! 在这里, 通过1800小时的密集学习将让您掌握多项专业技能, 让您成为备受行业认可的优秀机械师. 我们有最先进的教学设施、最专业的师资团队、最真实的实战环境, 带您探索汽车维修的奥秘, 我们的资格证书将为您打开通往成功的大门. 无论您是行业新人还是转换职业, 机会就在眼前, 改变从这里开始",
+        title2: "西餐厨师和糕点专业",
+        title3: "掌握西餐烹饪和糕点制作技能,开启精彩人生. 我们的\"西餐厨师和糕点专业培训\"项目助您实现梦想! 在这里, 通过1920小时的密集学习将让您掌握多项专业技能, 使您成为备受行业认可的优秀厨师. 我们有最先进的教学厨房、最专业的师资团队、最真实的实战环境, 带您探索西餐和糕点的奥秘, 我们的资格证书将为您打开通往成功的大门. 无论您是行业新人还是转换职业, 机会就在眼前, 改变从这里开始",
         title4: "成就金牌人生, 从这里启程",
-        title5: "定制培训, 实现技能进阶与职业蜕变",
+        title5: "量身定制, 实现职业蜕变",
         title6: "开启成功之门, 铸就非凡人生",
-        title7: "专业培训, 支持您的职业发展",
-        title8: "加入汽修专业大家庭",
-        title9: "精心设计汽修专业, 成为全面汽修专家",
-        title10: "我们的课程体系涵盖了汽修行业的方方面面, 从基础的机械原理到先进的电子控制系统, 从常规的故障诊断到复杂的定制改装, 29个技能模块让您成为一名全能型的汽修专家, 在职场中拥有更多的选择和机会",
-        title11: "专业汽修技能, 开启璀璨未来",
-        title12: "加入我们的课程, 成为全能汽修专家",
+        title7: "专业培训, 支持职业发展",
+        title8: "加入厨师专业大家庭",
+        title9: "精心设计课程, 成为全面的厨师大师",
+        title10: "我们的课程体系涵盖了西餐和糕点行业的方方面面, 从基础的烹饪原理到创新的糕点设计, 从经典的菜肴制作到现代的餐厅管理. 通过全面的学习, 您将成为一名全能型的西餐厨师和糕点师, 在职场中拥有更多的选择和机会",
+        title11: "专业西餐技能, 开启璀璨未来",
+        title12: "加入我们的课程, 成为全能厨师",
         title13: "问题专区",
-        title14: "如果您有任何其他问题, 请随时联系我们"
+        title14: "如有任何问题, 请联系我们"
     }
+
+    const serviceList = [
+        {
+            id: 1,
+            linkUrl: '#',
+            title: "全方位技能培养",
+            icon: 'uil-book-open',
+            description: "我们的课程设置全面, 涵盖了从经典西餐到创新糕点的方方面面. 无论是烹饪技巧, 还是美学设计, 您都将成为真正的专家"
+        },
+        {
+            id: 2,
+            linkUrl: '#',
+            title: "真实餐厅环境",
+            icon: 'uil-shield-exclamation',
+            description: "我们拥有先进的教学厨房和设备, 为您提供最真实的餐厅环境. 在这里, 您将亲身实践, 积累宝贵的操作经验"
+        },
+        {
+            id: 3,
+            linkUrl: '#',
+            title: "就业前景广阔",
+            icon: 'uil-laptop-cloud',
+            description: "西餐厨师和糕点师技能让您可以在高级餐厅、酒店、度假村等多个领域择业. 无论是创业还是就职, 您都将拥有广阔的舞台"
+        },
+        {
+            id: 4,
+            linkUrl: '#',
+            title: "移民的绝佳选择",
+            icon: 'uil-chart-line',
+            description: "西餐厨师和糕点专业是魁北克省PEQ技术移民的热门选择. 完成学业, 您不仅收获了一技之长, 更为移民之路铺平了道路"
+        }
+    ];
 
     const accordions = [
         {
             no: 'One',
             expand: false,
             heading: '魁北克省教育部认证机构',
-            body: "我们的技术学院是魁北克省教育部认证的职业教育机构, 我们的汽车修理专业培训项目获得了官方认可. 通过学习, 学生将获得魁北克省承认的专业文凭, 为未来的职业生涯奠定坚实基础"
+            body: "我们的学院是魁北克省教育部认证的职业教育机构, 我们的西餐厨师和糕点专业培训获得了官方认可. 通过学习, 学生将获得魁北克省承认的专业文凭, 为未来的职业生涯奠定坚实基础"
         },
         {
             no: 'Two',
             expand: false,
             heading: "业内口碑领先的培训课程",
-            body: "我们的技术学院开设的1800小时\"汽车修理专业培训\"课程在业内享有极高声誉. 我们全面的课程设置, 涵盖了汽车修理的29项核心技能, 让学生成为真正的全能型人才, 在职场中傲视同侪"
+            body: "我们的学院开设的1920小时\"西餐厨师和糕点专业培训\"课程在业内享有极高声誉. 我们全面的课程设置, 涵盖了西餐烹饪和糕点制作的各项核心技能, 让学生在职场中脱颖而出"
         },
         {
             no: 'Three',
             expand: false,
-            heading: '毕业即就业, 前景无限广阔',
-            body: '我们的技术学院与魁北克省内众多知名汽车公司和修理厂建立了长期合作关系. 凭借我们的专业培训和官方认证, 毕业生在求职时将具有巨大优势. 无论是新人入行, 还是转换职业, 都是您通往成功的金牌之选!'
-        }
-    ];
-
-    const iconBoxClassNames = "icon btn btn-circle btn-lg btn-primary pe-none mb-5"
-
-    const serviceList2 = [
-        {
-            id: 1,
-            linkUrl: '#',
-            title: "全面技能培养",
-            icon: 'uil-book-open',
-            description: "我们的课程设置全面,涵盖了从传统机械到先进电子系统的方方面面.无论是故障诊断,还是定期保养,您都将成为真正的专家"
-        },
-        {
-            id: 2,
-            linkUrl: '#',
-            title: "真实实战环境",
-            icon: 'uil-shield-exclamation',
-            description: "我们拥有先进的教学设施和设备,为您提供最真实的实战环境.在这里,您将亲身实践,积累宝贵的操作经验"
-        },
-        {
-            id: 3,
-            linkUrl: '#',
-            title: "广阔就业方向",
-            icon: 'uil-laptop-cloud',
-            description: "汽车修理技能让您可以在汽车制造、4S店、修理厂等多个领域择业。无论是创业还是就职,您都将拥有广阔的舞台"
-        },
-        {
-            id: 4,
-            linkUrl: '#',
-            title: "移民绝佳选择",
-            icon: 'uil-chart-line',
-            description: "汽车修理专业是魁北克省PEQ技术移民的热门选择. 完成学业,您不仅收获了一技之长,更为移民之路铺平了道路"
+            heading: '毕业即就业,前景无限广阔',
+            body: '我们的学院与魁北克省内众多知名餐厅、酒店建立了合作关系. 凭借我们的专业培训和官方认证, 您在求职时将具有巨大优势. 无论是新人入行还是转换职业, 都是您通往成功的金牌之选!'
         }
     ];
 
@@ -100,14 +98,14 @@ const AutoMechanicsPage: NextPage = () => {
     const countList = [
         {
             id: 1,
-            amount: 5798,
+            amount: 5311,
             color: 'btn-soft-purple',
             title: "课程编号",
             icon: 'uil-presentation-check'
         },
         {
             id: 2,
-            amount: 1800,
+            amount: 1920,
             color: 'btn-soft-red',
             title: "课程时长",
             icon: 'uil-users-alt'
@@ -121,203 +119,26 @@ const AutoMechanicsPage: NextPage = () => {
         },
         {
             id: 4,
-            amount: 29,
+            amount: 33,
             color: 'btn-soft-aqua',
             title: "课程数量",
             icon: 'uil-trophy'
         }
     ];
 
-    const classInfo = [
-        {
-            id: 1,
-            title: "确定是否适合该行业和培训",
-            hours: "15",
-            credits: "1"
-        },
-        {
-            id: 2,
-            title: "避免健康、安全和环境危害",
-            hours: "30",
-            credits: "2"
-        },
-        {
-            id: 3,
-            title: "查找有关机动车的技术信息",
-            hours: "45",
-            credits: "3"
-        },
-        {
-            id: 4,
-            title: "进行加热、焊接和切割操作",
-            hours: "45",
-            credits: "3"
-        },
-        {
-            id: 5,
-            title: "车间工作",
-            hours: "75",
-            credits: "5"
-        },
-        {
-            id: 6,
-            title: "建立人际关系",
-            hours: "30",
-            credits: "2"
-        },
-        {
-            id: 7,
-            title: "检查内燃机",
-            hours: "75",
-            credits: "5"
-        },
-        {
-            id: 8,
-            title: "修理内燃机",
-            hours: "90",
-            credits: "6"
-        },
-        {
-            id: 9,
-            title: "检查行驶系统",
-            hours: "60",
-            credits: "4"
-        },
-        {
-            id: 10,
-            title: "修理行驶系统",
-            hours: "90",
-            credits: "6"
-        },
-        {
-            id: 11,
-            title: "安装和维护三相变压器",
-            hours: "60",
-            credits: "4"
-        },
-        {
-            id: 12,
-            title: "检查电气和电子系统",
-            hours: "90",
-            credits: "6"
-        },
-        {
-            id: 13,
-            title: "修理照明系统",
-            hours: "60",
-            credits: "4"
-        },
-        {
-            id: 14,
-            title: "检查基本的计算机控制系统",
-            hours: "60",
-            credits: "4"
-        },
-        {
-            id: 15,
-            title: "检查传动系统",
-            hours: "90",
-            credits: "6"
-        },
-        {
-            id: 16,
-            title: "修理传动系统",
-            hours: "105",
-            credits: "7"
-        },
-        {
-            id: 17,
-            title: "检查起动和充电系统以及电磁附件",
-            hours: "75",
-            credits: "5"
-        },
-        {
-            id: 18,
-            title: "修理起动和充电系统以及电磁附件",
-            hours: "75",
-            credits: "5"
-        },
-        {
-            id: 19,
-            title: "检查发动机和乘员舱温度控制系统",
-            hours: "45",
-            credits: "3"
-        },
-        {
-            id: 20,
-            title: "维护和修理发动机和乘员舱温度控制系统",
-            hours: "45",
-            credits: "3"
-        },
-        {
-            id: 21,
-            title: "检查主动和被动安全系统",
-            hours: "45",
-            credits: "3"
-        },
-        {
-            id: 22,
-            title: "修理主动和被动安全系统",
-            hours: "60",
-            credits: "4"
-        },
-        {
-            id: 23,
-            title: "对机动车进行一般维护",
-            hours: "60",
-            credits: "4"
-        },
-        {
-            id: 24,
-            title: "检查电子点火系统",
-            hours: "60",
-            credits: "4"
-        },
-        {
-            id: 25,
-            title: "修理电子点火系统",
-            hours: "60",
-            credits: "4"
-        },
-        {
-            id: 26,
-            title: "检查电子喷射和防污染系统",
-            hours: "60",
-            credits: "4"
-        },
-        {
-            id: 27,
-            title: "维护和修理电子喷射和防污染系统",
-            hours: "75",
-            credits: "5"
-        },
-        {
-            id: 28,
-            title: "进行求职",
-            hours: "15",
-            credits: "1"
-        },
-        {
-            id: 29,
-            title: "进入劳动市场",
-            hours: "90",
-            credits: "6"
-        }
-    ];
-
-    const accordionList1 = [
+    const accordionList = [
         [
             {
                 no: 'One',
                 expand: false,
                 heading: "如何满足课程的法语要求?",
-                body: "我们提供专业的法语前置课程, 帮助您快速提升法语能力, 达到课程要求的入学标准. 我们的法语课程由经验丰富的教师授课, 通过有针对性的训练, 您将在短时间内掌握专业汽修所需的法语技能"
+                body: "我们提供专业的法语前置课程, 帮助您快速提升法语能力, 达到课程要求的入学标准. 我们的法语课程由经验丰富的教师授课, 通过有针对性的训练, 您将在短时间内掌握所需的法语技能"
             },
             {
                 no: 'Three',
                 expand: false,
                 heading: "为什么要选择法语PEQ?",
-                body: "法语PEQ移民项目是一条快速、高效的移民途径, 申请条件相对宽松. 作为长期紧缺的技术型人才, 汽修专业的毕业生在PEQ移民申请中享有很大优势"
+                body: "法语PEQ移民项目是一条快速、高效的移民途径, 申请条件相对宽松. 作为长期紧缺的技术型人才, 西餐厨师和糕点专业的毕业生在PEQ移民申请中享有很大优势, 而且也容易就业"
             }
         ],
         [
@@ -325,15 +146,218 @@ const AutoMechanicsPage: NextPage = () => {
                 no: 'Two',
                 expand: false,
                 heading: "课程的就业前景如何?",
-                body: "汽修行业是魁北克省乃至整个加拿大的紧缺行业, 随着汽车保有量的不断增长, 对汽修技师的需求也在不断增加. 通过我们的PEQ课程, 您将掌握全面的汽修技能, 成为备受企业青睐的高端技术人才"
+                body: "餐饮行业是魁北克省乃至整个加拿大的支柱产业, 西餐厨师和糕点师的需求也在不断增加. 通过我们的PEQ课程, 您将掌握全面的西餐烹饪和糕点制作技能, 成为备受企业青睐的高端技术人才"
             },
             {
                 no: 'Four',
                 expand: false,
                 heading: "为什么选择我们的服务?",
-                body: "我们是加拿大魁北克PEQ项目的领军者, 我们最权威的专业移民顾问和团队将为您提供全程的申请指导, 助您早日获得魁北克省的永久居留权"
+                body: "我们是加拿大魁北克PEQ项目的领军者, 我们的专业移民顾问和团队将助您早日获得魁北克省的永久居留权. 同时, 我们与当地餐厅、酒店有着密切的合作关系, 为可以为您提供优质的就业机会"
             }
         ]
+    ];
+
+    const iconBoxClassNames = "icon btn btn-circle btn-lg btn-primary pe-none mb-5"
+
+    const classInfo = [
+        {
+            id: 1,
+            title: "了解行业和培训过程",
+            hours: "30",
+            credits: "2"
+        },
+        {
+            id: 2,
+            title: "采取食品卫生和安全预防措施",
+            hours: "30",
+            credits: "2"
+        },
+        {
+            id: 3,
+            title: "采取健康和安全预防措施",
+            hours: "30",
+            credits: "2"
+        },
+        {
+            id: 4,
+            title: "评估食物的感官品质",
+            hours: "45",
+            credits: "3"
+        },
+        {
+            id: 5,
+            title: "将烹饪技术与食材相结合",
+            hours: "30",
+            credits: "2"
+        },
+        {
+            id: 6,
+            title: "进行与厨房组织相关的活动",
+            hours: "30",
+            credits: "2"
+        },
+        {
+            id: 7,
+            title: "准备水果和蔬菜",
+            hours: "60",
+            credits: "4"
+        },
+        {
+            id: 8,
+            title: "制作基本的准备工作",
+            hours: "90",
+            credits: "6"
+        },
+        {
+            id: 9,
+            title: "建立专业关系",
+            hours: "30",
+            credits: "2"
+        },
+        {
+            id: 10,
+            title: "准备汤类",
+            hours: "45",
+            credits: "3"
+        },
+        {
+            id: 11,
+            title: "制作基本面食",
+            hours: "60",
+            credits: "4"
+        },
+        {
+            id: 12,
+            title: "准备肉类、家禽和野味",
+            hours: "105",
+            credits: "7"
+        },
+        {
+            id: 13,
+            title: "准备鱼类、软体动物和甲壳类动物",
+            hours: "90",
+            credits: "6"
+        },
+        {
+            id: 14,
+            title: "准备开胃菜和头盘",
+            hours: "60",
+            credits: "4"
+        },
+        {
+            id: 15,
+            title: "准备甜点",
+            hours: "105",
+            credits: "7"
+        },
+        {
+            id: 16,
+            title: "设计均衡的菜单",
+            hours: "60",
+            credits: "4"
+        },
+        {
+            id: 17,
+            title: "提供早餐服务",
+            hours: "60",
+            credits: "4"
+        },
+        {
+            id: 18,
+            title: "制作烹饪演示",
+            hours: "45",
+            credits: "3"
+        },
+        {
+            id: 19,
+            title: "提供当日菜单服务",
+            hours: "60",
+            credits: "4"
+        },
+        {
+            id: 20,
+            title: "提供生产菜单服务",
+            hours: "45",
+            credits: "3"
+        },
+        {
+            id: 21,
+            title: "确保宴会和餐饮服务的生产",
+            hours: "75",
+            credits: "5"
+        },
+        {
+            id: 22,
+            title: "提供自助餐服务",
+            hours: "45",
+            credits: "3"
+        },
+        {
+            id: 23,
+            title: "提供套餐和单点菜单服务",
+            hours: "135",
+            credits: "9"
+        },
+        {
+            id: 24,
+            title: "融入工作环境",
+            hours: "105",
+            credits: "7"
+        },
+        {
+            id: 25,
+            title: "制作配料",
+            hours: "60",
+            credits: "4"
+        },
+        {
+            id: 26,
+            title: "制作基本面食产品",
+            hours: "75",
+            credits: "5"
+        },
+        {
+            id: 27,
+            title: "制作饼干和支撑物",
+            hours: "30",
+            credits: "2"
+        },
+        {
+            id: 28,
+            title: "制作巧克力产品",
+            hours: "30",
+            credits: "2"
+        },
+        {
+            id: 29,
+            title: "制作经典的甜点",
+            hours: "60",
+            credits: "4"
+        },
+        {
+            id: 30,
+            title: "制作装饰品",
+            hours: "30",
+            credits: "2"
+        },
+        {
+            id: 31,
+            title: "制作当代甜点",
+            hours: "75",
+            credits: "5"
+        },
+        {
+            id: 32,
+            title: "制作冰淇淋产品",
+            hours: "30",
+            credits: "2"
+        },
+        {
+            id: 33,
+            title: "创造盘装甜点",
+            hours: "60",
+            credits: "4"
+        }
     ];
 
     useLightBox();
@@ -351,7 +375,7 @@ const AutoMechanicsPage: NextPage = () => {
                         className="row gy-10 gx-lg-8 gx-xl-12 mb-14 mb-md-16 align-items-center justify-content-center">
                         <div className="col-md-10 col-lg-6 col-sm-12">
                             <figure className="rounded">
-                                <img className="w-auto" src="/img/PEQ/am2.jpg" alt="Photo"/>
+                                <img className="w-auto" src="/img/PEQ/cc1.jpg" alt="Photo"/>
                             </figure>
                         </div>
 
@@ -377,7 +401,7 @@ const AutoMechanicsPage: NextPage = () => {
                         </div>
 
                         <div className="row gx-md-8 gy-8 text-center mb-14 mb-md-17">
-                            {serviceList2.map((item) => (
+                            {serviceList.map((item) => (
                                 <div key={item.id} className="col-md-6 col-lg-3">
                                     <IconBox icon={item.icon} className={iconBoxClassNames}/>
                                     <h4>{item.title}</h4>
@@ -466,7 +490,7 @@ const AutoMechanicsPage: NextPage = () => {
 
                         <div className="accordion-wrapper" id="accordion">
                             <div className="row">
-                                {accordionList1.map((items, i) => {
+                                {accordionList.map((items, i) => {
                                     return (
                                         <div className="col-md-6" key={i}>
                                             {items.map((item) => (
@@ -479,7 +503,7 @@ const AutoMechanicsPage: NextPage = () => {
                         </div>
                     </div>
 
-                    <ContactForms t={contactformst} pageInfo={{p: currentPage}} />
+                    <ContactForms t={contactformst} pageInfo={{p: currentPage}}/>
 
                 </RoundContainer>
             </main>
@@ -498,4 +522,4 @@ export async function getStaticProps({locale}: { locale: string }) {
     };
 }
 
-export default AutoMechanicsPage;
+export default WesternCuisinePastryPage;

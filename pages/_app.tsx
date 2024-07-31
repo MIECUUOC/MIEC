@@ -23,7 +23,7 @@ import 'plugins/scrollcue/scrollCue.css';
 import 'assets/scss/style.scss';
 
 // custom css by Gen
-import "./programs/peq/peq-style.css"
+import "./programs/Immigration/peq/peq-style.scss"
 import {Analytics} from "@vercel/analytics/react";
 
 // import 'components/MIEC/PdfReader.css';
