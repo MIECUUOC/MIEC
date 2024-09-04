@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import LinkType from 'types/link';
-import {FC, Fragment, ReactElement, useRef} from 'react';
+import {FC, Fragment, ReactElement, useEffect, useRef, useState} from 'react';
 // -------- custom hook -------- //
 import useSticky from 'hooks/useSticky';
 import useNestedDropdown from 'hooks/useNestedDropdown';
@@ -56,12 +56,14 @@ const Navbar: FC<NavbarProps> = (props) => {
     // console.log('Current asPath:', router.asPath);
     // console.log('Current pathname:', router.pathname);
 
-    const {navClassName, info, search, social, language, button, cart, fancy, navOtherClass, stickyBox, logoAlt, t} =
+    const {navClassName, info, search, social, language, button, cart, fancy, navOtherClass, stickyBox, logoAlt, t,} =
         props;
 
     useNestedDropdown();
     const sticky = useSticky(350);
     const navbarRef = useRef<HTMLElement | null>(null);
+
+    const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
     // dynamically render the logo
     const logo = sticky ? 'logo-dark' : logoAlt ?? 'logo-dark';
@@ -119,14 +121,23 @@ const Navbar: FC<NavbarProps> = (props) => {
 
                         {/* ===================== projects nav item  ===================== */}
                         <li className="nav-item dropdown">
-                            <NextLink title={t('contact')} className="nav-link" href="#contact-us"/>
+                            <Link href="#contact-us" passHref>
+                                <button className="nav-link" id="dropdownContact" data-toggle="dropdown" aria-haspopup="true"
+                                   aria-expanded="false">
+                                    {t('contact')}
+                                </button>
+                            </Link>
+
+                            <div className="dropdown-menu" aria-labelledby="dropdownContact">
+                                <img className="container" src="./img/QRCode/961da847a94fbdd9ae87b7b7855a997.jpg" alt="img"/>
+                            </div>
                         </li>
                     </ul>
 
                     {/* ============= show contact info in the small device sidebar ============= */}
                     <div className="offcanvas-footer d-lg-none">
                         <div>
-                        <NextLink title="Info@miec-uuoc.ca" className="link-inverse"
+                            <NextLink title="Info@miec-uuoc.ca" className="link-inverse"
                                       href="mailto:Info  @miec-uuoc.ca"/>
                             {/* <br />
               <NextLink href="tel:0123456789" title="00 (123) 456 78 90" /> */}
@@ -204,6 +215,7 @@ const Navbar: FC<NavbarProps> = (props) => {
                             type="button"
                             className="btn-close btn-close-white"
                             data-bs-dismiss="offcanvas"
+                            onClick={() => setIsSidebarOpen(false)}
                             aria-label="Close"
                         />
                     </div>
@@ -219,8 +231,11 @@ const Navbar: FC<NavbarProps> = (props) => {
                             <NextLink title="Info@miec-uuoc.ca" className="link-inverse"
                                       href="mailto:Info@miec-uuoc.ca"/>
                             {/* <br />
-          <NextLink href="tel:0123456789" title={phone!} /> */}
+                            <NextLink href="tel:0123456789" title={phone!} /> */}
+
+                            <img className="container" src="./img/QRCode/961da847a94fbdd9ae87b7b7855a997.jpg" alt="img"/>
                         </div>
+
 
                         <div className="widget mb-8">
                             <h4 className="widget-title text-white mb-3">{t('moreInfoTitle')}</h4>

@@ -12,6 +12,7 @@ import PageProgress from 'components/common/PageProgress';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { useTranslation } from 'next-i18next';
 import IndexServices from "../src/components/otherBlocks/IndexServices";
+import {useEffect} from "react";
 
 const HomePage: NextPage = () => {
   // lighbox hook called
@@ -24,6 +25,29 @@ const HomePage: NextPage = () => {
   // const { t: projectt } = useTranslation('project');
   const { t: contactt } = useTranslation('contact');
   const { t: footert } = useTranslation('footer');
+
+
+  useEffect(() => {
+    const showTimer = setTimeout(() => {
+      const sidebar = document.getElementById('offcanvas-info');
+      if (sidebar) {
+        sidebar.classList.add('show');
+      }
+    }, 100);
+
+    // 6秒后隐藏侧边栏
+    const hideTimer = setTimeout(() => {
+      const sidebar = document.getElementById('offcanvas-info');
+      if (sidebar) {
+        sidebar.classList.remove('show');
+      }
+    }, 6000);
+
+    return () => {
+      clearTimeout(showTimer);
+      clearTimeout(hideTimer);
+    };
+  }, []);
 
   return (
     <div className="page-frame bg-pale-primary" id="main">
