@@ -46,11 +46,11 @@
     },
     {
       "title": "Département Marketing",
-      "description": "Notre département marketing est dédié à la promotion de la philosophie de marque du Centre International d'Éducation de Montréal. Grâce à des stratégies de marketing multi-canaux, nous améliorons la notoriété et l'influence de la marque. Nous utilisons des analyses de données innovantes et précises pour fournir aux clients les dernières informations en matière d'éducation et d'immigration, garantissant que chaque client reçoive en temps opportun les informations dont il a besoin."
+      "description": "Notre département marketing est dédié à la promotion de la philosophie de marque du Centre international d'éducation de Montréal grâce à des stratégies de marketing multicanaux, renforçant la notoriété et l'influence de la marque. Nous utilisons l'innovation et une analyse de données précise pour fournir aux clients les dernières informations sur l'éducation et l'immigration, garantissant que chaque client ait accès en temps opportun aux informations dont il a besoin."
     },
     {
-      "title": "Département de Marché",
-      "description": "Le département de marché se concentre sur l'exploration de nouvelles opportunités de marché, l'analyse des besoins et des tendances du marché et la formulation de stratégies de marché compétitives. Notre équipe ne se concentre pas seulement sur la dynamique actuelle du marché, mais aussi sur le développement futur. Grâce à une recherche de marché continue et aux retours des clients, nous veillons à ce que nos services soient toujours à la pointe de l'industrie."
+      "title": "Département des Ventes",
+      "description": "Le département des ventes se concentre sur l'exploration de nouvelles opportunités de marché, l'analyse des demandes et des tendances du marché, et l'élaboration de stratégies marketing compétitives. Notre équipe ne se contente pas de suivre les dynamiques actuelles du marché, mais se projette également vers le développement futur, garantissant que nos services restent à la pointe de l'industrie grâce à une recherche de marché continue et aux retours des clients."
     },
     {
       "title": "Centre de Langues",
@@ -63,7 +63,12 @@
     {
       "title": "Département Financier",
       "description": "Le département financier est responsable de la gestion financière et de la supervision du Centre International d'Éducation de Montréal, garantissant l'utilisation rationnelle des fonds et la transparence de la situation financière. Notre équipe financière maîtrise diverses opérations financières et réglementations légales, garantissant le développement stable de l'entreprise."
+    },
+    {
+      "title": "Département de rédaction",
+      "description": "Le département de rédaction est responsable de la collecte, de l'organisation et de la rédaction de divers documents juridiques et informations, garantissant que le contenu est précis et conforme aux réglementations légales en vigueur. Notre équipe se consacre à une communication efficace et à la gestion de l'information, fournissant une base solide pour les opérations du cabinet et facilitant un service client fluide."
     }
+
   ],
   "consultantTeams": [
     {
@@ -92,7 +97,13 @@
       "name": "Tony Liu",
       "designation": "Directeur des Ventes",
       "description": "Responsable des admissions pour Matrix College & Veritas College"
+    },
+    {
+      "name": "Huang Hao",
+      "designation": "Département des Ventes",
+      "description": "Interface de vente au Centre international d'éducation de Montréal"
     }
+
   ],
   "LawersTeams": [
     {
@@ -101,9 +112,21 @@
       "description": "Président du Conseil de Réglementation de l'Immigration du Canada, Officier de l'Immigration chez Vertias-Miec"
     },
     {
-      "name": "Ophelia",
-      "designation": "Assistante Juridique",
-      "description": "Département juridique, Centre International d'Éducation de Montréal"
+      "name": "Zehra Kavame",
+      "designation": "Agent d'immigration MIEC",
+      "description": "Consultante en immigration canadienne agréée par le RCIC\nCommissionnaire à l'assermentation pour le gouvernement du Canada"
+    }
+  ],
+  "contentTeams": [
+    {
+      "name": "Mao Shujun",
+      "designation": "Directeur du Département de Rédaction",
+      "description": "Directeur pour la région de la Grande Chine"
+    },
+    {
+      "name": "Jennifer",
+      "designation": "Département de Rédaction",
+      "description": "Responsable du Département de Rédaction au Centre international d'éducation de Montréal"
     }
   ],
   "ChinaTeams": [
@@ -123,18 +146,24 @@
       "name": "Kira",
       "designation": "Assistante du Président",
       "description": "Bureau d'Administration, Centre International d'Éducation de Montréal"
+    },
+    {
+      "name": "Diane Cheng",
+      "designation": "Assistante Exécutive",
+      "description": "Directrice des affaires juridiques au Centre international d'éducation de Montréal"
     }
+
   ],
   "marketingTeams": [
     {
-      "name": "Shujun Mao",
-      "designation": "Directeur Marketing",
-      "description": "Directeur de la région de la Grande Chine"
+      "name": "JOJO",
+      "designation": "Département Marketing",
+      "description": "Responsable du Département Marketing au Centre international d'éducation de Montréal"
     },
     {
-      "name": "Hao Huang",
-      "designation": "Directeur Marketing",
-      "description": "Directeur Marketing du Centre International d'Éducation de Montréal, Directeur des Admissions à Aviron College"
+      "name": "Larissa",
+      "designation": "Département Marketing",
+      "description": "Département Marketing au Centre international d'éducation de Montréal"
     }
   ],
   "langTeams": [

@@ -80,6 +80,11 @@ const Teams: NextPage = () => {
             designation: '招生主管',
             description: 'Matrix College & Veritas College 招生负责人'
         },
+        {
+            id: 2,
+            name: "黄浩",
+            image: "/img/MIEC/teams/hh.png"
+        }
     ];
     const teachersTeams = [
         {
@@ -101,8 +106,8 @@ const Teams: NextPage = () => {
         },
         {
             id: 2,
-            name: 'Ophelia',
-            image: '/img/MIEC/teams/oph.png'
+            name: 'Zehra Kavame',
+            image: '/img/MIEC/teams/Zehra.png'
         }
     ];
 
@@ -124,6 +129,11 @@ const Teams: NextPage = () => {
             id: 1,
             name: "宦方舟",
             image: "/img/MIEC/teams/hfz.png"
+        },
+        {
+            id: 2,
+            name: "Diane Cheng",
+            image: "/img/MIEC/teams/chengd.png"
         }
     ]
 
@@ -131,14 +141,27 @@ const Teams: NextPage = () => {
     const marketingTeams = [
         {
             id: 1,
+            name: "JOJO",
+            image: "/img/MIEC/teams/jojo.png"
+        },
+        {
+            id: 2,
+            name: "Larissa",
+            image: "/img/MIEC/teams/Larissa.png"
+        }
+    ]
+
+    const contentTeams = [
+        {
+            id: 1,
             name: "毛书君",
             image: "/img/MIEC/teams/mxz.png"
         },
         {
             id: 2,
-            name: "黄浩",
-            image: "/img/MIEC/teams/hh.png"
-        }
+            name: "Jennifer",
+            image: "/img/MIEC/teams/jf.png"
+        },
     ]
 
     const langTeams = [
@@ -218,8 +241,8 @@ const Teams: NextPage = () => {
 
                     <div className="text-center mb-12">
                         <h3 className="display-3 px-xl-10">我们的组织架构图</h3>
-                        <a href="/img/MIEC/teams/MIEC1.svg" data-glightbox data-gallery="g1">
-                            <img src="/img/MIEC/teams/MIEC1.svg" alt="SVG Icon"
+                        <a href="/img/MIEC/teams/MIEC2.svg" data-glightbox data-gallery="g1">
+                            <img src="/img/MIEC/teams/MIEC2.svg" alt="SVG Icon"
                                  style={{width: '100%', height: 'auto'}}/>
                         </a>
                     </div>
@@ -393,6 +416,35 @@ const Teams: NextPage = () => {
 
                     <div className="row gx-lg-8 gx-xl-12 gy-10 mb-7 mb-md-10 mb-xl-15 align-items-center">
                         <div className="col-lg-4">
+                            <h3 className="display-5 mb-5">{teamst('sections.10.title')}</h3>
+                            <p>{teamst('sections.10.description')}</p>
+                        </div>
+
+                        <div className="col-lg-8">
+                            <div className="swiper-container text-center mb-6">
+                                <Carousel
+                                    grabCursor
+                                    navigation={false}
+                                    breakpoints={carouselBreakpoints}
+                                    autoplay={{delay: 2500, disableOnInteraction: false}}
+                                >
+                                    {contentTeams.map((team, index) => (
+                                        <TeamCard2
+                                            key={team.id}
+                                            name={teamst(`contentTeams.${index}.name`)}
+                                            image={team.image}
+                                            description={teamst(`contentTeams.${index}.description`)}
+                                            designation={teamst(`contentTeams.${index}.designation`)}
+                                        />
+                                    ))}
+                                </Carousel>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div className="row gx-lg-8 gx-xl-12 gy-10 mb-7 mb-md-10 mb-xl-15 align-items-center">
+                        <div className="col-lg-4">
                             <h3 className="display-5 mb-5">{teamst('sections.5.title')}</h3>
                             <p>{teamst('sections.5.description')}</p>
                         </div>
@@ -457,22 +509,22 @@ const Teams: NextPage = () => {
 
                         <div className="col-lg-8">
                             <div className="swiper-container text-center mb-6">
-                                <Carousel
-                                    grabCursor
-                                    navigation={false}
-                                    breakpoints={carouselBreakpoints}
-                                    autoplay={{delay: 2500, disableOnInteraction: false}}
-                                >
-                                    {langTeams.map((team, index) => (
-                                        <TeamCard2
-                                            key={team.id}
-                                            name={teamst(`langTeams.${index}.name`)}
-                                            image={team.image}
-                                            description={teamst(`langTeams.${index}.description`)}
-                                            designation={teamst(`langTeams.${index}.designation`)}
-                                        />
-                                    ))}
-                                </Carousel>
+                                {/*<Carousel*/}
+                                {/*    grabCursor*/}
+                                {/*    navigation={false}*/}
+                                {/*    breakpoints={carouselBreakpoints}*/}
+                                {/*    autoplay={{delay: 2500, disableOnInteraction: false}}*/}
+                                {/*>*/}
+                                {/*    {langTeams.map((team, index) => (*/}
+                                {/*        <TeamCard2*/}
+                                {/*            key={team.id}*/}
+                                {/*            name={teamst(`langTeams.${index}.name`)}*/}
+                                {/*            image={team.image}*/}
+                                {/*            description={teamst(`langTeams.${index}.description`)}*/}
+                                {/*            designation={teamst(`langTeams.${index}.designation`)}*/}
+                                {/*        />*/}
+                                {/*    ))}*/}
+                                {/*</Carousel>*/}
                             </div>
                         </div>
                     </div>

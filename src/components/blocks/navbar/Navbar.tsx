@@ -129,7 +129,7 @@ const Navbar: FC<NavbarProps> = (props) => {
                             </Link>
 
                             <div className="dropdown-menu" aria-labelledby="dropdownContact">
-                                <img className="container" src="./img/QRCode/961da847a94fbdd9ae87b7b7855a997.jpg" alt="img"/>
+                                <img className="container" src="/img/QRCode/961da847a94fbdd9ae87b7b7855a997.jpg" alt="img"/>
                             </div>
                         </li>
                     </ul>

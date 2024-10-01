@@ -1,12 +1,12 @@
 {
-  "projectPlannersTitle": "项目决策者",
-  "projectPlannersSubtitle": "项目决策者",
+  "projectPlannersTitle": "决策团队",
+  "projectPlannersSubtitle": "决策团队",
   "projectPlannersDescription": "我们汇聚了行业顶尖的专家和专业人士，包括金牌律师团队，以及经验丰富的教育专家和语言训练师。我们的团队致力于为您提供定制化的教育和移民解决方案，确保每一位学员和客户能够在加拿大的学习和生活中获得最佳体验。",
   "moreDetails": "更多细节",
   "teamMembers": [
     {
       "name": "刘裕佳",
-      "description": "蒙特利尔国际教育中心董事长\n加拿大联合大学董事会主席\n加拿大国际教育局副局长\n法语国际教育联盟（加拿大）理事长"
+      "description": "蒙特利尔国际教育中心董事长\n加拿大联合大学董事会主席\n前加拿大国际教育局副局长"
     },
     {
       "name": "Josee Bouchard",
@@ -45,11 +45,11 @@
       "description": "我们在中国的业务由一支充满激情、经验丰富的团队领衔,他们深知中国市场的独特需求,致力于为中国学生提供卓越的留学申请辅导和移民服务,同时积极拓展商务合作,开拓多元化的发展机会"
     },
     {
-      "title": "营销部门",
+      "title": "市场部门",
       "description": "我们的营销部致力于传播蒙特利尔国际教育中心的品牌理念，通过多渠道的市场推广策略，提升品牌知名度和影响力。我们运用创新和精准的数据分析，为客户提供最新的教育和移民资讯，确保每一个客户都能及时获取到他们需要的信息"
     },
     {
-      "title": "市场部门",
+      "title": "销售部门",
       "description": "市场部专注于开拓新的市场机会，分析市场需求和趋势，制定具有竞争力的市场策略。我们的团队不仅关注当前的市场动态，更着眼于未来的发展，通过持续的市场调研和客户反馈，确保我们的服务始终走在行业前沿"
     },
     {
@@ -63,6 +63,10 @@
     {
       "title": "财务部门",
       "description": "财务部负责蒙特利尔国际教育中心的财务管理与监督，确保公司资金的合理使用和财务状况的透明公开。我们的财务团队精通各类财务操作和法律法规，为公司的稳健发展保驾护航"
+    },
+    {
+      "title": "文案部门",
+      "description": "文案部门负责收集、整理和撰写各类法律文档及信息，确保内容准确无误，符合相关法律规定。我们的团队致力于高效沟通与信息管理，我们为事务所的运营提供了坚实的基础，助力客户服务的顺利开展"
     }
   ],
   "consultantTeams": [
@@ -92,6 +96,11 @@
       "name": "刘丁元 Tony Liu",
       "designation": "销售主管",
       "description": "Matrix College & Veritas College 招生负责人"
+    },
+    {
+      "name": "黄浩",
+      "designation": "销售部",
+      "description": "蒙特利尔国际教育中心 销售对接"
     }
   ],
   "LawersTeams": [
@@ -101,9 +110,21 @@
       "description": "加拿大移民监管委员会主席, Vertias-Miec 移民事务官"
     },
     {
-      "name": "Ophelia",
-      "designation": "律师助理",
-      "description": "蒙特利尔国际教育中心 法务部门"
+      "name": "Zehra Kavame",
+      "designation": "MIEC专职移民事务官",
+      "description": "RCIC持牌加拿大移民顾问 \n 加拿大联邦持许宣誓专员"
+    }
+  ],
+  "contentTeams": [
+    {
+      "name": "毛书君",
+      "designation": "文案部门总监",
+      "description": "大中华地区总监"
+    },
+    {
+      "name": "Jennifer",
+      "designation": "文案部",
+      "description": "蒙特利尔国际教育中心 文案部主管"
     }
   ],
   "ChinaTeams": [
@@ -123,25 +144,25 @@
       "name": "Kira",
       "designation": "总裁助理",
       "description": "蒙特利尔国际教育中心 事务办公室"
+    },
+    {
+      "name": "Diane Cheng",
+      "designation": "总裁助理",
+      "description": "蒙特利尔国际教育中心 法务部总监"
     }
   ],
   "marketingTeams": [
     {
-      "name": "毛书君",
-      "designation": "营销总监",
-      "description": "大中华地区总监"
+      "name": "JOJO",
+      "designation": "市场部",
+      "description": "蒙特利尔国际教育中心 市场部主管"
     },
     {
-      "name": "黄浩",
-      "designation": "营销总监",
-      "description": "蒙特利尔国际教育中心 营销部总监, Aviron学院 招生总监"
+      "name": "Larissa",
+      "designation": "市场部",
+      "description": "蒙特利尔国际教育中心 市场部门"
     }
   ],
   "langTeams": [
-    {
-      "name": "Sylvain Langlois",
-      "designation": "执行理事",
-      "description": "加拿大魁北克省法语考试中心主任 加拿大Inter-Edu教育中心主任"
-    }
   ]
 }

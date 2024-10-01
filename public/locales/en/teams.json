@@ -46,11 +46,11 @@
     },
     {
       "title": "Marketing Department",
-      "description": "Our marketing department is dedicated to promoting the brand philosophy of the Montreal International Education Center. Through multi-channel marketing strategies, we enhance brand awareness and influence. We use innovative and precise data analysis to provide clients with the latest education and immigration information, ensuring that every client receives the information they need in a timely manner."
+      "description": "Our Marketing Department is dedicated to promoting the brand philosophy of the Montreal International Education Center through multi-channel marketing strategies, enhancing brand awareness and influence. We leverage innovation and precise data analysis to provide clients with the latest information on education and immigration, ensuring that every client receives timely access to the information they need."
     },
     {
-      "title": "Market Department",
-      "description": "The market department focuses on exploring new market opportunities, analyzing market needs and trends, and formulating competitive market strategies. Our team not only pays attention to current market dynamics but also focuses on future development. Through continuous market research and customer feedback, we ensure that our services are always at the forefront of the industry."
+      "title": "Sales Department",
+      "description": "The Sales Department focuses on exploring new market opportunities, analyzing market demands and trends, and developing competitive marketing strategies. Our team not only pays attention to current market dynamics but also looks towards future development, ensuring that our services remain at the forefront of the industry through continuous market research and client feedback."
     },
     {
       "title": "Language Center",
@@ -63,7 +63,12 @@
     {
       "title": "Finance Department",
       "description": "The finance department is responsible for the financial management and supervision of the Montreal International Education Center, ensuring the rational use of funds and transparent financial status. Our finance team is proficient in various financial operations and legal regulations, safeguarding the company's steady development."
+    },
+    {
+      "title": "Content Department",
+      "description": "The Content Department is responsible for collecting, organizing, and drafting various legal documents and information, ensuring that the content is accurate and compliant with relevant legal regulations. Our team is dedicated to efficient communication and information management, providing a solid foundation for the firm's operations and facilitating smooth client service."
     }
+
   ],
   "consultantTeams": [
     {
@@ -92,7 +97,13 @@
       "name": "Tony Liu",
       "designation": "Sales Director",
       "description": "Head of Admissions for Matrix College & Veritas College"
+    },
+    {
+      "name": "Huang Hao",
+      "designation": "Sales Department",
+      "description": "Sales Liaison at the Montreal International Education Center"
     }
+
   ],
   "LawersTeams": [
     {
@@ -101,9 +112,21 @@
       "description": "Chairman of the Canadian Immigration Regulatory Council, Immigration Officer at Vertias-Miec"
     },
     {
-      "name": "Ophelia",
-      "designation": "Legal Assistant",
-      "description": "Legal Department, Montreal International Education Center"
+      "name": "Zehra Kavame",
+      "designation": "MIEC Immigration Officer",
+      "description": "RCIC licensed Canadian immigration consultant \n Commissioner for Oaths for the Government of Canada"
+    }
+  ],
+  "contentTeams": [
+    {
+      "name": "Mao Shujun",
+      "designation": "Director of Content Department",
+      "description": "Director for Greater China Region"
+    },
+    {
+      "name": "Jennifer",
+      "designation": "Content Department",
+      "description": "Head of Content Department at the Montreal International Education Center"
     }
   ],
   "ChinaTeams": [
@@ -123,18 +146,24 @@
       "name": "Kira",
       "designation": "Assistant to the President",
       "description": "Administration Office, Montreal International Education Center"
+    },
+    {
+      "name": "Diane Cheng",
+      "designation": "Executive Assistant",
+      "description": "Director of Legal Affairs at the Montreal International Education Center"
     }
+
   ],
   "marketingTeams": [
     {
-      "name": "Shujun Mao",
-      "designation": "Marketing Director",
-      "description": "Director of Greater China Region"
+      "name": "JOJO",
+      "designation": "Marketing Department",
+      "description": "Head of Marketing Department at the Montreal International Education Center"
     },
     {
-      "name": "Hao Huang",
-      "designation": "Marketing Director",
-      "description": "Marketing Director of Montreal International Education Center, Director of Admissions at Aviron College"
+      "name": "Larissa",
+      "designation": "Marketing Department",
+      "description": "Marketing Department at the Montreal International Education Center"
     }
   ],
   "langTeams": [
