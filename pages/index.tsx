@@ -27,27 +27,27 @@ const HomePage: NextPage = () => {
   const { t: footert } = useTranslation('footer');
 
 
-  useEffect(() => {
-    const showTimer = setTimeout(() => {
-      const sidebar = document.getElementById('offcanvas-info');
-      if (sidebar) {
-        sidebar.classList.add('show');
-      }
-    }, 100);
-
-    // 6秒后隐藏侧边栏
-    const hideTimer = setTimeout(() => {
-      const sidebar = document.getElementById('offcanvas-info');
-      if (sidebar) {
-        sidebar.classList.remove('show');
-      }
-    }, 6000);
-
-    return () => {
-      clearTimeout(showTimer);
-      clearTimeout(hideTimer);
-    };
-  }, []);
+  // useEffect(() => {
+  //   const showTimer = setTimeout(() => {
+  //     const sidebar = document.getElementById('offcanvas-info');
+  //     if (sidebar) {
+  //       sidebar.classList.add('show');
+  //     }
+  //   }, 100);
+  //
+  //   // 6秒后隐藏侧边栏
+  //   const hideTimer = setTimeout(() => {
+  //     const sidebar = document.getElementById('offcanvas-info');
+  //     if (sidebar) {
+  //       sidebar.classList.remove('show');
+  //     }
+  //   }, 6000);
+  //
+  //   return () => {
+  //     clearTimeout(showTimer);
+  //     clearTimeout(hideTimer);
+  //   };
+  // }, []);
 
   return (
     <div className="page-frame bg-pale-primary" id="main">
