@@ -82,7 +82,7 @@ const Teams: NextPage = () => {
         },
         {
             id: 2,
-            name: "黄浩",
+            name: "Hawk",
             image: "/img/MIEC/teams/hh.png"
         }
     ];
@@ -129,11 +129,6 @@ const Teams: NextPage = () => {
             id: 1,
             name: "宦方舟",
             image: "/img/MIEC/teams/hfz.png"
-        },
-        {
-            id: 2,
-            name: "Diane Cheng",
-            image: "/img/MIEC/teams/chengd.png"
         }
     ]
 

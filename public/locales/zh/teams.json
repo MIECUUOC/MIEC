@@ -41,7 +41,7 @@
       "description": "我们的法务团队在国际关系和移民法方面具有丰富经验和深厚背景。我们的法务团队致力于为客户提供专业的法律指导和支持，包括但不限于代表客户处理驱逐令、引渡请求和配偶赞助上诉等案件"
     },
     {
-      "title": "中国团队",
+      "title": "中国代表处",
       "description": "我们在中国的业务由一支充满激情、经验丰富的团队领衔,他们深知中国市场的独特需求,致力于为中国学生提供卓越的留学申请辅导和移民服务,同时积极拓展商务合作,开拓多元化的发展机会"
     },
     {
@@ -98,7 +98,7 @@
       "description": "Matrix College & Veritas College 招生负责人"
     },
     {
-      "name": "黄浩",
+      "name": "Hawk",
       "designation": "销售部",
       "description": "蒙特利尔国际教育中心 销售对接"
     }
@@ -144,11 +144,6 @@
       "name": "Kira",
       "designation": "总裁助理",
       "description": "蒙特利尔国际教育中心 事务办公室"
-    },
-    {
-      "name": "Diane Cheng",
-      "designation": "总裁助理",
-      "description": "蒙特利尔国际教育中心 法务部总监"
     }
   ],
   "marketingTeams": [

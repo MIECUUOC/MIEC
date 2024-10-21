@@ -99,7 +99,7 @@
       "description": "Responsable des admissions pour Matrix College & Veritas College"
     },
     {
-      "name": "Huang Hao",
+      "name": "Hawk",
       "designation": "Département des Ventes",
       "description": "Interface de vente au Centre international d'éducation de Montréal"
     }
@@ -146,13 +146,7 @@
       "name": "Kira",
       "designation": "Assistante du Président",
       "description": "Bureau d'Administration, Centre International d'Éducation de Montréal"
-    },
-    {
-      "name": "Diane Cheng",
-      "designation": "Assistante Exécutive",
-      "description": "Directrice des affaires juridiques au Centre international d'éducation de Montréal"
     }
-
   ],
   "marketingTeams": [
     {
