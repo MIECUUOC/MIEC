@@ -236,8 +236,8 @@ const Teams: NextPage = () => {
 
                     <div className="text-center mb-12">
                         <h3 className="display-3 px-xl-10">我们的组织架构图</h3>
-                        <a href="/img/MIEC/teams/MIEC2.svg" data-glightbox data-gallery="g1">
-                            <img src="/img/MIEC/teams/MIEC2.svg" alt="SVG Icon"
+                        <a href="/img/MIEC/teams/MIEC3.svg" data-glightbox data-gallery="g1">
+                            <img src="/img/MIEC/teams/MIEC3.svg" alt="SVG Icon"
                                  style={{width: '100%', height: 'auto'}}/>
                         </a>
                     </div>
