@@ -141,6 +141,11 @@ const Teams: NextPage = () => {
         },
         {
             id: 2,
+            name: "Yumi Wei",
+            image: "/img/MIEC/teams/weiyun.png"
+        },
+        {
+            id: 3,
             name: "Larissa",
             image: "/img/MIEC/teams/Larissa.png"
         }
