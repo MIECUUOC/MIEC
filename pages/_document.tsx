@@ -4,12 +4,12 @@ export default class SandBox extends Document {
   render() {
     return (
       <Html lang="en">
-        <Head>
-          <link rel="shortcut icon" href="/img/favicon.png" type="image/png" />
-        </Head>
+          <Head>
+              <link rel="shortcut icon" href="/img/favicon.png" type="image/png"/>
+          </Head>
 
-        <body>
-          <Main />
+          <body>
+          <Main/>
           <NextScript />
         </body>
       </Html>

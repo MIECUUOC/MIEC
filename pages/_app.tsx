@@ -54,6 +54,9 @@ function MyApp({Component, pageProps}: AppProps) {
             <Head>
                 <meta charSet="utf-8"/>
                 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+                <meta name="author" content="GenKnot"/>
+                <meta name="keywords" content="蒙特利尔国际教育中心, Montreal International Education Center, MIEC, 加拿大移民, 魁北克移民, 法语学习, 名校直通车, Montreal, 留学咨询"/>
+                <meta name="description" content="我们是蒙特利尔国际教育中心-Montreal International Education Center(MIEC), 总部位于全球第一国际留学城市蒙特利尔，并在魁北克，多伦多，温哥华拥有9家各类国际教育机构"/>
                 <title>MIEC - 蒙特利尔国际教育中心</title>
             </Head>
 
