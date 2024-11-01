@@ -28,13 +28,13 @@ const Teams: NextPage = () => {
             name: teamst('teamMembers.0.name'),
             description: renderString(teamst('teamMembers.0.description'))
         },
-        {
-            id: 2,
-            image: '/img/MIEC/teams/JB.png',
-            color: color.fuchsia,
-            name: teamst('teamMembers.1.name'),
-            description: renderString(teamst('teamMembers.1.description'))
-        },
+        // {
+        //     id: 2,
+        //     image: '/img/MIEC/teams/JB.png',
+        //     color: color.fuchsia,
+        //     name: teamst('teamMembers.1.name'),
+        //     description: renderString(teamst('teamMembers.1.description'))
+        // },
         {
             id: 3,
             image: '/img/MIEC/teams/MT.png',
@@ -51,16 +51,16 @@ const Teams: NextPage = () => {
         }
     ];
     const consultantTeams = [
-        {
-            id: 3,
-            name: 'Eleni',
-            image: '/img/MIEC/teams/Eleni.png'
-        },
-        {
-            id:4,
-            name: 'Geoffrey',
-            image: '/img/MIEC/teams/Geoffrey.png'
-        },
+        // {
+        //     id: 3,
+        //     name: 'Eleni',
+        //     image: '/img/MIEC/teams/Eleni.png'
+        // },
+        // {
+        //     id:4,
+        //     name: 'Geoffrey',
+        //     image: '/img/MIEC/teams/Geoffrey.png'
+        // },
         {
             id: 1,
             name: '孙莱祥',
@@ -197,7 +197,7 @@ const Teams: NextPage = () => {
 
                         <div className="">
                             <div className="swiper-container text-center mb-6">
-                                <div className="row grid-view gx-md-8 gx-xl-10 gy-8 gy-lg-0 mb-16 mb-md-19">
+                                <div className="row d-flex justify-content-center gx-md-8 gx-xl-10 gy-8 gy-lg-0 mb-16 mb-md-19">
                                     {mainteams.map((item, index) => (
                                         <div className="col-md-6 col-lg-3" key={item.id}>
                                             <div className="position-relative">
