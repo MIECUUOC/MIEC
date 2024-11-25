@@ -133,11 +133,6 @@ const Teams: NextPage = () => {
             id: 2,
             name: "Yumi Wei",
             image: "/img/MIEC/teams/weiyun.png"
-        },
-        {
-            id: 3,
-            name: "Larissa",
-            image: "/img/MIEC/teams/Larissa.png"
         }
     ]
 
@@ -231,8 +226,8 @@ const Teams: NextPage = () => {
 
                     <div className="text-center mb-12">
                         <h3 className="display-3 px-xl-10">我们的组织架构图</h3>
-                        <a href="/img/MIEC/teams/MIEC5.svg" data-glightbox data-gallery="g1">
-                            <img src="/img/MIEC/teams/MIEC5.svg" alt="SVG Icon"
+                        <a href="/img/MIEC/teams/MIEC6.svg" data-glightbox data-gallery="g1">
+                            <img src="/img/MIEC/teams/MIEC6.svg" alt="SVG Icon"
                                  style={{width: '100%', height: 'auto'}}/>
                         </a>
                     </div>
