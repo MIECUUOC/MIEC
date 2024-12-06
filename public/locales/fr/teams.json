@@ -93,6 +93,11 @@
       "name": "Tony Liu",
       "designation": "Directeur des Ventes",
       "description": "Responsable des admissions pour Matrix College & Veritas College"
+    },
+    {
+      "name": "Felix Jiang",
+      "designation": "Ventes",
+      "description": "Département des ventes MIEC"
     }
   ],
   "LawersTeams": [

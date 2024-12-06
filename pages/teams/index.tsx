@@ -79,6 +79,13 @@ const Teams: NextPage = () => {
             image: '/img/MIEC/teams/tony.png',
             designation: '招生主管',
             description: 'Matrix College & Veritas College 招生负责人'
+        },
+        {
+            id: 1,
+            name: 'Felix Jiang',
+            image: '/img/MIEC/teams/felix jiang.png',
+            designation: '销售',
+            description: 'MIEC销售部门'
         }
     ];
     const teachersTeams = [

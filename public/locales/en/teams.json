@@ -93,7 +93,13 @@
       "name": "Tony Liu",
       "designation": "Sales Director",
       "description": "Head of Admissions for Matrix College & Veritas College"
+    },
+    {
+      "name": "Felix Jiang",
+      "designation": "Sales",
+      "description": "MIEC Sales Department"
     }
+
   ],
   "LawersTeams": [
     {
