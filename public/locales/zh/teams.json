@@ -82,11 +82,6 @@
       "name": "刘丁元 Tony Liu",
       "designation": "销售主管",
       "description": "Matrix College & Veritas College 招生负责人"
-    },
-    {
-      "name": "Felix Jiang",
-      "designation": "销售",
-      "description": "MIEC销售部门"
     }
   ],
   "LawersTeams": [
@@ -137,6 +132,11 @@
       "name": "卫芸",
       "designation": "市场部",
       "description": "蒙特利尔国际教育中心 市场部总监助理"
+    },
+    {
+      "name": "Felix Jiang",
+      "designation": "市场部",
+      "description": "蒙特利尔国际教育中心 市场开发主任"
     }
   ],
   "langTeams": [

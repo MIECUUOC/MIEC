@@ -79,13 +79,6 @@ const Teams: NextPage = () => {
             image: '/img/MIEC/teams/tony.png',
             designation: '招生主管',
             description: 'Matrix College & Veritas College 招生负责人'
-        },
-        {
-            id: 1,
-            name: 'Felix Jiang',
-            image: '/img/MIEC/teams/felix jiang.png',
-            designation: '销售',
-            description: 'MIEC销售部门'
         }
     ];
     const teachersTeams = [
@@ -137,9 +130,14 @@ const Teams: NextPage = () => {
 
     const marketingTeams = [
         {
-            id: 2,
+            id: 1,
             name: "Yumi Wei",
             image: "/img/MIEC/teams/weiyun.png"
+        },
+        {
+            id: 2,
+            name: 'Felix Jiang',
+            image: '/img/MIEC/teams/felix jiang.png'
         }
     ]
 
@@ -233,8 +231,8 @@ const Teams: NextPage = () => {
 
                     <div className="text-center mb-12">
                         <h3 className="display-3 px-xl-10">我们的组织架构图</h3>
-                        <a href="/img/MIEC/teams/MIEC6.svg" data-glightbox data-gallery="g1">
-                            <img src="/img/MIEC/teams/MIEC6.svg" alt="SVG Icon"
+                        <a href="/img/MIEC/teams/MIEC7.svg" data-glightbox data-gallery="g1">
+                            <img src="/img/MIEC/teams/MIEC7.svg" alt="SVG Icon"
                                  style={{width: '100%', height: 'auto'}}/>
                         </a>
                     </div>
