@@ -42,13 +42,13 @@ const Teams: NextPage = () => {
             name: teamst('teamMembers.2.name'),
             description: renderString(teamst('teamMembers.2.description'))
         },
-        {
-            id: 4,
-            image: '/img/MIEC/teams/ZBQ.png',
-            color: color.leaf,
-            name: teamst('teamMembers.3.name'),
-            description: renderString(teamst('teamMembers.3.description'))
-        }
+        // {
+        //     id: 4,
+        //     image: '/img/MIEC/teams/ZBQ.png',
+        //     color: color.leaf,
+        //     name: teamst('teamMembers.3.name'),
+        //     description: renderString(teamst('teamMembers.3.description'))
+        // }
     ];
     const consultantTeams = [
         // {
@@ -73,13 +73,13 @@ const Teams: NextPage = () => {
         },
     ];
     const sellerTeams = [
-        {
-            id: 1,
-            name: '刘丁元 Tony Liu',
-            image: '/img/MIEC/teams/tony.png',
-            designation: '招生主管',
-            description: 'Matrix College & Veritas College 招生负责人'
-        }
+        // {
+        //     id: 1,
+        //     name: '刘丁元 Tony Liu',
+        //     image: '/img/MIEC/teams/tony.png',
+        //     designation: '招生主管',
+        //     description: 'Matrix College & Veritas College 招生负责人'
+        // }
     ];
     const teachersTeams = [
         {
@@ -229,13 +229,15 @@ const Teams: NextPage = () => {
                     </div>
 
 
-                    <div className="text-center mb-12">
-                        <h3 className="display-3 px-xl-10">我们的组织架构图</h3>
-                        <a href="/img/MIEC/teams/MIEC7.svg" data-glightbox data-gallery="g1">
-                            <img src="/img/MIEC/teams/MIEC7.svg" alt="SVG Icon"
-                                 style={{width: '100%', height: 'auto'}}/>
-                        </a>
-                    </div>
+                    {/*<div className="text-center mb-12">*/}
+                    {/*    <h3 className="display-3 px-xl-10">我们的组织架构图</h3>*/}
+                    {/*    <a href="/img/MIEC/teams/MIEC7.svg" data-glightbox data-gallery="g1">*/}
+                    {/*        <img src="/img/MIEC/teams/MIEC7.svg" alt="SVG Icon"*/}
+                    {/*             style={{width: '100%', height: 'auto'}}/>*/}
+                    {/*    </a>*/}
+                    {/*</div>*/}
+
+
                     {/*<div className={styles['team-org-chart']}>*/}
                     {/*    <div className={styles['container']}>*/}
                     {/*        <h1 className={`${styles['level-1']} ${styles['rectangle']}`}>CEO</h1>*/}
@@ -468,26 +470,26 @@ const Teams: NextPage = () => {
                             <p>{teamst('sections.6.description')}</p>
                         </div>
 
-                        <div className="col-lg-8">
-                            <div className="swiper-container text-center mb-6">
-                                <Carousel
-                                    grabCursor
-                                    navigation={false}
-                                    breakpoints={carouselBreakpoints}
-                                    autoplay={{delay: 2500, disableOnInteraction: false}}
-                                >
-                                    {sellerTeams.map((team, index) => (
-                                        <TeamCard2
-                                            key={team.id}
-                                            name={teamst(`sellerTeams.${index}.name`)}
-                                            image={team.image}
-                                            description={teamst(`sellerTeams.${index}.description`)}
-                                            designation={teamst(`sellerTeams.${index}.designation`)}
-                                        />
-                                    ))}
-                                </Carousel>
-                            </div>
-                        </div>
+                        {/*<div className="col-lg-8">*/}
+                        {/*    <div className="swiper-container text-center mb-6">*/}
+                        {/*        <Carousel*/}
+                        {/*            grabCursor*/}
+                        {/*            navigation={false}*/}
+                        {/*            breakpoints={carouselBreakpoints}*/}
+                        {/*            autoplay={{delay: 2500, disableOnInteraction: false}}*/}
+                        {/*        >*/}
+                        {/*            {sellerTeams.map((team, index) => (*/}
+                        {/*                <TeamCard2*/}
+                        {/*                    key={team.id}*/}
+                        {/*                    name={teamst(`sellerTeams.${index}.name`)}*/}
+                        {/*                    image={team.image}*/}
+                        {/*                    description={teamst(`sellerTeams.${index}.description`)}*/}
+                        {/*                    designation={teamst(`sellerTeams.${index}.designation`)}*/}
+                        {/*                />*/}
+                        {/*            ))}*/}
+                        {/*        </Carousel>*/}
+                        {/*    </div>*/}
+                        {/*</div>*/}
                     </div>
 
 
